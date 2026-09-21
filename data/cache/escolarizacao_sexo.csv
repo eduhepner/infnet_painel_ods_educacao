@@ -1,0 +1,649 @@
+Região,Estado,Sexo,Grupo de idade,Taxa de escolarização (%)
+Norte,Acre,Homens,Total,31.7
+Norte,Acre,Homens,0 a 5 anos,38.6
+Norte,Acre,Homens,0 a 3 anos,17.2
+Norte,Acre,Homens,4 a 5 anos,79.6
+Norte,Acre,Homens,6 a 14 anos,98.6
+Norte,Acre,Homens,15 a 17 anos,88.3
+Norte,Acre,Homens,18 a 24 anos,26.6
+Norte,Acre,Homens,25 anos ou mais,4.9
+Norte,Acre,Mulheres,Total,33.0
+Norte,Acre,Mulheres,0 a 5 anos,41.8
+Norte,Acre,Mulheres,0 a 3 anos,19.0
+Norte,Acre,Mulheres,4 a 5 anos,81.5
+Norte,Acre,Mulheres,6 a 14 anos,99.0
+Norte,Acre,Mulheres,15 a 17 anos,90.4
+Norte,Acre,Mulheres,18 a 24 anos,32.7
+Norte,Acre,Mulheres,25 anos ou mais,7.6
+Norte,Acre,Total,Total,32.4
+Norte,Acre,Total,0 a 5 anos,40.3
+Norte,Acre,Total,0 a 3 anos,18.1
+Norte,Acre,Total,4 a 5 anos,80.6
+Norte,Acre,Total,6 a 14 anos,98.8
+Norte,Acre,Total,15 a 17 anos,89.2
+Norte,Acre,Total,18 a 24 anos,29.8
+Norte,Acre,Total,25 anos ou mais,6.3
+Nordeste,Alagoas,Homens,Total,30.9
+Nordeste,Alagoas,Homens,0 a 5 anos,60.7
+Nordeste,Alagoas,Homens,0 a 3 anos,42.0
+Nordeste,Alagoas,Homens,4 a 5 anos,97.0
+Nordeste,Alagoas,Homens,6 a 14 anos,99.3
+Nordeste,Alagoas,Homens,15 a 17 anos,94.3
+Nordeste,Alagoas,Homens,18 a 24 anos,23.7
+Nordeste,Alagoas,Homens,25 anos ou mais,4.8
+Nordeste,Alagoas,Mulheres,Total,30.0
+Nordeste,Alagoas,Mulheres,0 a 5 anos,58.2
+Nordeste,Alagoas,Mulheres,0 a 3 anos,40.9
+Nordeste,Alagoas,Mulheres,4 a 5 anos,94.4
+Nordeste,Alagoas,Mulheres,6 a 14 anos,99.6
+Nordeste,Alagoas,Mulheres,15 a 17 anos,92.2
+Nordeste,Alagoas,Mulheres,18 a 24 anos,28.8
+Nordeste,Alagoas,Mulheres,25 anos ou mais,7.1
+Nordeste,Alagoas,Total,Total,30.4
+Nordeste,Alagoas,Total,0 a 5 anos,59.5
+Nordeste,Alagoas,Total,0 a 3 anos,41.4
+Nordeste,Alagoas,Total,4 a 5 anos,95.8
+Nordeste,Alagoas,Total,6 a 14 anos,99.4
+Nordeste,Alagoas,Total,15 a 17 anos,93.2
+Nordeste,Alagoas,Total,18 a 24 anos,26.2
+Nordeste,Alagoas,Total,25 anos ou mais,6.0
+Norte,Amapá,Homens,Total,30.6
+Norte,Amapá,Homens,0 a 5 anos,27.2
+Norte,Amapá,Homens,0 a 3 anos,2.5
+Norte,Amapá,Homens,4 a 5 anos,70.3
+Norte,Amapá,Homens,6 a 14 anos,96.9
+Norte,Amapá,Homens,15 a 17 anos,94.5
+Norte,Amapá,Homens,18 a 24 anos,28.9
+Norte,Amapá,Homens,25 anos ou mais,3.7
+Norte,Amapá,Mulheres,Total,27.6
+Norte,Amapá,Mulheres,0 a 5 anos,26.0
+Norte,Amapá,Mulheres,0 a 3 anos,13.7
+Norte,Amapá,Mulheres,4 a 5 anos,49.1
+Norte,Amapá,Mulheres,6 a 14 anos,98.2
+Norte,Amapá,Mulheres,15 a 17 anos,86.7
+Norte,Amapá,Mulheres,18 a 24 anos,30.1
+Norte,Amapá,Mulheres,25 anos ou mais,5.2
+Norte,Amapá,Total,Total,29.1
+Norte,Amapá,Total,0 a 5 anos,26.6
+Norte,Amapá,Total,0 a 3 anos,8.1
+Norte,Amapá,Total,4 a 5 anos,60.0
+Norte,Amapá,Total,6 a 14 anos,97.4
+Norte,Amapá,Total,15 a 17 anos,90.7
+Norte,Amapá,Total,18 a 24 anos,29.6
+Norte,Amapá,Total,25 anos ou mais,4.5
+Norte,Amazonas,Homens,Total,32.4
+Norte,Amazonas,Homens,0 a 5 anos,46.5
+Norte,Amazonas,Homens,0 a 3 anos,22.1
+Norte,Amazonas,Homens,4 a 5 anos,85.9
+Norte,Amazonas,Homens,6 a 14 anos,98.3
+Norte,Amazonas,Homens,15 a 17 anos,94.0
+Norte,Amazonas,Homens,18 a 24 anos,29.2
+Norte,Amazonas,Homens,25 anos ou mais,5.6
+Norte,Amazonas,Mulheres,Total,31.8
+Norte,Amazonas,Mulheres,0 a 5 anos,44.1
+Norte,Amazonas,Mulheres,0 a 3 anos,17.4
+Norte,Amazonas,Mulheres,4 a 5 anos,87.2
+Norte,Amazonas,Mulheres,6 a 14 anos,98.9
+Norte,Amazonas,Mulheres,15 a 17 anos,89.9
+Norte,Amazonas,Mulheres,18 a 24 anos,35.2
+Norte,Amazonas,Mulheres,25 anos ou mais,7.9
+Norte,Amazonas,Total,Total,32.1
+Norte,Amazonas,Total,0 a 5 anos,45.3
+Norte,Amazonas,Total,0 a 3 anos,19.8
+Norte,Amazonas,Total,4 a 5 anos,86.5
+Norte,Amazonas,Total,6 a 14 anos,98.6
+Norte,Amazonas,Total,15 a 17 anos,92.1
+Norte,Amazonas,Total,18 a 24 anos,32.1
+Norte,Amazonas,Total,25 anos ou mais,6.8
+Nordeste,Bahia,Homens,Total,27.6
+Nordeste,Bahia,Homens,0 a 5 anos,64.5
+Nordeste,Bahia,Homens,0 a 3 anos,44.6
+Nordeste,Bahia,Homens,4 a 5 anos,97.3
+Nordeste,Bahia,Homens,6 a 14 anos,99.2
+Nordeste,Bahia,Homens,15 a 17 anos,92.5
+Nordeste,Bahia,Homens,18 a 24 anos,26.7
+Nordeste,Bahia,Homens,25 anos ou mais,3.6
+Nordeste,Bahia,Mulheres,Total,27.6
+Nordeste,Bahia,Mulheres,0 a 5 anos,62.9
+Nordeste,Bahia,Mulheres,0 a 3 anos,41.4
+Nordeste,Bahia,Mulheres,4 a 5 anos,98.2
+Nordeste,Bahia,Mulheres,6 a 14 anos,99.8
+Nordeste,Bahia,Mulheres,15 a 17 anos,94.2
+Nordeste,Bahia,Mulheres,18 a 24 anos,33.0
+Nordeste,Bahia,Mulheres,25 anos ou mais,6.6
+Nordeste,Bahia,Total,Total,27.6
+Nordeste,Bahia,Total,0 a 5 anos,63.7
+Nordeste,Bahia,Total,0 a 3 anos,43.1
+Nordeste,Bahia,Total,4 a 5 anos,97.8
+Nordeste,Bahia,Total,6 a 14 anos,99.5
+Nordeste,Bahia,Total,15 a 17 anos,93.3
+Nordeste,Bahia,Total,18 a 24 anos,29.9
+Nordeste,Bahia,Total,25 anos ou mais,5.2
+Nordeste,Ceará,Homens,Total,28.0
+Nordeste,Ceará,Homens,0 a 5 anos,62.6
+Nordeste,Ceará,Homens,0 a 3 anos,41.5
+Nordeste,Ceará,Homens,4 a 5 anos,99.6
+Nordeste,Ceará,Homens,6 a 14 anos,99.5
+Nordeste,Ceará,Homens,15 a 17 anos,93.8
+Nordeste,Ceará,Homens,18 a 24 anos,23.6
+Nordeste,Ceará,Homens,25 anos ou mais,4.0
+Nordeste,Ceará,Mulheres,Total,26.0
+Nordeste,Ceará,Mulheres,0 a 5 anos,60.1
+Nordeste,Ceará,Mulheres,0 a 3 anos,38.7
+Nordeste,Ceará,Mulheres,4 a 5 anos,98.1
+Nordeste,Ceará,Mulheres,6 a 14 anos,99.6
+Nordeste,Ceará,Mulheres,15 a 17 anos,91.8
+Nordeste,Ceará,Mulheres,18 a 24 anos,30.0
+Nordeste,Ceará,Mulheres,25 anos ou mais,5.4
+Nordeste,Ceará,Total,Total,27.0
+Nordeste,Ceará,Total,0 a 5 anos,61.4
+Nordeste,Ceará,Total,0 a 3 anos,40.2
+Nordeste,Ceará,Total,4 a 5 anos,98.9
+Nordeste,Ceará,Total,6 a 14 anos,99.6
+Nordeste,Ceará,Total,15 a 17 anos,92.8
+Nordeste,Ceará,Total,18 a 24 anos,26.8
+Nordeste,Ceará,Total,25 anos ou mais,4.7
+Centro-Oeste,Distrito Federal,Homens,Total,32.8
+Centro-Oeste,Distrito Federal,Homens,0 a 5 anos,62.4
+Centro-Oeste,Distrito Federal,Homens,0 a 3 anos,39.7
+Centro-Oeste,Distrito Federal,Homens,4 a 5 anos,96.9
+Centro-Oeste,Distrito Federal,Homens,6 a 14 anos,99.7
+Centro-Oeste,Distrito Federal,Homens,15 a 17 anos,96.8
+Centro-Oeste,Distrito Federal,Homens,18 a 24 anos,48.8
+Centro-Oeste,Distrito Federal,Homens,25 anos ou mais,8.4
+Centro-Oeste,Distrito Federal,Mulheres,Total,31.3
+Centro-Oeste,Distrito Federal,Mulheres,0 a 5 anos,57.2
+Centro-Oeste,Distrito Federal,Mulheres,0 a 3 anos,39.1
+Centro-Oeste,Distrito Federal,Mulheres,4 a 5 anos,95.6
+Centro-Oeste,Distrito Federal,Mulheres,6 a 14 anos,99.5
+Centro-Oeste,Distrito Federal,Mulheres,15 a 17 anos,98.5
+Centro-Oeste,Distrito Federal,Mulheres,18 a 24 anos,53.1
+Centro-Oeste,Distrito Federal,Mulheres,25 anos ou mais,9.6
+Centro-Oeste,Distrito Federal,Total,Total,32.0
+Centro-Oeste,Distrito Federal,Total,0 a 5 anos,59.7
+Centro-Oeste,Distrito Federal,Total,0 a 3 anos,39.4
+Centro-Oeste,Distrito Federal,Total,4 a 5 anos,96.3
+Centro-Oeste,Distrito Federal,Total,6 a 14 anos,99.6
+Centro-Oeste,Distrito Federal,Total,15 a 17 anos,97.6
+Centro-Oeste,Distrito Federal,Total,18 a 24 anos,50.9
+Centro-Oeste,Distrito Federal,Total,25 anos ou mais,9.0
+Sudeste,Espírito Santo,Homens,Total,26.3
+Sudeste,Espírito Santo,Homens,0 a 5 anos,56.6
+Sudeste,Espírito Santo,Homens,0 a 3 anos,36.1
+Sudeste,Espírito Santo,Homens,4 a 5 anos,91.7
+Sudeste,Espírito Santo,Homens,6 a 14 anos,99.6
+Sudeste,Espírito Santo,Homens,15 a 17 anos,93.7
+Sudeste,Espírito Santo,Homens,18 a 24 anos,28.1
+Sudeste,Espírito Santo,Homens,25 anos ou mais,4.1
+Sudeste,Espírito Santo,Mulheres,Total,26.7
+Sudeste,Espírito Santo,Mulheres,0 a 5 anos,58.1
+Sudeste,Espírito Santo,Mulheres,0 a 3 anos,37.5
+Sudeste,Espírito Santo,Mulheres,4 a 5 anos,92.6
+Sudeste,Espírito Santo,Mulheres,6 a 14 anos,99.8
+Sudeste,Espírito Santo,Mulheres,15 a 17 anos,94.7
+Sudeste,Espírito Santo,Mulheres,18 a 24 anos,35.3
+Sudeste,Espírito Santo,Mulheres,25 anos ou mais,5.0
+Sudeste,Espírito Santo,Total,Total,26.5
+Sudeste,Espírito Santo,Total,0 a 5 anos,57.3
+Sudeste,Espírito Santo,Total,0 a 3 anos,36.7
+Sudeste,Espírito Santo,Total,4 a 5 anos,92.1
+Sudeste,Espírito Santo,Total,6 a 14 anos,99.7
+Sudeste,Espírito Santo,Total,15 a 17 anos,94.2
+Sudeste,Espírito Santo,Total,18 a 24 anos,31.8
+Sudeste,Espírito Santo,Total,25 anos ou mais,4.5
+Centro-Oeste,Goiás,Homens,Total,26.5
+Centro-Oeste,Goiás,Homens,0 a 5 anos,55.1
+Centro-Oeste,Goiás,Homens,0 a 3 anos,32.6
+Centro-Oeste,Goiás,Homens,4 a 5 anos,95.6
+Centro-Oeste,Goiás,Homens,6 a 14 anos,99.0
+Centro-Oeste,Goiás,Homens,15 a 17 anos,89.7
+Centro-Oeste,Goiás,Homens,18 a 24 anos,27.2
+Centro-Oeste,Goiás,Homens,25 anos ou mais,4.5
+Centro-Oeste,Goiás,Mulheres,Total,26.7
+Centro-Oeste,Goiás,Mulheres,0 a 5 anos,54.0
+Centro-Oeste,Goiás,Mulheres,0 a 3 anos,32.6
+Centro-Oeste,Goiás,Mulheres,4 a 5 anos,89.9
+Centro-Oeste,Goiás,Mulheres,6 a 14 anos,99.9
+Centro-Oeste,Goiás,Mulheres,15 a 17 anos,95.9
+Centro-Oeste,Goiás,Mulheres,18 a 24 anos,35.5
+Centro-Oeste,Goiás,Mulheres,25 anos ou mais,5.4
+Centro-Oeste,Goiás,Total,Total,26.6
+Centro-Oeste,Goiás,Total,0 a 5 anos,54.5
+Centro-Oeste,Goiás,Total,0 a 3 anos,32.6
+Centro-Oeste,Goiás,Total,4 a 5 anos,92.7
+Centro-Oeste,Goiás,Total,6 a 14 anos,99.4
+Centro-Oeste,Goiás,Total,15 a 17 anos,92.3
+Centro-Oeste,Goiás,Total,18 a 24 anos,31.4
+Centro-Oeste,Goiás,Total,25 anos ou mais,5.0
+Nordeste,Maranhão,Homens,Total,30.6
+Nordeste,Maranhão,Homens,0 a 5 anos,60.7
+Nordeste,Maranhão,Homens,0 a 3 anos,38.0
+Nordeste,Maranhão,Homens,4 a 5 anos,97.7
+Nordeste,Maranhão,Homens,6 a 14 anos,99.7
+Nordeste,Maranhão,Homens,15 a 17 anos,91.6
+Nordeste,Maranhão,Homens,18 a 24 anos,24.6
+Nordeste,Maranhão,Homens,25 anos ou mais,3.0
+Nordeste,Maranhão,Mulheres,Total,30.2
+Nordeste,Maranhão,Mulheres,0 a 5 anos,59.8
+Nordeste,Maranhão,Mulheres,0 a 3 anos,39.4
+Nordeste,Maranhão,Mulheres,4 a 5 anos,98.6
+Nordeste,Maranhão,Mulheres,6 a 14 anos,99.5
+Nordeste,Maranhão,Mulheres,15 a 17 anos,93.6
+Nordeste,Maranhão,Mulheres,18 a 24 anos,29.6
+Nordeste,Maranhão,Mulheres,25 anos ou mais,5.0
+Nordeste,Maranhão,Total,Total,30.4
+Nordeste,Maranhão,Total,0 a 5 anos,60.2
+Nordeste,Maranhão,Total,0 a 3 anos,38.7
+Nordeste,Maranhão,Total,4 a 5 anos,98.1
+Nordeste,Maranhão,Total,6 a 14 anos,99.6
+Nordeste,Maranhão,Total,15 a 17 anos,92.6
+Nordeste,Maranhão,Total,18 a 24 anos,27.2
+Nordeste,Maranhão,Total,25 anos ou mais,4.0
+Centro-Oeste,Mato Grosso,Homens,Total,27.8
+Centro-Oeste,Mato Grosso,Homens,0 a 5 anos,54.9
+Centro-Oeste,Mato Grosso,Homens,0 a 3 anos,38.5
+Centro-Oeste,Mato Grosso,Homens,4 a 5 anos,95.4
+Centro-Oeste,Mato Grosso,Homens,6 a 14 anos,99.6
+Centro-Oeste,Mato Grosso,Homens,15 a 17 anos,88.9
+Centro-Oeste,Mato Grosso,Homens,18 a 24 anos,21.6
+Centro-Oeste,Mato Grosso,Homens,25 anos ou mais,3.4
+Centro-Oeste,Mato Grosso,Mulheres,Total,31.3
+Centro-Oeste,Mato Grosso,Mulheres,0 a 5 anos,57.0
+Centro-Oeste,Mato Grosso,Mulheres,0 a 3 anos,35.4
+Centro-Oeste,Mato Grosso,Mulheres,4 a 5 anos,93.2
+Centro-Oeste,Mato Grosso,Mulheres,6 a 14 anos,99.7
+Centro-Oeste,Mato Grosso,Mulheres,15 a 17 anos,95.9
+Centro-Oeste,Mato Grosso,Mulheres,18 a 24 anos,30.9
+Centro-Oeste,Mato Grosso,Mulheres,25 anos ou mais,7.3
+Centro-Oeste,Mato Grosso,Total,Total,29.5
+Centro-Oeste,Mato Grosso,Total,0 a 5 anos,55.9
+Centro-Oeste,Mato Grosso,Total,0 a 3 anos,37.1
+Centro-Oeste,Mato Grosso,Total,4 a 5 anos,94.2
+Centro-Oeste,Mato Grosso,Total,6 a 14 anos,99.7
+Centro-Oeste,Mato Grosso,Total,15 a 17 anos,92.4
+Centro-Oeste,Mato Grosso,Total,18 a 24 anos,26.5
+Centro-Oeste,Mato Grosso,Total,25 anos ou mais,5.3
+Centro-Oeste,Mato Grosso do Sul,Homens,Total,27.7
+Centro-Oeste,Mato Grosso do Sul,Homens,0 a 5 anos,57.5
+Centro-Oeste,Mato Grosso do Sul,Homens,0 a 3 anos,37.8
+Centro-Oeste,Mato Grosso do Sul,Homens,4 a 5 anos,93.5
+Centro-Oeste,Mato Grosso do Sul,Homens,6 a 14 anos,99.7
+Centro-Oeste,Mato Grosso do Sul,Homens,15 a 17 anos,88.7
+Centro-Oeste,Mato Grosso do Sul,Homens,18 a 24 anos,28.7
+Centro-Oeste,Mato Grosso do Sul,Homens,25 anos ou mais,4.4
+Centro-Oeste,Mato Grosso do Sul,Mulheres,Total,29.2
+Centro-Oeste,Mato Grosso do Sul,Mulheres,0 a 5 anos,56.6
+Centro-Oeste,Mato Grosso do Sul,Mulheres,0 a 3 anos,36.5
+Centro-Oeste,Mato Grosso do Sul,Mulheres,4 a 5 anos,91.4
+Centro-Oeste,Mato Grosso do Sul,Mulheres,6 a 14 anos,99.4
+Centro-Oeste,Mato Grosso do Sul,Mulheres,15 a 17 anos,94.9
+Centro-Oeste,Mato Grosso do Sul,Mulheres,18 a 24 anos,40.2
+Centro-Oeste,Mato Grosso do Sul,Mulheres,25 anos ou mais,6.0
+Centro-Oeste,Mato Grosso do Sul,Total,Total,28.5
+Centro-Oeste,Mato Grosso do Sul,Total,0 a 5 anos,57.0
+Centro-Oeste,Mato Grosso do Sul,Total,0 a 3 anos,37.1
+Centro-Oeste,Mato Grosso do Sul,Total,4 a 5 anos,92.4
+Centro-Oeste,Mato Grosso do Sul,Total,6 a 14 anos,99.5
+Centro-Oeste,Mato Grosso do Sul,Total,15 a 17 anos,91.8
+Centro-Oeste,Mato Grosso do Sul,Total,18 a 24 anos,34.4
+Centro-Oeste,Mato Grosso do Sul,Total,25 anos ou mais,5.2
+Sudeste,Minas Gerais,Homens,Total,25.0
+Sudeste,Minas Gerais,Homens,0 a 5 anos,57.5
+Sudeste,Minas Gerais,Homens,0 a 3 anos,36.2
+Sudeste,Minas Gerais,Homens,4 a 5 anos,96.9
+Sudeste,Minas Gerais,Homens,6 a 14 anos,99.3
+Sudeste,Minas Gerais,Homens,15 a 17 anos,91.4
+Sudeste,Minas Gerais,Homens,18 a 24 anos,25.1
+Sudeste,Minas Gerais,Homens,25 anos ou mais,3.8
+Sudeste,Minas Gerais,Mulheres,Total,25.4
+Sudeste,Minas Gerais,Mulheres,0 a 5 anos,61.4
+Sudeste,Minas Gerais,Mulheres,0 a 3 anos,42.4
+Sudeste,Minas Gerais,Mulheres,4 a 5 anos,94.2
+Sudeste,Minas Gerais,Mulheres,6 a 14 anos,99.9
+Sudeste,Minas Gerais,Mulheres,15 a 17 anos,96.3
+Sudeste,Minas Gerais,Mulheres,18 a 24 anos,32.0
+Sudeste,Minas Gerais,Mulheres,25 anos ou mais,5.2
+Sudeste,Minas Gerais,Total,Total,25.2
+Sudeste,Minas Gerais,Total,0 a 5 anos,59.4
+Sudeste,Minas Gerais,Total,0 a 3 anos,39.3
+Sudeste,Minas Gerais,Total,4 a 5 anos,95.6
+Sudeste,Minas Gerais,Total,6 a 14 anos,99.6
+Sudeste,Minas Gerais,Total,15 a 17 anos,93.7
+Sudeste,Minas Gerais,Total,18 a 24 anos,28.4
+Sudeste,Minas Gerais,Total,25 anos ou mais,4.6
+Sul,Paraná,Homens,Total,27.1
+Sul,Paraná,Homens,0 a 5 anos,63.1
+Sul,Paraná,Homens,0 a 3 anos,45.4
+Sul,Paraná,Homens,4 a 5 anos,94.4
+Sul,Paraná,Homens,6 a 14 anos,98.9
+Sul,Paraná,Homens,15 a 17 anos,91.8
+Sul,Paraná,Homens,18 a 24 anos,28.7
+Sul,Paraná,Homens,25 anos ou mais,4.9
+Sul,Paraná,Mulheres,Total,27.3
+Sul,Paraná,Mulheres,0 a 5 anos,64.9
+Sul,Paraná,Mulheres,0 a 3 anos,47.6
+Sul,Paraná,Mulheres,4 a 5 anos,96.4
+Sul,Paraná,Mulheres,6 a 14 anos,99.0
+Sul,Paraná,Mulheres,15 a 17 anos,90.0
+Sul,Paraná,Mulheres,18 a 24 anos,38.5
+Sul,Paraná,Mulheres,25 anos ou mais,6.4
+Sul,Paraná,Total,Total,27.2
+Sul,Paraná,Total,0 a 5 anos,64.0
+Sul,Paraná,Total,0 a 3 anos,46.5
+Sul,Paraná,Total,4 a 5 anos,95.4
+Sul,Paraná,Total,6 a 14 anos,99.0
+Sul,Paraná,Total,15 a 17 anos,90.9
+Sul,Paraná,Total,18 a 24 anos,33.5
+Sul,Paraná,Total,25 anos ou mais,5.7
+Nordeste,Paraíba,Homens,Total,29.4
+Nordeste,Paraíba,Homens,0 a 5 anos,61.3
+Nordeste,Paraíba,Homens,0 a 3 anos,36.8
+Nordeste,Paraíba,Homens,4 a 5 anos,94.3
+Nordeste,Paraíba,Homens,6 a 14 anos,99.5
+Nordeste,Paraíba,Homens,15 a 17 anos,92.3
+Nordeste,Paraíba,Homens,18 a 24 anos,27.0
+Nordeste,Paraíba,Homens,25 anos ou mais,3.3
+Nordeste,Paraíba,Mulheres,Total,27.5
+Nordeste,Paraíba,Mulheres,0 a 5 anos,53.7
+Nordeste,Paraíba,Mulheres,0 a 3 anos,33.6
+Nordeste,Paraíba,Mulheres,4 a 5 anos,94.6
+Nordeste,Paraíba,Mulheres,6 a 14 anos,99.4
+Nordeste,Paraíba,Mulheres,15 a 17 anos,93.8
+Nordeste,Paraíba,Mulheres,18 a 24 anos,32.5
+Nordeste,Paraíba,Mulheres,25 anos ou mais,5.1
+Nordeste,Paraíba,Total,Total,28.5
+Nordeste,Paraíba,Total,0 a 5 anos,57.6
+Nordeste,Paraíba,Total,0 a 3 anos,35.1
+Nordeste,Paraíba,Total,4 a 5 anos,94.4
+Nordeste,Paraíba,Total,6 a 14 anos,99.4
+Nordeste,Paraíba,Total,15 a 17 anos,93.0
+Nordeste,Paraíba,Total,18 a 24 anos,29.6
+Nordeste,Paraíba,Total,25 anos ou mais,4.3
+Norte,Pará,Homens,Total,30.6
+Norte,Pará,Homens,0 a 5 anos,45.7
+Norte,Pará,Homens,0 a 3 anos,22.6
+Norte,Pará,Homens,4 a 5 anos,92.6
+Norte,Pará,Homens,6 a 14 anos,99.4
+Norte,Pará,Homens,15 a 17 anos,91.9
+Norte,Pará,Homens,18 a 24 anos,29.7
+Norte,Pará,Homens,25 anos ou mais,4.7
+Norte,Pará,Mulheres,Total,32.6
+Norte,Pará,Mulheres,0 a 5 anos,51.9
+Norte,Pará,Mulheres,0 a 3 anos,26.6
+Norte,Pará,Mulheres,4 a 5 anos,95.6
+Norte,Pará,Mulheres,6 a 14 anos,99.3
+Norte,Pará,Mulheres,15 a 17 anos,91.3
+Norte,Pará,Mulheres,18 a 24 anos,35.7
+Norte,Pará,Mulheres,25 anos ou mais,7.3
+Norte,Pará,Total,Total,31.6
+Norte,Pará,Total,0 a 5 anos,48.7
+Norte,Pará,Total,0 a 3 anos,24.4
+Norte,Pará,Total,4 a 5 anos,94.1
+Norte,Pará,Total,6 a 14 anos,99.4
+Norte,Pará,Total,15 a 17 anos,91.6
+Norte,Pará,Total,18 a 24 anos,32.7
+Norte,Pará,Total,25 anos ou mais,6.0
+Nordeste,Pernambuco,Homens,Total,28.7
+Nordeste,Pernambuco,Homens,0 a 5 anos,57.8
+Nordeste,Pernambuco,Homens,0 a 3 anos,35.5
+Nordeste,Pernambuco,Homens,4 a 5 anos,94.9
+Nordeste,Pernambuco,Homens,6 a 14 anos,99.7
+Nordeste,Pernambuco,Homens,15 a 17 anos,88.7
+Nordeste,Pernambuco,Homens,18 a 24 anos,26.1
+Nordeste,Pernambuco,Homens,25 anos ou mais,4.4
+Nordeste,Pernambuco,Mulheres,Total,25.5
+Nordeste,Pernambuco,Mulheres,0 a 5 anos,54.0
+Nordeste,Pernambuco,Mulheres,0 a 3 anos,32.3
+Nordeste,Pernambuco,Mulheres,4 a 5 anos,96.0
+Nordeste,Pernambuco,Mulheres,6 a 14 anos,99.7
+Nordeste,Pernambuco,Mulheres,15 a 17 anos,95.8
+Nordeste,Pernambuco,Mulheres,18 a 24 anos,30.1
+Nordeste,Pernambuco,Mulheres,25 anos ou mais,4.2
+Nordeste,Pernambuco,Total,Total,27.0
+Nordeste,Pernambuco,Total,0 a 5 anos,56.0
+Nordeste,Pernambuco,Total,0 a 3 anos,33.9
+Nordeste,Pernambuco,Total,4 a 5 anos,95.4
+Nordeste,Pernambuco,Total,6 a 14 anos,99.7
+Nordeste,Pernambuco,Total,15 a 17 anos,92.1
+Nordeste,Pernambuco,Total,18 a 24 anos,28.1
+Nordeste,Pernambuco,Total,25 anos ou mais,4.3
+Nordeste,Piauí,Homens,Total,28.7
+Nordeste,Piauí,Homens,0 a 5 anos,61.4
+Nordeste,Piauí,Homens,0 a 3 anos,36.6
+Nordeste,Piauí,Homens,4 a 5 anos,96.9
+Nordeste,Piauí,Homens,6 a 14 anos,99.2
+Nordeste,Piauí,Homens,15 a 17 anos,93.3
+Nordeste,Piauí,Homens,18 a 24 anos,30.4
+Nordeste,Piauí,Homens,25 anos ou mais,3.3
+Nordeste,Piauí,Mulheres,Total,28.4
+Nordeste,Piauí,Mulheres,0 a 5 anos,59.9
+Nordeste,Piauí,Mulheres,0 a 3 anos,37.9
+Nordeste,Piauí,Mulheres,4 a 5 anos,99.9
+Nordeste,Piauí,Mulheres,6 a 14 anos,99.4
+Nordeste,Piauí,Mulheres,15 a 17 anos,91.1
+Nordeste,Piauí,Mulheres,18 a 24 anos,42.9
+Nordeste,Piauí,Mulheres,25 anos ou mais,5.3
+Nordeste,Piauí,Total,Total,28.6
+Nordeste,Piauí,Total,0 a 5 anos,60.7
+Nordeste,Piauí,Total,0 a 3 anos,37.3
+Nordeste,Piauí,Total,4 a 5 anos,98.2
+Nordeste,Piauí,Total,6 a 14 anos,99.3
+Nordeste,Piauí,Total,15 a 17 anos,92.3
+Nordeste,Piauí,Total,18 a 24 anos,36.9
+Nordeste,Piauí,Total,25 anos ou mais,4.3
+Nordeste,Rio Grande do Norte,Homens,Total,26.4
+Nordeste,Rio Grande do Norte,Homens,0 a 5 anos,57.9
+Nordeste,Rio Grande do Norte,Homens,0 a 3 anos,36.5
+Nordeste,Rio Grande do Norte,Homens,4 a 5 anos,92.7
+Nordeste,Rio Grande do Norte,Homens,6 a 14 anos,99.5
+Nordeste,Rio Grande do Norte,Homens,15 a 17 anos,93.0
+Nordeste,Rio Grande do Norte,Homens,18 a 24 anos,28.8
+Nordeste,Rio Grande do Norte,Homens,25 anos ou mais,5.1
+Nordeste,Rio Grande do Norte,Mulheres,Total,25.7
+Nordeste,Rio Grande do Norte,Mulheres,0 a 5 anos,61.6
+Nordeste,Rio Grande do Norte,Mulheres,0 a 3 anos,36.7
+Nordeste,Rio Grande do Norte,Mulheres,4 a 5 anos,99.1
+Nordeste,Rio Grande do Norte,Mulheres,6 a 14 anos,99.1
+Nordeste,Rio Grande do Norte,Mulheres,15 a 17 anos,94.6
+Nordeste,Rio Grande do Norte,Mulheres,18 a 24 anos,40.2
+Nordeste,Rio Grande do Norte,Mulheres,25 anos ou mais,5.0
+Nordeste,Rio Grande do Norte,Total,Total,26.1
+Nordeste,Rio Grande do Norte,Total,0 a 5 anos,59.6
+Nordeste,Rio Grande do Norte,Total,0 a 3 anos,36.6
+Nordeste,Rio Grande do Norte,Total,4 a 5 anos,95.7
+Nordeste,Rio Grande do Norte,Total,6 a 14 anos,99.3
+Nordeste,Rio Grande do Norte,Total,15 a 17 anos,93.8
+Nordeste,Rio Grande do Norte,Total,18 a 24 anos,34.3
+Nordeste,Rio Grande do Norte,Total,25 anos ou mais,5.0
+Sul,Rio Grande do Sul,Homens,Total,25.9
+Sul,Rio Grande do Sul,Homens,0 a 5 anos,58.5
+Sul,Rio Grande do Sul,Homens,0 a 3 anos,41.3
+Sul,Rio Grande do Sul,Homens,4 a 5 anos,91.7
+Sul,Rio Grande do Sul,Homens,6 a 14 anos,99.2
+Sul,Rio Grande do Sul,Homens,15 a 17 anos,90.2
+Sul,Rio Grande do Sul,Homens,18 a 24 anos,32.1
+Sul,Rio Grande do Sul,Homens,25 anos ou mais,5.2
+Sul,Rio Grande do Sul,Mulheres,Total,25.9
+Sul,Rio Grande do Sul,Mulheres,0 a 5 anos,61.8
+Sul,Rio Grande do Sul,Mulheres,0 a 3 anos,43.8
+Sul,Rio Grande do Sul,Mulheres,4 a 5 anos,92.0
+Sul,Rio Grande do Sul,Mulheres,6 a 14 anos,99.5
+Sul,Rio Grande do Sul,Mulheres,15 a 17 anos,97.6
+Sul,Rio Grande do Sul,Mulheres,18 a 24 anos,36.8
+Sul,Rio Grande do Sul,Mulheres,25 anos ou mais,6.5
+Sul,Rio Grande do Sul,Total,Total,25.9
+Sul,Rio Grande do Sul,Total,0 a 5 anos,60.1
+Sul,Rio Grande do Sul,Total,0 a 3 anos,42.5
+Sul,Rio Grande do Sul,Total,4 a 5 anos,91.8
+Sul,Rio Grande do Sul,Total,6 a 14 anos,99.3
+Sul,Rio Grande do Sul,Total,15 a 17 anos,93.8
+Sul,Rio Grande do Sul,Total,18 a 24 anos,34.4
+Sul,Rio Grande do Sul,Total,25 anos ou mais,5.8
+Sudeste,Rio de Janeiro,Homens,Total,27.0
+Sudeste,Rio de Janeiro,Homens,0 a 5 anos,62.9
+Sudeste,Rio de Janeiro,Homens,0 a 3 anos,39.9
+Sudeste,Rio de Janeiro,Homens,4 a 5 anos,94.2
+Sudeste,Rio de Janeiro,Homens,6 a 14 anos,99.7
+Sudeste,Rio de Janeiro,Homens,15 a 17 anos,95.9
+Sudeste,Rio de Janeiro,Homens,18 a 24 anos,34.7
+Sudeste,Rio de Janeiro,Homens,25 anos ou mais,5.9
+Sudeste,Rio de Janeiro,Mulheres,Total,25.4
+Sudeste,Rio de Janeiro,Mulheres,0 a 5 anos,59.5
+Sudeste,Rio de Janeiro,Mulheres,0 a 3 anos,39.8
+Sudeste,Rio de Janeiro,Mulheres,4 a 5 anos,93.5
+Sudeste,Rio de Janeiro,Mulheres,6 a 14 anos,99.7
+Sudeste,Rio de Janeiro,Mulheres,15 a 17 anos,94.8
+Sudeste,Rio de Janeiro,Mulheres,18 a 24 anos,41.7
+Sudeste,Rio de Janeiro,Mulheres,25 anos ou mais,6.6
+Sudeste,Rio de Janeiro,Total,Total,26.2
+Sudeste,Rio de Janeiro,Total,0 a 5 anos,61.2
+Sudeste,Rio de Janeiro,Total,0 a 3 anos,39.9
+Sudeste,Rio de Janeiro,Total,4 a 5 anos,93.9
+Sudeste,Rio de Janeiro,Total,6 a 14 anos,99.7
+Sudeste,Rio de Janeiro,Total,15 a 17 anos,95.4
+Sudeste,Rio de Janeiro,Total,18 a 24 anos,38.2
+Sudeste,Rio de Janeiro,Total,25 anos ou mais,6.3
+Norte,Rondônia,Homens,Total,27.2
+Norte,Rondônia,Homens,0 a 5 anos,47.9
+Norte,Rondônia,Homens,0 a 3 anos,22.9
+Norte,Rondônia,Homens,4 a 5 anos,84.0
+Norte,Rondônia,Homens,6 a 14 anos,99.0
+Norte,Rondônia,Homens,15 a 17 anos,91.6
+Norte,Rondônia,Homens,18 a 24 anos,23.9
+Norte,Rondônia,Homens,25 anos ou mais,3.6
+Norte,Rondônia,Mulheres,Total,28.1
+Norte,Rondônia,Mulheres,0 a 5 anos,46.1
+Norte,Rondônia,Mulheres,0 a 3 anos,23.9
+Norte,Rondônia,Mulheres,4 a 5 anos,86.0
+Norte,Rondônia,Mulheres,6 a 14 anos,99.8
+Norte,Rondônia,Mulheres,15 a 17 anos,89.2
+Norte,Rondônia,Mulheres,18 a 24 anos,33.3
+Norte,Rondônia,Mulheres,25 anos ou mais,5.9
+Norte,Rondônia,Total,Total,27.6
+Norte,Rondônia,Total,0 a 5 anos,47.1
+Norte,Rondônia,Total,0 a 3 anos,23.4
+Norte,Rondônia,Total,4 a 5 anos,84.9
+Norte,Rondônia,Total,6 a 14 anos,99.4
+Norte,Rondônia,Total,15 a 17 anos,90.4
+Norte,Rondônia,Total,18 a 24 anos,28.3
+Norte,Rondônia,Total,25 anos ou mais,4.8
+Norte,Roraima,Homens,Total,32.4
+Norte,Roraima,Homens,0 a 5 anos,46.4
+Norte,Roraima,Homens,0 a 3 anos,24.2
+Norte,Roraima,Homens,4 a 5 anos,91.5
+Norte,Roraima,Homens,6 a 14 anos,97.7
+Norte,Roraima,Homens,15 a 17 anos,90.4
+Norte,Roraima,Homens,18 a 24 anos,25.3
+Norte,Roraima,Homens,25 anos ou mais,5.5
+Norte,Roraima,Mulheres,Total,33.9
+Norte,Roraima,Mulheres,0 a 5 anos,44.2
+Norte,Roraima,Mulheres,0 a 3 anos,18.6
+Norte,Roraima,Mulheres,4 a 5 anos,90.5
+Norte,Roraima,Mulheres,6 a 14 anos,97.5
+Norte,Roraima,Mulheres,15 a 17 anos,98.5
+Norte,Roraima,Mulheres,18 a 24 anos,35.3
+Norte,Roraima,Mulheres,25 anos ou mais,8.5
+Norte,Roraima,Total,Total,33.1
+Norte,Roraima,Total,0 a 5 anos,45.3
+Norte,Roraima,Total,0 a 3 anos,21.5
+Norte,Roraima,Total,4 a 5 anos,91.0
+Norte,Roraima,Total,6 a 14 anos,97.6
+Norte,Roraima,Total,15 a 17 anos,94.0
+Norte,Roraima,Total,18 a 24 anos,30.1
+Norte,Roraima,Total,25 anos ou mais,7.1
+Sul,Santa Catarina,Homens,Total,26.7
+Sul,Santa Catarina,Homens,0 a 5 anos,72.0
+Sul,Santa Catarina,Homens,0 a 3 anos,58.2
+Sul,Santa Catarina,Homens,4 a 5 anos,94.9
+Sul,Santa Catarina,Homens,6 a 14 anos,99.4
+Sul,Santa Catarina,Homens,15 a 17 anos,94.1
+Sul,Santa Catarina,Homens,18 a 24 anos,28.7
+Sul,Santa Catarina,Homens,25 anos ou mais,4.0
+Sul,Santa Catarina,Mulheres,Total,26.7
+Sul,Santa Catarina,Mulheres,0 a 5 anos,71.4
+Sul,Santa Catarina,Mulheres,0 a 3 anos,56.5
+Sul,Santa Catarina,Mulheres,4 a 5 anos,94.5
+Sul,Santa Catarina,Mulheres,6 a 14 anos,99.7
+Sul,Santa Catarina,Mulheres,15 a 17 anos,96.3
+Sul,Santa Catarina,Mulheres,18 a 24 anos,37.5
+Sul,Santa Catarina,Mulheres,25 anos ou mais,5.4
+Sul,Santa Catarina,Total,Total,26.7
+Sul,Santa Catarina,Total,0 a 5 anos,71.7
+Sul,Santa Catarina,Total,0 a 3 anos,57.4
+Sul,Santa Catarina,Total,4 a 5 anos,94.7
+Sul,Santa Catarina,Total,6 a 14 anos,99.5
+Sul,Santa Catarina,Total,15 a 17 anos,95.1
+Sul,Santa Catarina,Total,18 a 24 anos,33.0
+Sul,Santa Catarina,Total,25 anos ou mais,4.7
+Nordeste,Sergipe,Homens,Total,28.9
+Nordeste,Sergipe,Homens,0 a 5 anos,55.6
+Nordeste,Sergipe,Homens,0 a 3 anos,33.9
+Nordeste,Sergipe,Homens,4 a 5 anos,95.0
+Nordeste,Sergipe,Homens,6 a 14 anos,99.7
+Nordeste,Sergipe,Homens,15 a 17 anos,91.2
+Nordeste,Sergipe,Homens,18 a 24 anos,29.9
+Nordeste,Sergipe,Homens,25 anos ou mais,3.4
+Nordeste,Sergipe,Mulheres,Total,28.4
+Nordeste,Sergipe,Mulheres,0 a 5 anos,61.6
+Nordeste,Sergipe,Mulheres,0 a 3 anos,39.6
+Nordeste,Sergipe,Mulheres,4 a 5 anos,93.9
+Nordeste,Sergipe,Mulheres,6 a 14 anos,99.8
+Nordeste,Sergipe,Mulheres,15 a 17 anos,90.4
+Nordeste,Sergipe,Mulheres,18 a 24 anos,37.8
+Nordeste,Sergipe,Mulheres,25 anos ou mais,5.1
+Nordeste,Sergipe,Total,Total,28.6
+Nordeste,Sergipe,Total,0 a 5 anos,58.3
+Nordeste,Sergipe,Total,0 a 3 anos,36.4
+Nordeste,Sergipe,Total,4 a 5 anos,94.5
+Nordeste,Sergipe,Total,6 a 14 anos,99.7
+Nordeste,Sergipe,Total,15 a 17 anos,90.8
+Nordeste,Sergipe,Total,18 a 24 anos,33.8
+Nordeste,Sergipe,Total,25 anos ou mais,4.3
+Sudeste,São Paulo,Homens,Total,25.8
+Sudeste,São Paulo,Homens,0 a 5 anos,70.0
+Sudeste,São Paulo,Homens,0 a 3 anos,54.1
+Sudeste,São Paulo,Homens,4 a 5 anos,97.4
+Sudeste,São Paulo,Homens,6 a 14 anos,99.7
+Sudeste,São Paulo,Homens,15 a 17 anos,92.0
+Sudeste,São Paulo,Homens,18 a 24 anos,27.1
+Sudeste,São Paulo,Homens,25 anos ou mais,4.2
+Sudeste,São Paulo,Mulheres,Total,25.3
+Sudeste,São Paulo,Mulheres,0 a 5 anos,70.1
+Sudeste,São Paulo,Mulheres,0 a 3 anos,57.4
+Sudeste,São Paulo,Mulheres,4 a 5 anos,95.7
+Sudeste,São Paulo,Mulheres,6 a 14 anos,99.6
+Sudeste,São Paulo,Mulheres,15 a 17 anos,95.1
+Sudeste,São Paulo,Mulheres,18 a 24 anos,34.8
+Sudeste,São Paulo,Mulheres,25 anos ou mais,5.3
+Sudeste,São Paulo,Total,Total,25.5
+Sudeste,São Paulo,Total,0 a 5 anos,70.0
+Sudeste,São Paulo,Total,0 a 3 anos,55.7
+Sudeste,São Paulo,Total,4 a 5 anos,96.7
+Sudeste,São Paulo,Total,6 a 14 anos,99.7
+Sudeste,São Paulo,Total,15 a 17 anos,93.5
+Sudeste,São Paulo,Total,18 a 24 anos,30.8
+Sudeste,São Paulo,Total,25 anos ou mais,4.8
+Norte,Tocantins,Homens,Total,29.8
+Norte,Tocantins,Homens,0 a 5 anos,62.7
+Norte,Tocantins,Homens,0 a 3 anos,44.7
+Norte,Tocantins,Homens,4 a 5 anos,95.2
+Norte,Tocantins,Homens,6 a 14 anos,99.0
+Norte,Tocantins,Homens,15 a 17 anos,94.0
+Norte,Tocantins,Homens,18 a 24 anos,28.8
+Norte,Tocantins,Homens,25 anos ou mais,3.7
+Norte,Tocantins,Mulheres,Total,32.0
+Norte,Tocantins,Mulheres,0 a 5 anos,59.8
+Norte,Tocantins,Mulheres,0 a 3 anos,41.4
+Norte,Tocantins,Mulheres,4 a 5 anos,96.0
+Norte,Tocantins,Mulheres,6 a 14 anos,99.4
+Norte,Tocantins,Mulheres,15 a 17 anos,92.2
+Norte,Tocantins,Mulheres,18 a 24 anos,43.3
+Norte,Tocantins,Mulheres,25 anos ou mais,8.1
+Norte,Tocantins,Total,Total,30.9
+Norte,Tocantins,Total,0 a 5 anos,61.3
+Norte,Tocantins,Total,0 a 3 anos,43.1
+Norte,Tocantins,Total,4 a 5 anos,95.6
+Norte,Tocantins,Total,6 a 14 anos,99.2
+Norte,Tocantins,Total,15 a 17 anos,93.2
+Norte,Tocantins,Total,18 a 24 anos,35.8
+Norte,Tocantins,Total,25 anos ou mais,5.9

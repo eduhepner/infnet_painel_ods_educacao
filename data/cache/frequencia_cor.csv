@@ -1,0 +1,406 @@
+Região,Estado,Cor/raça,Faixa etária ideal por curso frequentado,Taxa ajustada de frequência escolar (%)
+Norte,Acre,Branca,6 a 14 anos no ensino fundamental,98.5
+Norte,Acre,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,97.8
+Norte,Acre,Branca,11 a 14 anos nos anos finais do ensino fundamental,85.7
+Norte,Acre,Branca,15 a 17 anos no ensino médio,83.0
+Norte,Acre,Branca,18 a 24 no ensino superior,34.8
+Norte,Acre,Preta ou parda,6 a 14 anos no ensino fundamental,96.6
+Norte,Acre,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.6
+Norte,Acre,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,85.2
+Norte,Acre,Preta ou parda,15 a 17 anos no ensino médio,68.2
+Norte,Acre,Preta ou parda,18 a 24 no ensino superior,21.5
+Norte,Acre,Total,6 a 14 anos no ensino fundamental,97.0
+Norte,Acre,Total,6 a 10 anos nos anos iniciais do ensino fundamental,95.2
+Norte,Acre,Total,11 a 14 anos nos anos finais do ensino fundamental,85.0
+Norte,Acre,Total,15 a 17 anos no ensino médio,70.7
+Norte,Acre,Total,18 a 24 no ensino superior,23.6
+Nordeste,Alagoas,Branca,6 a 14 anos no ensino fundamental,96.3
+Nordeste,Alagoas,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.8
+Nordeste,Alagoas,Branca,11 a 14 anos nos anos finais do ensino fundamental,89.2
+Nordeste,Alagoas,Branca,15 a 17 anos no ensino médio,77.6
+Nordeste,Alagoas,Branca,18 a 24 no ensino superior,30.4
+Nordeste,Alagoas,Preta ou parda,6 a 14 anos no ensino fundamental,97.1
+Nordeste,Alagoas,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.9
+Nordeste,Alagoas,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,89.0
+Nordeste,Alagoas,Preta ou parda,15 a 17 anos no ensino médio,74.3
+Nordeste,Alagoas,Preta ou parda,18 a 24 no ensino superior,15.3
+Nordeste,Alagoas,Total,6 a 14 anos no ensino fundamental,96.8
+Nordeste,Alagoas,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.7
+Nordeste,Alagoas,Total,11 a 14 anos nos anos finais do ensino fundamental,89.2
+Nordeste,Alagoas,Total,15 a 17 anos no ensino médio,75.3
+Nordeste,Alagoas,Total,18 a 24 no ensino superior,19.4
+Norte,Amapá,Branca,6 a 14 anos no ensino fundamental,92.0
+Norte,Amapá,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,85.0
+Norte,Amapá,Branca,11 a 14 anos nos anos finais do ensino fundamental,86.9
+Norte,Amapá,Branca,15 a 17 anos no ensino médio,82.2
+Norte,Amapá,Branca,18 a 24 no ensino superior,39.0
+Norte,Amapá,Preta ou parda,6 a 14 anos no ensino fundamental,93.5
+Norte,Amapá,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,88.3
+Norte,Amapá,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,81.1
+Norte,Amapá,Preta ou parda,15 a 17 anos no ensino médio,70.9
+Norte,Amapá,Preta ou parda,18 a 24 no ensino superior,25.3
+Norte,Amapá,Total,6 a 14 anos no ensino fundamental,92.9
+Norte,Amapá,Total,6 a 10 anos nos anos iniciais do ensino fundamental,87.1
+Norte,Amapá,Total,11 a 14 anos nos anos finais do ensino fundamental,82.4
+Norte,Amapá,Total,15 a 17 anos no ensino médio,73.3
+Norte,Amapá,Total,18 a 24 no ensino superior,28.6
+Norte,Amazonas,Branca,6 a 14 anos no ensino fundamental,93.9
+Norte,Amazonas,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,91.0
+Norte,Amazonas,Branca,11 a 14 anos nos anos finais do ensino fundamental,83.3
+Norte,Amazonas,Branca,15 a 17 anos no ensino médio,70.8
+Norte,Amazonas,Branca,18 a 24 no ensino superior,29.6
+Norte,Amazonas,Preta ou parda,6 a 14 anos no ensino fundamental,95.2
+Norte,Amazonas,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,92.6
+Norte,Amazonas,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,86.8
+Norte,Amazonas,Preta ou parda,15 a 17 anos no ensino médio,74.9
+Norte,Amazonas,Preta ou parda,18 a 24 no ensino superior,23.8
+Norte,Amazonas,Total,6 a 14 anos no ensino fundamental,94.9
+Norte,Amazonas,Total,6 a 10 anos nos anos iniciais do ensino fundamental,92.2
+Norte,Amazonas,Total,11 a 14 anos nos anos finais do ensino fundamental,86.5
+Norte,Amazonas,Total,15 a 17 anos no ensino médio,74.5
+Norte,Amazonas,Total,18 a 24 no ensino superior,24.3
+Nordeste,Bahia,Branca,6 a 14 anos no ensino fundamental,97.2
+Nordeste,Bahia,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.2
+Nordeste,Bahia,Branca,11 a 14 anos nos anos finais do ensino fundamental,84.6
+Nordeste,Bahia,Branca,15 a 17 anos no ensino médio,82.2
+Nordeste,Bahia,Branca,18 a 24 no ensino superior,37.0
+Nordeste,Bahia,Preta ou parda,6 a 14 anos no ensino fundamental,94.8
+Nordeste,Bahia,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,91.3
+Nordeste,Bahia,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,87.3
+Nordeste,Bahia,Preta ou parda,15 a 17 anos no ensino médio,75.1
+Nordeste,Bahia,Preta ou parda,18 a 24 no ensino superior,18.3
+Nordeste,Bahia,Total,6 a 14 anos no ensino fundamental,95.1
+Nordeste,Bahia,Total,6 a 10 anos nos anos iniciais do ensino fundamental,91.9
+Nordeste,Bahia,Total,11 a 14 anos nos anos finais do ensino fundamental,86.9
+Nordeste,Bahia,Total,15 a 17 anos no ensino médio,76.2
+Nordeste,Bahia,Total,18 a 24 no ensino superior,21.7
+Nordeste,Ceará,Branca,6 a 14 anos no ensino fundamental,96.7
+Nordeste,Ceará,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.5
+Nordeste,Ceará,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.5
+Nordeste,Ceará,Branca,15 a 17 anos no ensino médio,83.9
+Nordeste,Ceará,Branca,18 a 24 no ensino superior,34.3
+Nordeste,Ceará,Preta ou parda,6 a 14 anos no ensino fundamental,96.0
+Nordeste,Ceará,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,93.3
+Nordeste,Ceará,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,91.6
+Nordeste,Ceará,Preta ou parda,15 a 17 anos no ensino médio,84.4
+Nordeste,Ceará,Preta ou parda,18 a 24 no ensino superior,20.0
+Nordeste,Ceará,Total,6 a 14 anos no ensino fundamental,96.1
+Nordeste,Ceará,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.6
+Nordeste,Ceará,Total,11 a 14 anos nos anos finais do ensino fundamental,91.5
+Nordeste,Ceará,Total,15 a 17 anos no ensino médio,84.2
+Nordeste,Ceará,Total,18 a 24 no ensino superior,23.7
+Centro-Oeste,Distrito Federal,Branca,6 a 14 anos no ensino fundamental,97.0
+Centro-Oeste,Distrito Federal,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.8
+Centro-Oeste,Distrito Federal,Branca,11 a 14 anos nos anos finais do ensino fundamental,93.7
+Centro-Oeste,Distrito Federal,Branca,15 a 17 anos no ensino médio,85.6
+Centro-Oeste,Distrito Federal,Branca,18 a 24 no ensino superior,59.8
+Centro-Oeste,Distrito Federal,Preta ou parda,6 a 14 anos no ensino fundamental,95.3
+Centro-Oeste,Distrito Federal,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,92.5
+Centro-Oeste,Distrito Federal,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,86.0
+Centro-Oeste,Distrito Federal,Preta ou parda,15 a 17 anos no ensino médio,83.7
+Centro-Oeste,Distrito Federal,Preta ou parda,18 a 24 no ensino superior,41.9
+Centro-Oeste,Distrito Federal,Total,6 a 14 anos no ensino fundamental,96.0
+Centro-Oeste,Distrito Federal,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.4
+Centro-Oeste,Distrito Federal,Total,11 a 14 anos nos anos finais do ensino fundamental,88.9
+Centro-Oeste,Distrito Federal,Total,15 a 17 anos no ensino médio,84.6
+Centro-Oeste,Distrito Federal,Total,18 a 24 no ensino superior,48.4
+Sudeste,Espírito Santo,Branca,6 a 14 anos no ensino fundamental,96.4
+Sudeste,Espírito Santo,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.1
+Sudeste,Espírito Santo,Branca,11 a 14 anos nos anos finais do ensino fundamental,90.6
+Sudeste,Espírito Santo,Branca,15 a 17 anos no ensino médio,80.3
+Sudeste,Espírito Santo,Branca,18 a 24 no ensino superior,43.7
+Sudeste,Espírito Santo,Preta ou parda,6 a 14 anos no ensino fundamental,95.9
+Sudeste,Espírito Santo,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,92.8
+Sudeste,Espírito Santo,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,88.4
+Sudeste,Espírito Santo,Preta ou parda,15 a 17 anos no ensino médio,73.3
+Sudeste,Espírito Santo,Preta ou parda,18 a 24 no ensino superior,20.6
+Sudeste,Espírito Santo,Total,6 a 14 anos no ensino fundamental,96.0
+Sudeste,Espírito Santo,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.2
+Sudeste,Espírito Santo,Total,11 a 14 anos nos anos finais do ensino fundamental,89.1
+Sudeste,Espírito Santo,Total,15 a 17 anos no ensino médio,75.6
+Sudeste,Espírito Santo,Total,18 a 24 no ensino superior,28.1
+Centro-Oeste,Goiás,Branca,6 a 14 anos no ensino fundamental,96.9
+Centro-Oeste,Goiás,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.2
+Centro-Oeste,Goiás,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.3
+Centro-Oeste,Goiás,Branca,15 a 17 anos no ensino médio,88.3
+Centro-Oeste,Goiás,Branca,18 a 24 no ensino superior,43.3
+Centro-Oeste,Goiás,Preta ou parda,6 a 14 anos no ensino fundamental,96.6
+Centro-Oeste,Goiás,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.0
+Centro-Oeste,Goiás,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,93.2
+Centro-Oeste,Goiás,Preta ou parda,15 a 17 anos no ensino médio,79.3
+Centro-Oeste,Goiás,Preta ou parda,18 a 24 no ensino superior,25.6
+Centro-Oeste,Goiás,Total,6 a 14 anos no ensino fundamental,96.7
+Centro-Oeste,Goiás,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.4
+Centro-Oeste,Goiás,Total,11 a 14 anos nos anos finais do ensino fundamental,92.6
+Centro-Oeste,Goiás,Total,15 a 17 anos no ensino médio,82.2
+Centro-Oeste,Goiás,Total,18 a 24 no ensino superior,31.0
+Nordeste,Maranhão,Branca,6 a 14 anos no ensino fundamental,95.7
+Nordeste,Maranhão,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,93.3
+Nordeste,Maranhão,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.2
+Nordeste,Maranhão,Branca,15 a 17 anos no ensino médio,77.9
+Nordeste,Maranhão,Branca,18 a 24 no ensino superior,29.4
+Nordeste,Maranhão,Preta ou parda,6 a 14 anos no ensino fundamental,96.0
+Nordeste,Maranhão,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,93.3
+Nordeste,Maranhão,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,89.5
+Nordeste,Maranhão,Preta ou parda,15 a 17 anos no ensino médio,77.3
+Nordeste,Maranhão,Preta ou parda,18 a 24 no ensino superior,18.5
+Nordeste,Maranhão,Total,6 a 14 anos no ensino fundamental,96.0
+Nordeste,Maranhão,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.3
+Nordeste,Maranhão,Total,11 a 14 anos nos anos finais do ensino fundamental,89.8
+Nordeste,Maranhão,Total,15 a 17 anos no ensino médio,77.5
+Nordeste,Maranhão,Total,18 a 24 no ensino superior,20.6
+Centro-Oeste,Mato Grosso,Branca,6 a 14 anos no ensino fundamental,95.4
+Centro-Oeste,Mato Grosso,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,92.2
+Centro-Oeste,Mato Grosso,Branca,11 a 14 anos nos anos finais do ensino fundamental,90.3
+Centro-Oeste,Mato Grosso,Branca,15 a 17 anos no ensino médio,90.1
+Centro-Oeste,Mato Grosso,Branca,18 a 24 no ensino superior,38.9
+Centro-Oeste,Mato Grosso,Preta ou parda,6 a 14 anos no ensino fundamental,96.2
+Centro-Oeste,Mato Grosso,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,93.3
+Centro-Oeste,Mato Grosso,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,91.7
+Centro-Oeste,Mato Grosso,Preta ou parda,15 a 17 anos no ensino médio,81.1
+Centro-Oeste,Mato Grosso,Preta ou parda,18 a 24 no ensino superior,22.6
+Centro-Oeste,Mato Grosso,Total,6 a 14 anos no ensino fundamental,96.0
+Centro-Oeste,Mato Grosso,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.0
+Centro-Oeste,Mato Grosso,Total,11 a 14 anos nos anos finais do ensino fundamental,91.3
+Centro-Oeste,Mato Grosso,Total,15 a 17 anos no ensino médio,83.8
+Centro-Oeste,Mato Grosso,Total,18 a 24 no ensino superior,27.6
+Centro-Oeste,Mato Grosso do Sul,Branca,6 a 14 anos no ensino fundamental,97.2
+Centro-Oeste,Mato Grosso do Sul,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.3
+Centro-Oeste,Mato Grosso do Sul,Branca,11 a 14 anos nos anos finais do ensino fundamental,87.1
+Centro-Oeste,Mato Grosso do Sul,Branca,15 a 17 anos no ensino médio,72.9
+Centro-Oeste,Mato Grosso do Sul,Branca,18 a 24 no ensino superior,42.0
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,6 a 14 anos no ensino fundamental,94.9
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,91.5
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,87.2
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,15 a 17 anos no ensino médio,71.8
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,18 a 24 no ensino superior,21.9
+Centro-Oeste,Mato Grosso do Sul,Total,6 a 14 anos no ensino fundamental,96.0
+Centro-Oeste,Mato Grosso do Sul,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.2
+Centro-Oeste,Mato Grosso do Sul,Total,11 a 14 anos nos anos finais do ensino fundamental,87.3
+Centro-Oeste,Mato Grosso do Sul,Total,15 a 17 anos no ensino médio,72.2
+Centro-Oeste,Mato Grosso do Sul,Total,18 a 24 no ensino superior,30.0
+Sudeste,Minas Gerais,Branca,6 a 14 anos no ensino fundamental,96.6
+Sudeste,Minas Gerais,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.6
+Sudeste,Minas Gerais,Branca,11 a 14 anos nos anos finais do ensino fundamental,94.5
+Sudeste,Minas Gerais,Branca,15 a 17 anos no ensino médio,88.1
+Sudeste,Minas Gerais,Branca,18 a 24 no ensino superior,38.2
+Sudeste,Minas Gerais,Preta ou parda,6 a 14 anos no ensino fundamental,97.0
+Sudeste,Minas Gerais,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,95.1
+Sudeste,Minas Gerais,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,93.5
+Sudeste,Minas Gerais,Preta ou parda,15 a 17 anos no ensino médio,82.8
+Sudeste,Minas Gerais,Preta ou parda,18 a 24 no ensino superior,20.6
+Sudeste,Minas Gerais,Total,6 a 14 anos no ensino fundamental,96.8
+Sudeste,Minas Gerais,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.9
+Sudeste,Minas Gerais,Total,11 a 14 anos nos anos finais do ensino fundamental,93.8
+Sudeste,Minas Gerais,Total,15 a 17 anos no ensino médio,84.8
+Sudeste,Minas Gerais,Total,18 a 24 no ensino superior,26.9
+Sul,Paraná,Branca,6 a 14 anos no ensino fundamental,94.0
+Sul,Paraná,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,89.9
+Sul,Paraná,Branca,11 a 14 anos nos anos finais do ensino fundamental,92.0
+Sul,Paraná,Branca,15 a 17 anos no ensino médio,90.1
+Sul,Paraná,Branca,18 a 24 no ensino superior,42.4
+Sul,Paraná,Preta ou parda,6 a 14 anos no ensino fundamental,94.3
+Sul,Paraná,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,90.4
+Sul,Paraná,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,88.4
+Sul,Paraná,Preta ou parda,15 a 17 anos no ensino médio,80.8
+Sul,Paraná,Preta ou parda,18 a 24 no ensino superior,25.1
+Sul,Paraná,Total,6 a 14 anos no ensino fundamental,94.1
+Sul,Paraná,Total,6 a 10 anos nos anos iniciais do ensino fundamental,90.1
+Sul,Paraná,Total,11 a 14 anos nos anos finais do ensino fundamental,90.7
+Sul,Paraná,Total,15 a 17 anos no ensino médio,86.6
+Sul,Paraná,Total,18 a 24 no ensino superior,36.0
+Nordeste,Paraíba,Branca,6 a 14 anos no ensino fundamental,96.9
+Nordeste,Paraíba,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.3
+Nordeste,Paraíba,Branca,11 a 14 anos nos anos finais do ensino fundamental,88.4
+Nordeste,Paraíba,Branca,15 a 17 anos no ensino médio,80.9
+Nordeste,Paraíba,Branca,18 a 24 no ensino superior,33.6
+Nordeste,Paraíba,Preta ou parda,6 a 14 anos no ensino fundamental,96.8
+Nordeste,Paraíba,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.0
+Nordeste,Paraíba,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,89.6
+Nordeste,Paraíba,Preta ou parda,15 a 17 anos no ensino médio,71.6
+Nordeste,Paraíba,Preta ou parda,18 a 24 no ensino superior,18.0
+Nordeste,Paraíba,Total,6 a 14 anos no ensino fundamental,96.8
+Nordeste,Paraíba,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.4
+Nordeste,Paraíba,Total,11 a 14 anos nos anos finais do ensino fundamental,89.2
+Nordeste,Paraíba,Total,15 a 17 anos no ensino médio,74.7
+Nordeste,Paraíba,Total,18 a 24 no ensino superior,22.8
+Norte,Pará,Branca,6 a 14 anos no ensino fundamental,94.9
+Norte,Pará,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,92.7
+Norte,Pará,Branca,11 a 14 anos nos anos finais do ensino fundamental,84.8
+Norte,Pará,Branca,15 a 17 anos no ensino médio,75.7
+Norte,Pará,Branca,18 a 24 no ensino superior,34.7
+Norte,Pará,Preta ou parda,6 a 14 anos no ensino fundamental,96.5
+Norte,Pará,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,93.9
+Norte,Pará,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,84.0
+Norte,Pará,Preta ou parda,15 a 17 anos no ensino médio,69.4
+Norte,Pará,Preta ou parda,18 a 24 no ensino superior,19.6
+Norte,Pará,Total,6 a 14 anos no ensino fundamental,96.2
+Norte,Pará,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.7
+Norte,Pará,Total,11 a 14 anos nos anos finais do ensino fundamental,84.1
+Norte,Pará,Total,15 a 17 anos no ensino médio,70.5
+Norte,Pará,Total,18 a 24 no ensino superior,22.7
+Nordeste,Pernambuco,Branca,6 a 14 anos no ensino fundamental,96.7
+Nordeste,Pernambuco,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.8
+Nordeste,Pernambuco,Branca,11 a 14 anos nos anos finais do ensino fundamental,89.4
+Nordeste,Pernambuco,Branca,15 a 17 anos no ensino médio,85.1
+Nordeste,Pernambuco,Branca,18 a 24 no ensino superior,33.9
+Nordeste,Pernambuco,Preta ou parda,6 a 14 anos no ensino fundamental,97.1
+Nordeste,Pernambuco,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.9
+Nordeste,Pernambuco,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,89.4
+Nordeste,Pernambuco,Preta ou parda,15 a 17 anos no ensino médio,77.8
+Nordeste,Pernambuco,Preta ou parda,18 a 24 no ensino superior,20.5
+Nordeste,Pernambuco,Total,6 a 14 anos no ensino fundamental,97.0
+Nordeste,Pernambuco,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.9
+Nordeste,Pernambuco,Total,11 a 14 anos nos anos finais do ensino fundamental,89.4
+Nordeste,Pernambuco,Total,15 a 17 anos no ensino médio,80.5
+Nordeste,Pernambuco,Total,18 a 24 no ensino superior,25.0
+Nordeste,Piauí,Branca,6 a 14 anos no ensino fundamental,94.7
+Nordeste,Piauí,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,92.4
+Nordeste,Piauí,Branca,11 a 14 anos nos anos finais do ensino fundamental,86.1
+Nordeste,Piauí,Branca,15 a 17 anos no ensino médio,80.5
+Nordeste,Piauí,Branca,18 a 24 no ensino superior,39.0
+Nordeste,Piauí,Preta ou parda,6 a 14 anos no ensino fundamental,97.0
+Nordeste,Piauí,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,94.9
+Nordeste,Piauí,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,90.0
+Nordeste,Piauí,Preta ou parda,15 a 17 anos no ensino médio,74.1
+Nordeste,Piauí,Preta ou parda,18 a 24 no ensino superior,27.1
+Nordeste,Piauí,Total,6 a 14 anos no ensino fundamental,96.4
+Nordeste,Piauí,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.2
+Nordeste,Piauí,Total,11 a 14 anos nos anos finais do ensino fundamental,88.9
+Nordeste,Piauí,Total,15 a 17 anos no ensino médio,75.1
+Nordeste,Piauí,Total,18 a 24 no ensino superior,29.6
+Nordeste,Rio Grande do Norte,Branca,6 a 14 anos no ensino fundamental,97.2
+Nordeste,Rio Grande do Norte,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.5
+Nordeste,Rio Grande do Norte,Branca,11 a 14 anos nos anos finais do ensino fundamental,84.8
+Nordeste,Rio Grande do Norte,Branca,15 a 17 anos no ensino médio,70.2
+Nordeste,Rio Grande do Norte,Branca,18 a 24 no ensino superior,36.0
+Nordeste,Rio Grande do Norte,Preta ou parda,6 a 14 anos no ensino fundamental,95.8
+Nordeste,Rio Grande do Norte,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,93.1
+Nordeste,Rio Grande do Norte,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,83.4
+Nordeste,Rio Grande do Norte,Preta ou parda,15 a 17 anos no ensino médio,70.5
+Nordeste,Rio Grande do Norte,Preta ou parda,18 a 24 no ensino superior,22.0
+Nordeste,Rio Grande do Norte,Total,6 a 14 anos no ensino fundamental,96.3
+Nordeste,Rio Grande do Norte,Total,6 a 10 anos nos anos iniciais do ensino fundamental,94.0
+Nordeste,Rio Grande do Norte,Total,11 a 14 anos nos anos finais do ensino fundamental,83.9
+Nordeste,Rio Grande do Norte,Total,15 a 17 anos no ensino médio,70.5
+Nordeste,Rio Grande do Norte,Total,18 a 24 no ensino superior,26.9
+Sul,Rio Grande do Sul,Branca,6 a 14 anos no ensino fundamental,97.3
+Sul,Rio Grande do Sul,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,95.8
+Sul,Rio Grande do Sul,Branca,11 a 14 anos nos anos finais do ensino fundamental,90.6
+Sul,Rio Grande do Sul,Branca,15 a 17 anos no ensino médio,81.4
+Sul,Rio Grande do Sul,Branca,18 a 24 no ensino superior,32.6
+Sul,Rio Grande do Sul,Preta ou parda,6 a 14 anos no ensino fundamental,97.6
+Sul,Rio Grande do Sul,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,96.6
+Sul,Rio Grande do Sul,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,83.8
+Sul,Rio Grande do Sul,Preta ou parda,15 a 17 anos no ensino médio,63.9
+Sul,Rio Grande do Sul,Preta ou parda,18 a 24 no ensino superior,20.0
+Sul,Rio Grande do Sul,Total,6 a 14 anos no ensino fundamental,97.4
+Sul,Rio Grande do Sul,Total,6 a 10 anos nos anos iniciais do ensino fundamental,96.0
+Sul,Rio Grande do Sul,Total,11 a 14 anos nos anos finais do ensino fundamental,89.0
+Sul,Rio Grande do Sul,Total,15 a 17 anos no ensino médio,76.7
+Sul,Rio Grande do Sul,Total,18 a 24 no ensino superior,29.5
+Sudeste,Rio de Janeiro,Branca,6 a 14 anos no ensino fundamental,97.0
+Sudeste,Rio de Janeiro,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.5
+Sudeste,Rio de Janeiro,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.7
+Sudeste,Rio de Janeiro,Branca,15 a 17 anos no ensino médio,86.0
+Sudeste,Rio de Janeiro,Branca,18 a 24 no ensino superior,44.7
+Sudeste,Rio de Janeiro,Preta ou parda,6 a 14 anos no ensino fundamental,95.7
+Sudeste,Rio de Janeiro,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,92.0
+Sudeste,Rio de Janeiro,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,84.3
+Sudeste,Rio de Janeiro,Preta ou parda,15 a 17 anos no ensino médio,77.8
+Sudeste,Rio de Janeiro,Preta ou parda,18 a 24 no ensino superior,24.8
+Sudeste,Rio de Janeiro,Total,6 a 14 anos no ensino fundamental,96.3
+Sudeste,Rio de Janeiro,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.1
+Sudeste,Rio de Janeiro,Total,11 a 14 anos nos anos finais do ensino fundamental,87.3
+Sudeste,Rio de Janeiro,Total,15 a 17 anos no ensino médio,81.0
+Sudeste,Rio de Janeiro,Total,18 a 24 no ensino superior,32.8
+Norte,Rondônia,Branca,6 a 14 anos no ensino fundamental,94.0
+Norte,Rondônia,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,89.3
+Norte,Rondônia,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.5
+Norte,Rondônia,Branca,15 a 17 anos no ensino médio,81.7
+Norte,Rondônia,Branca,18 a 24 no ensino superior,32.8
+Norte,Rondônia,Preta ou parda,6 a 14 anos no ensino fundamental,98.2
+Norte,Rondônia,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,96.9
+Norte,Rondônia,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,93.0
+Norte,Rondônia,Preta ou parda,15 a 17 anos no ensino médio,78.0
+Norte,Rondônia,Preta ou parda,18 a 24 no ensino superior,21.8
+Norte,Rondônia,Total,6 a 14 anos no ensino fundamental,97.1
+Norte,Rondônia,Total,6 a 10 anos nos anos iniciais do ensino fundamental,95.0
+Norte,Rondônia,Total,11 a 14 anos nos anos finais do ensino fundamental,92.4
+Norte,Rondônia,Total,15 a 17 anos no ensino médio,78.8
+Norte,Rondônia,Total,18 a 24 no ensino superior,24.5
+Norte,Roraima,Branca,6 a 14 anos no ensino fundamental,96.6
+Norte,Roraima,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.6
+Norte,Roraima,Branca,11 a 14 anos nos anos finais do ensino fundamental,87.2
+Norte,Roraima,Branca,15 a 17 anos no ensino médio,85.6
+Norte,Roraima,Branca,18 a 24 no ensino superior,35.4
+Norte,Roraima,Preta ou parda,6 a 14 anos no ensino fundamental,95.9
+Norte,Roraima,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,96.0
+Norte,Roraima,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,80.1
+Norte,Roraima,Preta ou parda,15 a 17 anos no ensino médio,74.5
+Norte,Roraima,Preta ou parda,18 a 24 no ensino superior,25.2
+Norte,Roraima,Total,6 a 14 anos no ensino fundamental,95.9
+Norte,Roraima,Total,6 a 10 anos nos anos iniciais do ensino fundamental,95.5
+Norte,Roraima,Total,11 a 14 anos nos anos finais do ensino fundamental,81.8
+Norte,Roraima,Total,15 a 17 anos no ensino médio,77.4
+Norte,Roraima,Total,18 a 24 no ensino superior,27.1
+Sul,Santa Catarina,Branca,6 a 14 anos no ensino fundamental,96.0
+Sul,Santa Catarina,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,93.2
+Sul,Santa Catarina,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.8
+Sul,Santa Catarina,Branca,15 a 17 anos no ensino médio,86.5
+Sul,Santa Catarina,Branca,18 a 24 no ensino superior,38.9
+Sul,Santa Catarina,Preta ou parda,6 a 14 anos no ensino fundamental,94.8
+Sul,Santa Catarina,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,91.4
+Sul,Santa Catarina,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,85.9
+Sul,Santa Catarina,Preta ou parda,15 a 17 anos no ensino médio,75.0
+Sul,Santa Catarina,Preta ou parda,18 a 24 no ensino superior,19.4
+Sul,Santa Catarina,Total,6 a 14 anos no ensino fundamental,95.7
+Sul,Santa Catarina,Total,6 a 10 anos nos anos iniciais do ensino fundamental,92.8
+Sul,Santa Catarina,Total,11 a 14 anos nos anos finais do ensino fundamental,90.3
+Sul,Santa Catarina,Total,15 a 17 anos no ensino médio,83.6
+Sul,Santa Catarina,Total,18 a 24 no ensino superior,32.9
+Nordeste,Sergipe,Branca,6 a 14 anos no ensino fundamental,97.3
+Nordeste,Sergipe,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,94.8
+Nordeste,Sergipe,Branca,11 a 14 anos nos anos finais do ensino fundamental,87.2
+Nordeste,Sergipe,Branca,15 a 17 anos no ensino médio,82.3
+Nordeste,Sergipe,Branca,18 a 24 no ensino superior,36.7
+Nordeste,Sergipe,Preta ou parda,6 a 14 anos no ensino fundamental,97.1
+Nordeste,Sergipe,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,95.3
+Nordeste,Sergipe,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,87.5
+Nordeste,Sergipe,Preta ou parda,15 a 17 anos no ensino médio,66.1
+Nordeste,Sergipe,Preta ou parda,18 a 24 no ensino superior,25.7
+Nordeste,Sergipe,Total,6 a 14 anos no ensino fundamental,97.1
+Nordeste,Sergipe,Total,6 a 10 anos nos anos iniciais do ensino fundamental,95.2
+Nordeste,Sergipe,Total,11 a 14 anos nos anos finais do ensino fundamental,87.5
+Nordeste,Sergipe,Total,15 a 17 anos no ensino médio,70.0
+Nordeste,Sergipe,Total,18 a 24 no ensino superior,28.3
+Sudeste,São Paulo,Branca,6 a 14 anos no ensino fundamental,96.1
+Sudeste,São Paulo,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,93.4
+Sudeste,São Paulo,Branca,11 a 14 anos nos anos finais do ensino fundamental,94.4
+Sudeste,São Paulo,Branca,15 a 17 anos no ensino médio,86.8
+Sudeste,São Paulo,Branca,18 a 24 no ensino superior,43.3
+Sudeste,São Paulo,Preta ou parda,6 a 14 anos no ensino fundamental,95.7
+Sudeste,São Paulo,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,92.4
+Sudeste,São Paulo,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,92.9
+Sudeste,São Paulo,Preta ou parda,15 a 17 anos no ensino médio,85.6
+Sudeste,São Paulo,Preta ou parda,18 a 24 no ensino superior,23.1
+Sudeste,São Paulo,Total,6 a 14 anos no ensino fundamental,96.0
+Sudeste,São Paulo,Total,6 a 10 anos nos anos iniciais do ensino fundamental,93.0
+Sudeste,São Paulo,Total,11 a 14 anos nos anos finais do ensino fundamental,93.7
+Sudeste,São Paulo,Total,15 a 17 anos no ensino médio,86.5
+Sudeste,São Paulo,Total,18 a 24 no ensino superior,33.5
+Norte,Tocantins,Branca,6 a 14 anos no ensino fundamental,93.1
+Norte,Tocantins,Branca,6 a 10 anos nos anos iniciais do ensino fundamental,88.6
+Norte,Tocantins,Branca,11 a 14 anos nos anos finais do ensino fundamental,91.4
+Norte,Tocantins,Branca,15 a 17 anos no ensino médio,96.6
+Norte,Tocantins,Branca,18 a 24 no ensino superior,39.5
+Norte,Tocantins,Preta ou parda,6 a 14 anos no ensino fundamental,95.4
+Norte,Tocantins,Preta ou parda,6 a 10 anos nos anos iniciais do ensino fundamental,91.6
+Norte,Tocantins,Preta ou parda,11 a 14 anos nos anos finais do ensino fundamental,91.8
+Norte,Tocantins,Preta ou parda,15 a 17 anos no ensino médio,82.2
+Norte,Tocantins,Preta ou parda,18 a 24 no ensino superior,30.5
+Norte,Tocantins,Total,6 a 14 anos no ensino fundamental,94.9
+Norte,Tocantins,Total,6 a 10 anos nos anos iniciais do ensino fundamental,91.0
+Norte,Tocantins,Total,11 a 14 anos nos anos finais do ensino fundamental,91.9
+Norte,Tocantins,Total,15 a 17 anos no ensino médio,84.3
+Norte,Tocantins,Total,18 a 24 no ensino superior,32.5

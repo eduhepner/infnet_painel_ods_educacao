@@ -1,0 +1,649 @@
+Região,Estado,Cor/raça,Grupo de idade,Taxa de escolarização (%)
+Norte,Acre,Branca,Total,35.2
+Norte,Acre,Branca,0 a 5 anos,36.8
+Norte,Acre,Branca,0 a 3 anos,13.5
+Norte,Acre,Branca,4 a 5 anos,86.6
+Norte,Acre,Branca,6 a 14 anos,99.7
+Norte,Acre,Branca,15 a 17 anos,91.1
+Norte,Acre,Branca,18 a 24 anos,36.9
+Norte,Acre,Branca,25 anos ou mais,8.4
+Norte,Acre,Preta ou parda,Total,31.7
+Norte,Acre,Preta ou parda,0 a 5 anos,41.0
+Norte,Acre,Preta ou parda,0 a 3 anos,19.3
+Norte,Acre,Preta ou parda,4 a 5 anos,79.4
+Norte,Acre,Preta ou parda,6 a 14 anos,98.6
+Norte,Acre,Preta ou parda,15 a 17 anos,89.4
+Norte,Acre,Preta ou parda,18 a 24 anos,28.2
+Norte,Acre,Preta ou parda,25 anos ou mais,5.9
+Norte,Acre,Total,Total,32.4
+Norte,Acre,Total,0 a 5 anos,40.3
+Norte,Acre,Total,0 a 3 anos,18.1
+Norte,Acre,Total,4 a 5 anos,80.6
+Norte,Acre,Total,6 a 14 anos,98.8
+Norte,Acre,Total,15 a 17 anos,89.2
+Norte,Acre,Total,18 a 24 anos,29.8
+Norte,Acre,Total,25 anos ou mais,6.3
+Nordeste,Alagoas,Branca,Total,31.8
+Nordeste,Alagoas,Branca,0 a 5 anos,53.4
+Nordeste,Alagoas,Branca,0 a 3 anos,37.1
+Nordeste,Alagoas,Branca,4 a 5 anos,93.1
+Nordeste,Alagoas,Branca,6 a 14 anos,98.7
+Nordeste,Alagoas,Branca,15 a 17 anos,92.5
+Nordeste,Alagoas,Branca,18 a 24 anos,33.4
+Nordeste,Alagoas,Branca,25 anos ou mais,6.5
+Nordeste,Alagoas,Preta ou parda,Total,29.9
+Nordeste,Alagoas,Preta ou parda,0 a 5 anos,62.7
+Nordeste,Alagoas,Preta ou parda,0 a 3 anos,44.2
+Nordeste,Alagoas,Preta ou parda,4 a 5 anos,96.9
+Nordeste,Alagoas,Preta ou parda,6 a 14 anos,99.8
+Nordeste,Alagoas,Preta ou parda,15 a 17 anos,93.5
+Nordeste,Alagoas,Preta ou parda,18 a 24 anos,23.5
+Nordeste,Alagoas,Preta ou parda,25 anos ou mais,5.9
+Nordeste,Alagoas,Total,Total,30.4
+Nordeste,Alagoas,Total,0 a 5 anos,59.5
+Nordeste,Alagoas,Total,0 a 3 anos,41.4
+Nordeste,Alagoas,Total,4 a 5 anos,95.8
+Nordeste,Alagoas,Total,6 a 14 anos,99.4
+Nordeste,Alagoas,Total,15 a 17 anos,93.2
+Nordeste,Alagoas,Total,18 a 24 anos,26.2
+Nordeste,Alagoas,Total,25 anos ou mais,6.0
+Norte,Amapá,Branca,Total,29.7
+Norte,Amapá,Branca,0 a 5 anos,22.6
+Norte,Amapá,Branca,0 a 3 anos,9.7
+Norte,Amapá,Branca,4 a 5 anos,50.6
+Norte,Amapá,Branca,6 a 14 anos,93.7
+Norte,Amapá,Branca,15 a 17 anos,90.7
+Norte,Amapá,Branca,18 a 24 anos,36.1
+Norte,Amapá,Branca,25 anos ou mais,3.6
+Norte,Amapá,Preta ou parda,Total,29.1
+Norte,Amapá,Preta ou parda,0 a 5 anos,28.0
+Norte,Amapá,Preta ou parda,0 a 3 anos,7.5
+Norte,Amapá,Preta ou parda,4 a 5 anos,62.8
+Norte,Amapá,Preta ou parda,6 a 14 anos,98.9
+Norte,Amapá,Preta ou parda,15 a 17 anos,90.7
+Norte,Amapá,Preta ou parda,18 a 24 anos,27.6
+Norte,Amapá,Preta ou parda,25 anos ou mais,4.7
+Norte,Amapá,Total,Total,29.1
+Norte,Amapá,Total,0 a 5 anos,26.6
+Norte,Amapá,Total,0 a 3 anos,8.1
+Norte,Amapá,Total,4 a 5 anos,60.0
+Norte,Amapá,Total,6 a 14 anos,97.4
+Norte,Amapá,Total,15 a 17 anos,90.7
+Norte,Amapá,Total,18 a 24 anos,29.6
+Norte,Amapá,Total,25 anos ou mais,4.5
+Norte,Amazonas,Branca,Total,32.2
+Norte,Amazonas,Branca,0 a 5 anos,43.6
+Norte,Amazonas,Branca,0 a 3 anos,22.0
+Norte,Amazonas,Branca,4 a 5 anos,87.4
+Norte,Amazonas,Branca,6 a 14 anos,98.1
+Norte,Amazonas,Branca,15 a 17 anos,88.8
+Norte,Amazonas,Branca,18 a 24 anos,32.4
+Norte,Amazonas,Branca,25 anos ou mais,6.9
+Norte,Amazonas,Preta ou parda,Total,31.8
+Norte,Amazonas,Preta ou parda,0 a 5 anos,45.7
+Norte,Amazonas,Preta ou parda,0 a 3 anos,18.8
+Norte,Amazonas,Preta ou parda,4 a 5 anos,86.3
+Norte,Amazonas,Preta ou parda,6 a 14 anos,98.7
+Norte,Amazonas,Preta ou parda,15 a 17 anos,93.0
+Norte,Amazonas,Preta ou parda,18 a 24 anos,32.5
+Norte,Amazonas,Preta ou parda,25 anos ou mais,6.6
+Norte,Amazonas,Total,Total,32.1
+Norte,Amazonas,Total,0 a 5 anos,45.3
+Norte,Amazonas,Total,0 a 3 anos,19.8
+Norte,Amazonas,Total,4 a 5 anos,86.5
+Norte,Amazonas,Total,6 a 14 anos,98.6
+Norte,Amazonas,Total,15 a 17 anos,92.1
+Norte,Amazonas,Total,18 a 24 anos,32.1
+Norte,Amazonas,Total,25 anos ou mais,6.8
+Nordeste,Bahia,Branca,Total,27.2
+Nordeste,Bahia,Branca,0 a 5 anos,61.2
+Nordeste,Bahia,Branca,0 a 3 anos,41.8
+Nordeste,Bahia,Branca,4 a 5 anos,99.7
+Nordeste,Bahia,Branca,6 a 14 anos,99.5
+Nordeste,Bahia,Branca,15 a 17 anos,92.1
+Nordeste,Bahia,Branca,18 a 24 anos,38.8
+Nordeste,Bahia,Branca,25 anos ou mais,5.2
+Nordeste,Bahia,Preta ou parda,Total,27.7
+Nordeste,Bahia,Preta ou parda,0 a 5 anos,64.2
+Nordeste,Bahia,Preta ou parda,0 a 3 anos,43.4
+Nordeste,Bahia,Preta ou parda,4 a 5 anos,97.3
+Nordeste,Bahia,Preta ou parda,6 a 14 anos,99.5
+Nordeste,Bahia,Preta ou parda,15 a 17 anos,93.6
+Nordeste,Bahia,Preta ou parda,18 a 24 anos,28.0
+Nordeste,Bahia,Preta ou parda,25 anos ou mais,5.2
+Nordeste,Bahia,Total,Total,27.6
+Nordeste,Bahia,Total,0 a 5 anos,63.7
+Nordeste,Bahia,Total,0 a 3 anos,43.1
+Nordeste,Bahia,Total,4 a 5 anos,97.8
+Nordeste,Bahia,Total,6 a 14 anos,99.5
+Nordeste,Bahia,Total,15 a 17 anos,93.3
+Nordeste,Bahia,Total,18 a 24 anos,29.9
+Nordeste,Bahia,Total,25 anos ou mais,5.2
+Nordeste,Ceará,Branca,Total,28.6
+Nordeste,Ceará,Branca,0 a 5 anos,56.7
+Nordeste,Ceará,Branca,0 a 3 anos,37.3
+Nordeste,Ceará,Branca,4 a 5 anos,99.2
+Nordeste,Ceará,Branca,6 a 14 anos,99.5
+Nordeste,Ceará,Branca,15 a 17 anos,94.5
+Nordeste,Ceará,Branca,18 a 24 anos,35.1
+Nordeste,Ceará,Branca,25 anos ou mais,5.8
+Nordeste,Ceará,Preta ou parda,Total,26.4
+Nordeste,Ceará,Preta ou parda,0 a 5 anos,63.3
+Nordeste,Ceará,Preta ou parda,0 a 3 anos,41.4
+Nordeste,Ceará,Preta ou parda,4 a 5 anos,98.8
+Nordeste,Ceará,Preta ou parda,6 a 14 anos,99.6
+Nordeste,Ceará,Preta ou parda,15 a 17 anos,92.1
+Nordeste,Ceará,Preta ou parda,18 a 24 anos,23.6
+Nordeste,Ceará,Preta ou parda,25 anos ou mais,4.4
+Nordeste,Ceará,Total,Total,27.0
+Nordeste,Ceará,Total,0 a 5 anos,61.4
+Nordeste,Ceará,Total,0 a 3 anos,40.2
+Nordeste,Ceará,Total,4 a 5 anos,98.9
+Nordeste,Ceará,Total,6 a 14 anos,99.6
+Nordeste,Ceará,Total,15 a 17 anos,92.8
+Nordeste,Ceará,Total,18 a 24 anos,26.8
+Nordeste,Ceará,Total,25 anos ou mais,4.7
+Centro-Oeste,Distrito Federal,Branca,Total,33.1
+Centro-Oeste,Distrito Federal,Branca,0 a 5 anos,59.4
+Centro-Oeste,Distrito Federal,Branca,0 a 3 anos,38.7
+Centro-Oeste,Distrito Federal,Branca,4 a 5 anos,97.3
+Centro-Oeste,Distrito Federal,Branca,6 a 14 anos,100.0
+Centro-Oeste,Distrito Federal,Branca,15 a 17 anos,96.3
+Centro-Oeste,Distrito Federal,Branca,18 a 24 anos,62.3
+Centro-Oeste,Distrito Federal,Branca,25 anos ou mais,9.8
+Centro-Oeste,Distrito Federal,Preta ou parda,Total,31.3
+Centro-Oeste,Distrito Federal,Preta ou parda,0 a 5 anos,60.0
+Centro-Oeste,Distrito Federal,Preta ou parda,0 a 3 anos,39.9
+Centro-Oeste,Distrito Federal,Preta ou parda,4 a 5 anos,95.7
+Centro-Oeste,Distrito Federal,Preta ou parda,6 a 14 anos,99.4
+Centro-Oeste,Distrito Federal,Preta ou parda,15 a 17 anos,98.5
+Centro-Oeste,Distrito Federal,Preta ou parda,18 a 24 anos,44.1
+Centro-Oeste,Distrito Federal,Preta ou parda,25 anos ou mais,8.5
+Centro-Oeste,Distrito Federal,Total,Total,32.0
+Centro-Oeste,Distrito Federal,Total,0 a 5 anos,59.7
+Centro-Oeste,Distrito Federal,Total,0 a 3 anos,39.4
+Centro-Oeste,Distrito Federal,Total,4 a 5 anos,96.3
+Centro-Oeste,Distrito Federal,Total,6 a 14 anos,99.6
+Centro-Oeste,Distrito Federal,Total,15 a 17 anos,97.6
+Centro-Oeste,Distrito Federal,Total,18 a 24 anos,50.9
+Centro-Oeste,Distrito Federal,Total,25 anos ou mais,9.0
+Sudeste,Espírito Santo,Branca,Total,25.7
+Sudeste,Espírito Santo,Branca,0 a 5 anos,56.9
+Sudeste,Espírito Santo,Branca,0 a 3 anos,36.6
+Sudeste,Espírito Santo,Branca,4 a 5 anos,91.5
+Sudeste,Espírito Santo,Branca,6 a 14 anos,99.9
+Sudeste,Espírito Santo,Branca,15 a 17 anos,95.8
+Sudeste,Espírito Santo,Branca,18 a 24 anos,43.8
+Sudeste,Espírito Santo,Branca,25 anos ou mais,4.8
+Sudeste,Espírito Santo,Preta ou parda,Total,27.1
+Sudeste,Espírito Santo,Preta ou parda,0 a 5 anos,57.7
+Sudeste,Espírito Santo,Preta ou parda,0 a 3 anos,37.0
+Sudeste,Espírito Santo,Preta ou parda,4 a 5 anos,92.5
+Sudeste,Espírito Santo,Preta ou parda,6 a 14 anos,99.6
+Sudeste,Espírito Santo,Preta ou parda,15 a 17 anos,93.4
+Sudeste,Espírito Santo,Preta ou parda,18 a 24 anos,26.2
+Sudeste,Espírito Santo,Preta ou parda,25 anos ou mais,4.3
+Sudeste,Espírito Santo,Total,Total,26.5
+Sudeste,Espírito Santo,Total,0 a 5 anos,57.3
+Sudeste,Espírito Santo,Total,0 a 3 anos,36.7
+Sudeste,Espírito Santo,Total,4 a 5 anos,92.1
+Sudeste,Espírito Santo,Total,6 a 14 anos,99.7
+Sudeste,Espírito Santo,Total,15 a 17 anos,94.2
+Sudeste,Espírito Santo,Total,18 a 24 anos,31.8
+Sudeste,Espírito Santo,Total,25 anos ou mais,4.5
+Centro-Oeste,Goiás,Branca,Total,27.1
+Centro-Oeste,Goiás,Branca,0 a 5 anos,51.9
+Centro-Oeste,Goiás,Branca,0 a 3 anos,31.8
+Centro-Oeste,Goiás,Branca,4 a 5 anos,92.5
+Centro-Oeste,Goiás,Branca,6 a 14 anos,99.4
+Centro-Oeste,Goiás,Branca,15 a 17 anos,95.7
+Centro-Oeste,Goiás,Branca,18 a 24 anos,41.2
+Centro-Oeste,Goiás,Branca,25 anos ou mais,5.0
+Centro-Oeste,Goiás,Preta ou parda,Total,26.5
+Centro-Oeste,Goiás,Preta ou parda,0 a 5 anos,56.3
+Centro-Oeste,Goiás,Preta ou parda,0 a 3 anos,33.2
+Centro-Oeste,Goiás,Preta ou parda,4 a 5 anos,92.8
+Centro-Oeste,Goiás,Preta ou parda,6 a 14 anos,99.5
+Centro-Oeste,Goiás,Preta ou parda,15 a 17 anos,90.7
+Centro-Oeste,Goiás,Preta ou parda,18 a 24 anos,26.9
+Centro-Oeste,Goiás,Preta ou parda,25 anos ou mais,4.9
+Centro-Oeste,Goiás,Total,Total,26.6
+Centro-Oeste,Goiás,Total,0 a 5 anos,54.5
+Centro-Oeste,Goiás,Total,0 a 3 anos,32.6
+Centro-Oeste,Goiás,Total,4 a 5 anos,92.7
+Centro-Oeste,Goiás,Total,6 a 14 anos,99.4
+Centro-Oeste,Goiás,Total,15 a 17 anos,92.3
+Centro-Oeste,Goiás,Total,18 a 24 anos,31.4
+Centro-Oeste,Goiás,Total,25 anos ou mais,5.0
+Nordeste,Maranhão,Branca,Total,30.4
+Nordeste,Maranhão,Branca,0 a 5 anos,54.3
+Nordeste,Maranhão,Branca,0 a 3 anos,37.6
+Nordeste,Maranhão,Branca,4 a 5 anos,97.0
+Nordeste,Maranhão,Branca,6 a 14 anos,99.3
+Nordeste,Maranhão,Branca,15 a 17 anos,90.2
+Nordeste,Maranhão,Branca,18 a 24 anos,34.7
+Nordeste,Maranhão,Branca,25 anos ou mais,4.3
+Nordeste,Maranhão,Preta ou parda,Total,30.4
+Nordeste,Maranhão,Preta ou parda,0 a 5 anos,61.9
+Nordeste,Maranhão,Preta ou parda,0 a 3 anos,38.8
+Nordeste,Maranhão,Preta ou parda,4 a 5 anos,98.4
+Nordeste,Maranhão,Preta ou parda,6 a 14 anos,99.7
+Nordeste,Maranhão,Preta ou parda,15 a 17 anos,93.1
+Nordeste,Maranhão,Preta ou parda,18 a 24 anos,25.3
+Nordeste,Maranhão,Preta ou parda,25 anos ou mais,4.0
+Nordeste,Maranhão,Total,Total,30.4
+Nordeste,Maranhão,Total,0 a 5 anos,60.2
+Nordeste,Maranhão,Total,0 a 3 anos,38.7
+Nordeste,Maranhão,Total,4 a 5 anos,98.1
+Nordeste,Maranhão,Total,6 a 14 anos,99.6
+Nordeste,Maranhão,Total,15 a 17 anos,92.6
+Nordeste,Maranhão,Total,18 a 24 anos,27.2
+Nordeste,Maranhão,Total,25 anos ou mais,4.0
+Centro-Oeste,Mato Grosso,Branca,Total,31.6
+Centro-Oeste,Mato Grosso,Branca,0 a 5 anos,52.8
+Centro-Oeste,Mato Grosso,Branca,0 a 3 anos,36.6
+Centro-Oeste,Mato Grosso,Branca,4 a 5 anos,94.2
+Centro-Oeste,Mato Grosso,Branca,6 a 14 anos,99.3
+Centro-Oeste,Mato Grosso,Branca,15 a 17 anos,98.2
+Centro-Oeste,Mato Grosso,Branca,18 a 24 anos,33.3
+Centro-Oeste,Mato Grosso,Branca,25 anos ou mais,6.5
+Centro-Oeste,Mato Grosso,Preta ou parda,Total,28.6
+Centro-Oeste,Mato Grosso,Preta ou parda,0 a 5 anos,57.9
+Centro-Oeste,Mato Grosso,Preta ou parda,0 a 3 anos,37.6
+Centro-Oeste,Mato Grosso,Preta ou parda,4 a 5 anos,94.2
+Centro-Oeste,Mato Grosso,Preta ou parda,6 a 14 anos,99.8
+Centro-Oeste,Mato Grosso,Preta ou parda,15 a 17 anos,89.6
+Centro-Oeste,Mato Grosso,Preta ou parda,18 a 24 anos,23.6
+Centro-Oeste,Mato Grosso,Preta ou parda,25 anos ou mais,4.8
+Centro-Oeste,Mato Grosso,Total,Total,29.5
+Centro-Oeste,Mato Grosso,Total,0 a 5 anos,55.9
+Centro-Oeste,Mato Grosso,Total,0 a 3 anos,37.1
+Centro-Oeste,Mato Grosso,Total,4 a 5 anos,94.2
+Centro-Oeste,Mato Grosso,Total,6 a 14 anos,99.7
+Centro-Oeste,Mato Grosso,Total,15 a 17 anos,92.4
+Centro-Oeste,Mato Grosso,Total,18 a 24 anos,26.5
+Centro-Oeste,Mato Grosso,Total,25 anos ou mais,5.3
+Centro-Oeste,Mato Grosso do Sul,Branca,Total,28.8
+Centro-Oeste,Mato Grosso do Sul,Branca,0 a 5 anos,53.6
+Centro-Oeste,Mato Grosso do Sul,Branca,0 a 3 anos,33.6
+Centro-Oeste,Mato Grosso do Sul,Branca,4 a 5 anos,90.9
+Centro-Oeste,Mato Grosso do Sul,Branca,6 a 14 anos,99.6
+Centro-Oeste,Mato Grosso do Sul,Branca,15 a 17 anos,91.6
+Centro-Oeste,Mato Grosso do Sul,Branca,18 a 24 anos,42.4
+Centro-Oeste,Mato Grosso do Sul,Branca,25 anos ou mais,5.6
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,Total,28.2
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,0 a 5 anos,60.5
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,0 a 3 anos,40.9
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,4 a 5 anos,93.8
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,6 a 14 anos,99.5
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,15 a 17 anos,91.7
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,18 a 24 anos,28.9
+Centro-Oeste,Mato Grosso do Sul,Preta ou parda,25 anos ou mais,4.9
+Centro-Oeste,Mato Grosso do Sul,Total,Total,28.5
+Centro-Oeste,Mato Grosso do Sul,Total,0 a 5 anos,57.0
+Centro-Oeste,Mato Grosso do Sul,Total,0 a 3 anos,37.1
+Centro-Oeste,Mato Grosso do Sul,Total,4 a 5 anos,92.4
+Centro-Oeste,Mato Grosso do Sul,Total,6 a 14 anos,99.5
+Centro-Oeste,Mato Grosso do Sul,Total,15 a 17 anos,91.8
+Centro-Oeste,Mato Grosso do Sul,Total,18 a 24 anos,34.4
+Centro-Oeste,Mato Grosso do Sul,Total,25 anos ou mais,5.2
+Sudeste,Minas Gerais,Branca,Total,25.2
+Sudeste,Minas Gerais,Branca,0 a 5 anos,56.9
+Sudeste,Minas Gerais,Branca,0 a 3 anos,36.8
+Sudeste,Minas Gerais,Branca,4 a 5 anos,96.3
+Sudeste,Minas Gerais,Branca,6 a 14 anos,99.6
+Sudeste,Minas Gerais,Branca,15 a 17 anos,94.2
+Sudeste,Minas Gerais,Branca,18 a 24 anos,37.2
+Sudeste,Minas Gerais,Branca,25 anos ou mais,4.7
+Sudeste,Minas Gerais,Preta ou parda,Total,25.2
+Sudeste,Minas Gerais,Preta ou parda,0 a 5 anos,61.6
+Sudeste,Minas Gerais,Preta ou parda,0 a 3 anos,41.5
+Sudeste,Minas Gerais,Preta ou parda,4 a 5 anos,95.4
+Sudeste,Minas Gerais,Preta ou parda,6 a 14 anos,99.7
+Sudeste,Minas Gerais,Preta ou parda,15 a 17 anos,93.4
+Sudeste,Minas Gerais,Preta ou parda,18 a 24 anos,23.5
+Sudeste,Minas Gerais,Preta ou parda,25 anos ou mais,4.4
+Sudeste,Minas Gerais,Total,Total,25.2
+Sudeste,Minas Gerais,Total,0 a 5 anos,59.4
+Sudeste,Minas Gerais,Total,0 a 3 anos,39.3
+Sudeste,Minas Gerais,Total,4 a 5 anos,95.6
+Sudeste,Minas Gerais,Total,6 a 14 anos,99.6
+Sudeste,Minas Gerais,Total,15 a 17 anos,93.7
+Sudeste,Minas Gerais,Total,18 a 24 anos,28.4
+Sudeste,Minas Gerais,Total,25 anos ou mais,4.6
+Sul,Paraná,Branca,Total,27.6
+Sul,Paraná,Branca,0 a 5 anos,61.8
+Sul,Paraná,Branca,0 a 3 anos,45.4
+Sul,Paraná,Branca,4 a 5 anos,95.2
+Sul,Paraná,Branca,6 a 14 anos,98.8
+Sul,Paraná,Branca,15 a 17 anos,90.0
+Sul,Paraná,Branca,18 a 24 anos,38.1
+Sul,Paraná,Branca,25 anos ou mais,5.9
+Sul,Paraná,Preta ou parda,Total,26.7
+Sul,Paraná,Preta ou parda,0 a 5 anos,68.6
+Sul,Paraná,Preta ou parda,0 a 3 anos,49.1
+Sul,Paraná,Preta ou parda,4 a 5 anos,95.6
+Sul,Paraná,Preta ou parda,6 a 14 anos,99.2
+Sul,Paraná,Preta ou parda,15 a 17 anos,92.3
+Sul,Paraná,Preta ou parda,18 a 24 anos,25.5
+Sul,Paraná,Preta ou parda,25 anos ou mais,5.1
+Sul,Paraná,Total,Total,27.2
+Sul,Paraná,Total,0 a 5 anos,64.0
+Sul,Paraná,Total,0 a 3 anos,46.5
+Sul,Paraná,Total,4 a 5 anos,95.4
+Sul,Paraná,Total,6 a 14 anos,99.0
+Sul,Paraná,Total,15 a 17 anos,90.9
+Sul,Paraná,Total,18 a 24 anos,33.5
+Sul,Paraná,Total,25 anos ou mais,5.7
+Nordeste,Paraíba,Branca,Total,30.6
+Nordeste,Paraíba,Branca,0 a 5 anos,59.4
+Nordeste,Paraíba,Branca,0 a 3 anos,36.4
+Nordeste,Paraíba,Branca,4 a 5 anos,95.7
+Nordeste,Paraíba,Branca,6 a 14 anos,99.3
+Nordeste,Paraíba,Branca,15 a 17 anos,94.1
+Nordeste,Paraíba,Branca,18 a 24 anos,39.4
+Nordeste,Paraíba,Branca,25 anos ou mais,5.0
+Nordeste,Paraíba,Preta ou parda,Total,27.5
+Nordeste,Paraíba,Preta ou parda,0 a 5 anos,56.4
+Nordeste,Paraíba,Preta ou parda,0 a 3 anos,34.3
+Nordeste,Paraíba,Preta ou parda,4 a 5 anos,93.6
+Nordeste,Paraíba,Preta ou parda,6 a 14 anos,99.5
+Nordeste,Paraíba,Preta ou parda,15 a 17 anos,92.4
+Nordeste,Paraíba,Preta ou parda,18 a 24 anos,25.3
+Nordeste,Paraíba,Preta ou parda,25 anos ou mais,3.9
+Nordeste,Paraíba,Total,Total,28.5
+Nordeste,Paraíba,Total,0 a 5 anos,57.6
+Nordeste,Paraíba,Total,0 a 3 anos,35.1
+Nordeste,Paraíba,Total,4 a 5 anos,94.4
+Nordeste,Paraíba,Total,6 a 14 anos,99.4
+Nordeste,Paraíba,Total,15 a 17 anos,93.0
+Nordeste,Paraíba,Total,18 a 24 anos,29.6
+Nordeste,Paraíba,Total,25 anos ou mais,4.3
+Norte,Pará,Branca,Total,33.3
+Norte,Pará,Branca,0 a 5 anos,49.6
+Norte,Pará,Branca,0 a 3 anos,25.8
+Norte,Pará,Branca,4 a 5 anos,96.1
+Norte,Pará,Branca,6 a 14 anos,98.7
+Norte,Pará,Branca,15 a 17 anos,97.0
+Norte,Pará,Branca,18 a 24 anos,36.2
+Norte,Pará,Branca,25 anos ou mais,6.2
+Norte,Pará,Preta ou parda,Total,31.2
+Norte,Pará,Preta ou parda,0 a 5 anos,48.4
+Norte,Pará,Preta ou parda,0 a 3 anos,24.0
+Norte,Pará,Preta ou parda,4 a 5 anos,93.4
+Norte,Pará,Preta ou parda,6 a 14 anos,99.5
+Norte,Pará,Preta ou parda,15 a 17 anos,90.5
+Norte,Pará,Preta ou parda,18 a 24 anos,31.6
+Norte,Pará,Preta ou parda,25 anos ou mais,6.1
+Norte,Pará,Total,Total,31.6
+Norte,Pará,Total,0 a 5 anos,48.7
+Norte,Pará,Total,0 a 3 anos,24.4
+Norte,Pará,Total,4 a 5 anos,94.1
+Norte,Pará,Total,6 a 14 anos,99.4
+Norte,Pará,Total,15 a 17 anos,91.6
+Norte,Pará,Total,18 a 24 anos,32.7
+Norte,Pará,Total,25 anos ou mais,6.0
+Nordeste,Pernambuco,Branca,Total,29.0
+Nordeste,Pernambuco,Branca,0 a 5 anos,56.8
+Nordeste,Pernambuco,Branca,0 a 3 anos,34.5
+Nordeste,Pernambuco,Branca,4 a 5 anos,96.9
+Nordeste,Pernambuco,Branca,6 a 14 anos,99.5
+Nordeste,Pernambuco,Branca,15 a 17 anos,94.7
+Nordeste,Pernambuco,Branca,18 a 24 anos,33.2
+Nordeste,Pernambuco,Branca,25 anos ou mais,4.9
+Nordeste,Pernambuco,Preta ou parda,Total,26.0
+Nordeste,Pernambuco,Preta ou parda,0 a 5 anos,55.2
+Nordeste,Pernambuco,Preta ou parda,0 a 3 anos,33.2
+Nordeste,Pernambuco,Preta ou parda,4 a 5 anos,94.8
+Nordeste,Pernambuco,Preta ou parda,6 a 14 anos,99.8
+Nordeste,Pernambuco,Preta ou parda,15 a 17 anos,90.6
+Nordeste,Pernambuco,Preta ou parda,18 a 24 anos,25.4
+Nordeste,Pernambuco,Preta ou parda,25 anos ou mais,4.0
+Nordeste,Pernambuco,Total,Total,27.0
+Nordeste,Pernambuco,Total,0 a 5 anos,56.0
+Nordeste,Pernambuco,Total,0 a 3 anos,33.9
+Nordeste,Pernambuco,Total,4 a 5 anos,95.4
+Nordeste,Pernambuco,Total,6 a 14 anos,99.7
+Nordeste,Pernambuco,Total,15 a 17 anos,92.1
+Nordeste,Pernambuco,Total,18 a 24 anos,28.1
+Nordeste,Pernambuco,Total,25 anos ou mais,4.3
+Nordeste,Piauí,Branca,Total,28.8
+Nordeste,Piauí,Branca,0 a 5 anos,50.3
+Nordeste,Piauí,Branca,0 a 3 anos,25.9
+Nordeste,Piauí,Branca,4 a 5 anos,97.4
+Nordeste,Piauí,Branca,6 a 14 anos,98.8
+Nordeste,Piauí,Branca,15 a 17 anos,95.6
+Nordeste,Piauí,Branca,18 a 24 anos,44.8
+Nordeste,Piauí,Branca,25 anos ou mais,4.7
+Nordeste,Piauí,Preta ou parda,Total,28.5
+Nordeste,Piauí,Preta ou parda,0 a 5 anos,64.0
+Nordeste,Piauí,Preta ou parda,0 a 3 anos,41.2
+Nordeste,Piauí,Preta ou parda,4 a 5 anos,98.4
+Nordeste,Piauí,Preta ou parda,6 a 14 anos,99.4
+Nordeste,Piauí,Preta ou parda,15 a 17 anos,91.6
+Nordeste,Piauí,Preta ou parda,18 a 24 anos,34.8
+Nordeste,Piauí,Preta ou parda,25 anos ou mais,4.2
+Nordeste,Piauí,Total,Total,28.6
+Nordeste,Piauí,Total,0 a 5 anos,60.7
+Nordeste,Piauí,Total,0 a 3 anos,37.3
+Nordeste,Piauí,Total,4 a 5 anos,98.2
+Nordeste,Piauí,Total,6 a 14 anos,99.3
+Nordeste,Piauí,Total,15 a 17 anos,92.3
+Nordeste,Piauí,Total,18 a 24 anos,36.9
+Nordeste,Piauí,Total,25 anos ou mais,4.3
+Nordeste,Rio Grande do Norte,Branca,Total,27.9
+Nordeste,Rio Grande do Norte,Branca,0 a 5 anos,57.9
+Nordeste,Rio Grande do Norte,Branca,0 a 3 anos,33.0
+Nordeste,Rio Grande do Norte,Branca,4 a 5 anos,98.3
+Nordeste,Rio Grande do Norte,Branca,6 a 14 anos,99.6
+Nordeste,Rio Grande do Norte,Branca,15 a 17 anos,94.8
+Nordeste,Rio Grande do Norte,Branca,18 a 24 anos,45.1
+Nordeste,Rio Grande do Norte,Branca,25 anos ou mais,5.0
+Nordeste,Rio Grande do Norte,Preta ou parda,Total,25.0
+Nordeste,Rio Grande do Norte,Preta ou parda,0 a 5 anos,61.1
+Nordeste,Rio Grande do Norte,Preta ou parda,0 a 3 anos,39.5
+Nordeste,Rio Grande do Norte,Preta ou parda,4 a 5 anos,93.8
+Nordeste,Rio Grande do Norte,Preta ou parda,6 a 14 anos,99.1
+Nordeste,Rio Grande do Norte,Preta ou parda,15 a 17 anos,93.2
+Nordeste,Rio Grande do Norte,Preta ou parda,18 a 24 anos,28.5
+Nordeste,Rio Grande do Norte,Preta ou parda,25 anos ou mais,5.1
+Nordeste,Rio Grande do Norte,Total,Total,26.1
+Nordeste,Rio Grande do Norte,Total,0 a 5 anos,59.6
+Nordeste,Rio Grande do Norte,Total,0 a 3 anos,36.6
+Nordeste,Rio Grande do Norte,Total,4 a 5 anos,95.7
+Nordeste,Rio Grande do Norte,Total,6 a 14 anos,99.3
+Nordeste,Rio Grande do Norte,Total,15 a 17 anos,93.8
+Nordeste,Rio Grande do Norte,Total,18 a 24 anos,34.3
+Nordeste,Rio Grande do Norte,Total,25 anos ou mais,5.0
+Sul,Rio Grande do Sul,Branca,Total,25.7
+Sul,Rio Grande do Sul,Branca,0 a 5 anos,58.7
+Sul,Rio Grande do Sul,Branca,0 a 3 anos,41.4
+Sul,Rio Grande do Sul,Branca,4 a 5 anos,92.9
+Sul,Rio Grande do Sul,Branca,6 a 14 anos,99.4
+Sul,Rio Grande do Sul,Branca,15 a 17 anos,94.8
+Sul,Rio Grande do Sul,Branca,18 a 24 anos,37.5
+Sul,Rio Grande do Sul,Branca,25 anos ou mais,5.9
+Sul,Rio Grande do Sul,Preta ou parda,Total,26.6
+Sul,Rio Grande do Sul,Preta ou parda,0 a 5 anos,65.1
+Sul,Rio Grande do Sul,Preta ou parda,0 a 3 anos,47.6
+Sul,Rio Grande do Sul,Preta ou parda,4 a 5 anos,88.7
+Sul,Rio Grande do Sul,Preta ou parda,6 a 14 anos,99.1
+Sul,Rio Grande do Sul,Preta ou parda,15 a 17 anos,91.0
+Sul,Rio Grande do Sul,Preta ou parda,18 a 24 anos,24.7
+Sul,Rio Grande do Sul,Preta ou parda,25 anos ou mais,5.4
+Sul,Rio Grande do Sul,Total,Total,25.9
+Sul,Rio Grande do Sul,Total,0 a 5 anos,60.1
+Sul,Rio Grande do Sul,Total,0 a 3 anos,42.5
+Sul,Rio Grande do Sul,Total,4 a 5 anos,91.8
+Sul,Rio Grande do Sul,Total,6 a 14 anos,99.3
+Sul,Rio Grande do Sul,Total,15 a 17 anos,93.8
+Sul,Rio Grande do Sul,Total,18 a 24 anos,34.4
+Sul,Rio Grande do Sul,Total,25 anos ou mais,5.8
+Sudeste,Rio de Janeiro,Branca,Total,26.5
+Sudeste,Rio de Janeiro,Branca,0 a 5 anos,61.8
+Sudeste,Rio de Janeiro,Branca,0 a 3 anos,41.3
+Sudeste,Rio de Janeiro,Branca,4 a 5 anos,95.7
+Sudeste,Rio de Janeiro,Branca,6 a 14 anos,99.9
+Sudeste,Rio de Janeiro,Branca,15 a 17 anos,95.7
+Sudeste,Rio de Janeiro,Branca,18 a 24 anos,46.6
+Sudeste,Rio de Janeiro,Branca,25 anos ou mais,7.1
+Sudeste,Rio de Janeiro,Preta ou parda,Total,26.1
+Sudeste,Rio de Janeiro,Preta ou parda,0 a 5 anos,60.4
+Sudeste,Rio de Janeiro,Preta ou parda,0 a 3 anos,38.3
+Sudeste,Rio de Janeiro,Preta ou parda,4 a 5 anos,92.4
+Sudeste,Rio de Janeiro,Preta ou parda,6 a 14 anos,99.6
+Sudeste,Rio de Janeiro,Preta ou parda,15 a 17 anos,95.3
+Sudeste,Rio de Janeiro,Preta ou parda,18 a 24 anos,32.5
+Sudeste,Rio de Janeiro,Preta ou parda,25 anos ou mais,5.6
+Sudeste,Rio de Janeiro,Total,Total,26.2
+Sudeste,Rio de Janeiro,Total,0 a 5 anos,61.2
+Sudeste,Rio de Janeiro,Total,0 a 3 anos,39.9
+Sudeste,Rio de Janeiro,Total,4 a 5 anos,93.9
+Sudeste,Rio de Janeiro,Total,6 a 14 anos,99.7
+Sudeste,Rio de Janeiro,Total,15 a 17 anos,95.4
+Sudeste,Rio de Janeiro,Total,18 a 24 anos,38.2
+Sudeste,Rio de Janeiro,Total,25 anos ou mais,6.3
+Norte,Rondônia,Branca,Total,27.7
+Norte,Rondônia,Branca,0 a 5 anos,50.5
+Norte,Rondônia,Branca,0 a 3 anos,20.7
+Norte,Rondônia,Branca,4 a 5 anos,91.8
+Norte,Rondônia,Branca,6 a 14 anos,97.9
+Norte,Rondônia,Branca,15 a 17 anos,90.3
+Norte,Rondônia,Branca,18 a 24 anos,38.8
+Norte,Rondônia,Branca,25 anos ou mais,5.4
+Norte,Rondônia,Preta ou parda,Total,27.8
+Norte,Rondônia,Preta ou parda,0 a 5 anos,46.1
+Norte,Rondônia,Preta ou parda,0 a 3 anos,25.2
+Norte,Rondônia,Preta ou parda,4 a 5 anos,81.0
+Norte,Rondônia,Preta ou parda,6 a 14 anos,99.9
+Norte,Rondônia,Preta ou parda,15 a 17 anos,90.4
+Norte,Rondônia,Preta ou parda,18 a 24 anos,25.3
+Norte,Rondônia,Preta ou parda,25 anos ou mais,4.4
+Norte,Rondônia,Total,Total,27.6
+Norte,Rondônia,Total,0 a 5 anos,47.1
+Norte,Rondônia,Total,0 a 3 anos,23.4
+Norte,Rondônia,Total,4 a 5 anos,84.9
+Norte,Rondônia,Total,6 a 14 anos,99.4
+Norte,Rondônia,Total,15 a 17 anos,90.4
+Norte,Rondônia,Total,18 a 24 anos,28.3
+Norte,Rondônia,Total,25 anos ou mais,4.8
+Norte,Roraima,Branca,Total,34.2
+Norte,Roraima,Branca,0 a 5 anos,38.7
+Norte,Roraima,Branca,0 a 3 anos,20.3
+Norte,Roraima,Branca,4 a 5 anos,90.8
+Norte,Roraima,Branca,6 a 14 anos,98.6
+Norte,Roraima,Branca,15 a 17 anos,95.8
+Norte,Roraima,Branca,18 a 24 anos,38.8
+Norte,Roraima,Branca,25 anos ou mais,8.8
+Norte,Roraima,Preta ou parda,Total,32.9
+Norte,Roraima,Preta ou parda,0 a 5 anos,48.4
+Norte,Roraima,Preta ou parda,0 a 3 anos,23.0
+Norte,Roraima,Preta ou parda,4 a 5 anos,90.8
+Norte,Roraima,Preta ou parda,6 a 14 anos,97.4
+Norte,Roraima,Preta ou parda,15 a 17 anos,93.3
+Norte,Roraima,Preta ou parda,18 a 24 anos,27.2
+Norte,Roraima,Preta ou parda,25 anos ou mais,6.7
+Norte,Roraima,Total,Total,33.1
+Norte,Roraima,Total,0 a 5 anos,45.3
+Norte,Roraima,Total,0 a 3 anos,21.5
+Norte,Roraima,Total,4 a 5 anos,91.0
+Norte,Roraima,Total,6 a 14 anos,97.6
+Norte,Roraima,Total,15 a 17 anos,94.0
+Norte,Roraima,Total,18 a 24 anos,30.1
+Norte,Roraima,Total,25 anos ou mais,7.1
+Sul,Santa Catarina,Branca,Total,26.3
+Sul,Santa Catarina,Branca,0 a 5 anos,71.3
+Sul,Santa Catarina,Branca,0 a 3 anos,56.8
+Sul,Santa Catarina,Branca,4 a 5 anos,94.5
+Sul,Santa Catarina,Branca,6 a 14 anos,99.8
+Sul,Santa Catarina,Branca,15 a 17 anos,95.6
+Sul,Santa Catarina,Branca,18 a 24 anos,37.2
+Sul,Santa Catarina,Branca,25 anos ou mais,4.6
+Sul,Santa Catarina,Preta ou parda,Total,28.1
+Sul,Santa Catarina,Preta ou parda,0 a 5 anos,73.0
+Sul,Santa Catarina,Preta ou parda,0 a 3 anos,59.2
+Sul,Santa Catarina,Preta ou parda,4 a 5 anos,95.2
+Sul,Santa Catarina,Preta ou parda,6 a 14 anos,98.9
+Sul,Santa Catarina,Preta ou parda,15 a 17 anos,93.5
+Sul,Santa Catarina,Preta ou parda,18 a 24 anos,23.6
+Sul,Santa Catarina,Preta ou parda,25 anos ou mais,4.7
+Sul,Santa Catarina,Total,Total,26.7
+Sul,Santa Catarina,Total,0 a 5 anos,71.7
+Sul,Santa Catarina,Total,0 a 3 anos,57.4
+Sul,Santa Catarina,Total,4 a 5 anos,94.7
+Sul,Santa Catarina,Total,6 a 14 anos,99.5
+Sul,Santa Catarina,Total,15 a 17 anos,95.1
+Sul,Santa Catarina,Total,18 a 24 anos,33.0
+Sul,Santa Catarina,Total,25 anos ou mais,4.7
+Nordeste,Sergipe,Branca,Total,30.3
+Nordeste,Sergipe,Branca,0 a 5 anos,57.0
+Nordeste,Sergipe,Branca,0 a 3 anos,36.6
+Nordeste,Sergipe,Branca,4 a 5 anos,91.1
+Nordeste,Sergipe,Branca,6 a 14 anos,100.0
+Nordeste,Sergipe,Branca,15 a 17 anos,96.1
+Nordeste,Sergipe,Branca,18 a 24 anos,43.3
+Nordeste,Sergipe,Branca,25 anos ou mais,4.6
+Nordeste,Sergipe,Preta ou parda,Total,28.1
+Nordeste,Sergipe,Preta ou parda,0 a 5 anos,58.7
+Nordeste,Sergipe,Preta ou parda,0 a 3 anos,36.3
+Nordeste,Sergipe,Preta ou parda,4 a 5 anos,96.1
+Nordeste,Sergipe,Preta ou parda,6 a 14 anos,99.6
+Nordeste,Sergipe,Preta ou parda,15 a 17 anos,89.4
+Nordeste,Sergipe,Preta ou parda,18 a 24 anos,30.9
+Nordeste,Sergipe,Preta ou parda,25 anos ou mais,4.1
+Nordeste,Sergipe,Total,Total,28.6
+Nordeste,Sergipe,Total,0 a 5 anos,58.3
+Nordeste,Sergipe,Total,0 a 3 anos,36.4
+Nordeste,Sergipe,Total,4 a 5 anos,94.5
+Nordeste,Sergipe,Total,6 a 14 anos,99.7
+Nordeste,Sergipe,Total,15 a 17 anos,90.8
+Nordeste,Sergipe,Total,18 a 24 anos,33.8
+Nordeste,Sergipe,Total,25 anos ou mais,4.3
+Sudeste,São Paulo,Branca,Total,26.2
+Sudeste,São Paulo,Branca,0 a 5 anos,70.5
+Sudeste,São Paulo,Branca,0 a 3 anos,57.0
+Sudeste,São Paulo,Branca,4 a 5 anos,96.5
+Sudeste,São Paulo,Branca,6 a 14 anos,99.8
+Sudeste,São Paulo,Branca,15 a 17 anos,93.8
+Sudeste,São Paulo,Branca,18 a 24 anos,38.0
+Sudeste,São Paulo,Branca,25 anos ou mais,5.0
+Sudeste,São Paulo,Preta ou parda,Total,24.9
+Sudeste,São Paulo,Preta ou parda,0 a 5 anos,69.5
+Sudeste,São Paulo,Preta ou parda,0 a 3 anos,53.9
+Sudeste,São Paulo,Preta ou parda,4 a 5 anos,96.9
+Sudeste,São Paulo,Preta ou parda,6 a 14 anos,99.5
+Sudeste,São Paulo,Preta ou parda,15 a 17 anos,93.0
+Sudeste,São Paulo,Preta ou parda,18 a 24 anos,23.0
+Sudeste,São Paulo,Preta ou parda,25 anos ou mais,4.5
+Sudeste,São Paulo,Total,Total,25.5
+Sudeste,São Paulo,Total,0 a 5 anos,70.0
+Sudeste,São Paulo,Total,0 a 3 anos,55.7
+Sudeste,São Paulo,Total,4 a 5 anos,96.7
+Sudeste,São Paulo,Total,6 a 14 anos,99.7
+Sudeste,São Paulo,Total,15 a 17 anos,93.5
+Sudeste,São Paulo,Total,18 a 24 anos,30.8
+Sudeste,São Paulo,Total,25 anos ou mais,4.8
+Norte,Tocantins,Branca,Total,31.5
+Norte,Tocantins,Branca,0 a 5 anos,56.3
+Norte,Tocantins,Branca,0 a 3 anos,37.6
+Norte,Tocantins,Branca,4 a 5 anos,96.3
+Norte,Tocantins,Branca,6 a 14 anos,99.3
+Norte,Tocantins,Branca,15 a 17 anos,97.5
+Norte,Tocantins,Branca,18 a 24 anos,38.7
+Norte,Tocantins,Branca,25 anos ou mais,8.6
+Norte,Tocantins,Preta ou parda,Total,30.5
+Norte,Tocantins,Preta ou parda,0 a 5 anos,62.1
+Norte,Tocantins,Preta ou parda,0 a 3 anos,43.3
+Norte,Tocantins,Preta ou parda,4 a 5 anos,95.3
+Norte,Tocantins,Preta ou parda,6 a 14 anos,99.2
+Norte,Tocantins,Preta ou parda,15 a 17 anos,92.1
+Norte,Tocantins,Preta ou parda,18 a 24 anos,35.2
+Norte,Tocantins,Preta ou parda,25 anos ou mais,4.8
+Norte,Tocantins,Total,Total,30.9
+Norte,Tocantins,Total,0 a 5 anos,61.3
+Norte,Tocantins,Total,0 a 3 anos,43.1
+Norte,Tocantins,Total,4 a 5 anos,95.6
+Norte,Tocantins,Total,6 a 14 anos,99.2
+Norte,Tocantins,Total,15 a 17 anos,93.2
+Norte,Tocantins,Total,18 a 24 anos,35.8
+Norte,Tocantins,Total,25 anos ou mais,5.9
