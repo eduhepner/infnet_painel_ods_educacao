@@ -78,21 +78,14 @@ with st.sidebar:
 
         fontes = sorted(df["fonte"].unique())
 
-        if "fontes_conhecidas" not in st.session_state:
-            st.session_state.fontes_conhecidas = fontes
-            st.session_state.fontes = fontes
-        else:
-
-            novas_fontes = set(fontes) - set(st.session_state.fontes_conhecidas)
-
-            if novas_fontes:
-                st.session_state.fontes = fontes
-                st.session_state.fontes_conhecidas = fontes
+        if "fontes_save" not in st.session_state:
+            st.session_state.fontes_save = fontes
 
         fontes_select = st.multiselect(
             "Fontes de notícias",
             fontes,
-            key="fontes",
+            key="fontes_select",
+            default=st.session_state.fontes_save,
         )
 
         opcao_ordem = st.radio(
@@ -104,7 +97,12 @@ with st.sidebar:
         aplicar = st.form_submit_button("Aplicar filtros")
 
     if aplicar:
+        if fontes_select:
+            st.session_state.fontes_save = fontes_select
+        else:
+            st.session_state.fontes_save = fontes
         st.success("Filtros aplicados.")
+
 
 df_filtrado = filtro_news(df, fontes_select)
 df_ordenado = ordenar_news(df_filtrado, opcao_ordem)
