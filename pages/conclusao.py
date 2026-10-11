@@ -1,10 +1,10 @@
-import altair as alt
 import streamlit as st
 
 from src.data_access import (
     buscar_taxa_conclusao_cor,
     buscar_taxa_conclusao_sexo,
 )
+from src.graphics import conclusao_cor, conclusao_sexo
 from src.transform import filtrar, ordenar
 
 st.title("📚 Painel ODS - Educação Brasil")
@@ -150,50 +150,16 @@ st.session_state["estados_old"] = n_estados
 st.markdown("### 📊 Conclusão de ensino por Estado e por Sexo")
 st.caption(f"Fonte: {msg_sexo}")
 
-# GRAFICO DE BARRAS AGRUPADAS EM ALTAIR FEITO COM AJUDA DE IA
-grafico = (
-    alt.Chart(df_sexo_ordenado)
-    .mark_bar()
-    .encode(
-        x=alt.X("Estado:N", title="Estado"),
-        xOffset=alt.XOffset("Sexo:N"),
-        y=alt.Y(
-            "Taxas de conclusão de nível de ensino (%):Q",
-            title="Taxas de conclusão de nível de ensino (%)",
-        ),
-        color=alt.Color("Sexo:N", title="Sexo"),
-    )
-)
-
+grafico = conclusao_sexo(df_sexo_ordenado)
 st.altair_chart(grafico, width="stretch")
-if mostrar_tabela:
-    st.dataframe(df_sexo_ordenado, width="stretch", hide_index=True)
 
-    st.download_button(
-        "⬇ Baixar tabela (csv)",
-        data=df_sexo_ordenado.to_csv(),
-        file_name="painel_ods_filtrado.csv",
-        key="download_sexo",
-    )
 
 st.subheader("Conclusão de ensino por Estado e por Cor")
 st.caption(f"Fonte: {msg_cor}")
 
-# GRAFICO DE BARRAS AGRUPADAS EM ALTAIR FEITO COM AJUDA DE IA
-grafico = (
-    alt.Chart(df_cor_ordenado)
-    .mark_bar()
-    .encode(
-        x=alt.X("Estado:N", title="Estado"),
-        xOffset=alt.XOffset("Cor/raça:N"),
-        y=alt.Y(
-            "Taxas de conclusão de nível de ensino (%):Q",
-            title="Taxas de conclusão de nível de ensino (%)",
-        ),
-        color=alt.Color("Cor/raça:N", title="Cor/raça"),
-    )
-)
+grafico = conclusao_cor(df_cor_ordenado)
 st.altair_chart(grafico, width="stretch")
+
 if mostrar_tabela:
     st.dataframe(df_cor_ordenado, width="stretch", hide_index=True)
 
