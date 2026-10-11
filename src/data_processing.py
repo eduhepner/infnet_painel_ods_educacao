@@ -9,7 +9,7 @@ BASE = Path(__file__).resolve().parent.parent
 RAW = BASE / "data" / "raw"
 PROCESSED = BASE / "data" / "processed"
 
-arquivo = "noticias_19_09_2026.csv"
+arquivo = "noticias.csv"
 
 df = pd.read_csv(RAW / arquivo, encoding="utf-8")
 # print(df)

@@ -10,7 +10,7 @@ from wordcloud import WordCloud
 BASE = Path(__file__).resolve().parent.parent
 PROCESSED = BASE / "data" / "processed"
 COLUNAS_OBRIGATORIAS = ["manchete", "url"]
-arquivo = "noticias_19_09_2026.csv"
+arquivo = "noticias.csv"
 
 
 def load_news():
