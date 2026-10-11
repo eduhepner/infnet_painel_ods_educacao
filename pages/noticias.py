@@ -68,8 +68,11 @@ if st.session_state.noticias_enviadas:
 
     duplicados = df.duplicated(subset="url")
 
-    df = df.loc[~duplicados].reset_index(drop=True)
-    texto = texto.loc[~duplicados].reset_index(drop=True)
+    df = df.loc[~duplicados]
+    texto = texto.loc[~duplicados]
+
+    df = df.reset_index(drop=True)
+    texto = texto.reset_index(drop=True)
 
 with st.sidebar:
     st.subheader("Filtros")
