@@ -1,3 +1,4 @@
+import json
 import re
 from pathlib import Path
 
@@ -24,6 +25,10 @@ df["data"] = pd.to_datetime(df["data"], format="%d/%m/%Y - %H:%M")
 df = df.sort_values(by="data", ascending=False)
 texto = df["full_text"].copy()
 df = df[["fonte", "manchete", "data", "palavras", "url"]]
+
+metadados = json.loads((RAW / "noticias.json").read_text(encoding="utf-8"))
+with open(PROCESSED / f"noticias.json", "w", encoding="utf-8") as arquivo:
+    json.dump(metadados, arquivo, ensure_ascii=False, indent=4)
 
 df.to_csv(PROCESSED / arquivo, encoding="utf-8", index=False)
 texto.to_csv(PROCESSED / "texto.csv", encoding="utf-8", index=False)

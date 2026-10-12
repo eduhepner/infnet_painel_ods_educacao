@@ -45,13 +45,15 @@ Desenvolver uma aplicação interativa utilizando Streamlit para facilitar a con
 - Organizar e tratar os dados para análise;
 - Disponibilizar os dados tratados e agregados;
 - Facilitar a identificação de desigualdades e problemas relacionados à educação.
+- Mostrar as notícias mais recentes ligadas à educação.
 
 ---
 
 ## 5. Escopo
 
 - Coleta de dados por meio de APIs públicas;
-- Coleta de dados por meio de web scraping quando permitido;
+- Coleta de dados por meio de web scraping em páginas estáticas, quando permitido;
+- Coleta de dados por meio de web scraping em páginas dinâmicas, quando permitido;
 - Tratamento e organização dos dados;
 - Análise exploratória dos dados;
 - Desenvolvimento de tabelas e visualizações;
@@ -68,6 +70,7 @@ O projeto deverá permitir que o usuário:
 - Consulte indicadores educacionais;
 - Visualize os indicadores por meio de gráficos e tabelas;
 - Consulte informações sem precisar conhecer a estrutura técnica das APIs utilizadas.
+- Consulte informações por API.
 
 ---
 
@@ -76,11 +79,13 @@ O projeto deverá permitir que o usuário:
 | **KPI**               | **Como medimos**                                          | **Meta** |
 | --------------------- | --------------------------------------------------------- | -------- |
 | Cobertura de fontes   | nº de fontes de notícias disponíveis no painel            | ≥ 3      |
+| Extração de notícias em páginas dinâmicas | capacidade de carregar e processar notícias de páginas dinâmicas | sim |
 | Cobertura de notícias | nº de notícias carregadas e processadas                   | ≥ 20    |
 | Atualidade            | diferença entre a data da coleta e a notícia mais recente | ≤ 7 dias |
 | Qualidade dos dados   | % de notícias com URL e manchete válidas                  | ≥ 95%    |
 | Visualização          | nº de visualizações disponíveis para análise              | ≥ 3      |
 | Interatividade        | nº de filtros disponíveis                                 | ≥ 2      |
+| API funcional         | api em pleno funcionamento para consultas                 | sim      |
 
 ---
 

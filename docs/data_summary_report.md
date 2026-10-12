@@ -1,6 +1,7 @@
 # Data Summary Report — Painel de Indicadores de Educação
 
 ## Fontes de dados
+### Fonte 1 - API
 | # | Fonte | Tipo | Endpoint | Objetivo de uso | Status |
 |---|-------|------|----------|-----------------|--------|
 | 1 | IBGE — Escolarização por sexo (tab. 7138, var. 10276) | Estruturado (JSON via API) | `/api/v3/agregados/7138/periodos/-1/variaveis/10276` | Indicador, UF, grupo de idade e Sexo | ✅ coletado ao vivo (2025) |
@@ -12,12 +13,12 @@
 | 7 | IBGE — Conclusão do ensino por sexo (tab. 10422, var. 4721) | Estruturado (JSON via API) | `/api/v3/agregados/10422/periodos/-1/variaveis/4721` | Indicador, UF, Grupo de idade e Sexo | ✅ coletado ao vivo (2025) |
 | 8 | IBGE — Conclusão do ensino por cor/raça (tab. 9910, var. 4721) | Estruturado (JSON via API) | `/api/v3/agregados/9910/periodos/-1/variaveis/4721` | Indicador, UF, Grupo de idade e Cor/raça | ✅ coletado ao vivo (2025) |
 
-## Pipeline de coleta (Python puro)
+### Pipeline de coleta (Python puro)
 `src/data_access.py`: `requests` 
 
 Em caso de falha de rede, usa **cache** salvo previamente.
 
-## Dicionário de dados (saída)
+### Dicionário de dados (saída)
 | Coluna                               | Tipo    | Descrição                                               |
 | ------------------------------------ | ------- | ------------------------------------------------------- |
 | `estado`                             | texto   | Nome do estado                                          |
@@ -32,13 +33,13 @@ Em caso de falha de rede, usa **cache** salvo previamente.
 | `taxa_conclusao_nivel_ensino`        | decimal | Percentual de conclusão do nível de ensino considerado  |
 
 
-## Qualidade e observações
+### Qualidade e observações
 - Dados oficiais e públicos; sem dado pessoal (LGPD n/a).
 - Período mais recente das tabelas 1187 e 1188: **2015**.
 
 ---
 
-## Fonte 2 — WebScraping 
+### Fonte 2 — WebScraping 
 
 | Item | Valor |
 |------|-------|
@@ -48,8 +49,9 @@ Em caso de falha de rede, usa **cache** salvo previamente.
 | Permissão | `robots.txt` **permite** as seções (verificado com `urllib.robotparser`) |
 | Ritmo | `Crawl-delay: 10 s` — **respeitado** pelo coletor |
 | Coleta | `src/data_scraping.py`, executado **à parte** (não pelo app) |
-| Volume (19/09/2026) | **14 notícias** |
-| Saída | `data/raw/noticias_{data_arquivo}.csv` · `noticias_{data_arquivo}.json` |
+| Tipo de coleta | **Estática**, com BeautifulSoup |
+| Volume (11/10/2026) | **14 notícias** |
+| Saída | `data/raw/noticias.csv` · `noticias.json` |
 
 | Item | Valor |
 |------|-------|
@@ -59,12 +61,13 @@ Em caso de falha de rede, usa **cache** salvo previamente.
 | Permissão | `robots.txt` **permite** as seções (verificado com `urllib.robotparser`) |
 | Ritmo | `Crawl-delay: 10 s` — **respeitado** pelo coletor |
 | Coleta | `src/data_scraping.py`, executado **à parte** (não pelo app) |
-| Volume (19/09/2026) | **8 notícias** |
-| Saída | `data/raw/noticias_{data_arquivo}.csv` · `noticias_{data_arquivo}.json` |
+| Tipo de coleta | **Dinâmica**, com Selenium, a partir de **rolagem da página**. |
+| Volume (11/10/2026) | **31 notícias** |
+| Saída | `data/raw/noticias.csv` · `noticias.json` |
 
 
 
-### Dicionário de dados (`noticias_dd_mm_aaaa.csv`)
+#### Dicionário de dados (`noticias.csv`)
 | Coluna | Tipo | Descrição |
 |--------|------|-----------|
 | `titulo` | texto | Manchete, já limpa (` `, espaços repetidos) |
@@ -74,12 +77,16 @@ Em caso de falha de rede, usa **cache** salvo previamente.
 | `url` | texto | Link absoluto da matéria |
 | `fonte` | texto | Crédito exigido pela licença |
 
-`robots.txt` → manchetes + links + matéria + data →
-limpeza → CSV/JSON.
+> `robots.txt` → manchetes + links + matéria + data →
+> Limpeza → `CSV/JSON`.
+
+#### Derivado - contagem e nuvem de palavras
+`src/news_transform.py` lê `data/processed/texto.txt` e produz a frequência de termos.
+Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wordcloud`.
 
 ---
 
-## Fonte 3 — Arquivo enviado pelo usuário
+### Fonte 3 — Arquivo enviado pelo usuário
 
 | Item | Valor |
 |------|-------|
@@ -89,3 +96,45 @@ limpeza → CSV/JSON.
 | Validação | `src/news_transform.py :: ler_csv_enviado()` — devolve `(linhas, erro)` |
 | Codificações aceitas | `utf-8-sig` → `utf-8` → `latin-1` |
 | Onde vive | `st.session_state["noticias_enviadas"]` |
+
+---
+
+### Fonte 4 — API (atualmente sem salvar)
+
+| Item | Valor |
+|------|-------|
+| Código | `api/main.py` — **FastAPI** |
+| Rota | `/noticia/enviar` |
+| Como roda | **À parte**, na máquina de quem a usa: `uvicorn api.main:app --reload` |
+| Validação | Feito pela biblioteca `pydantic`, onde é definida a classe das notícias (`class Noticia`), em `api/model/model.py`|
+| Formato | Lista de dicionários com mínimo de 1 elemento |
+| Colunas obrigatórias | `fonte`, `manchete`, `url` |
+| Documentação | Gerada do próprio código: `/docs` (interativa) e `/redoc`; o esquema em `/openapi.json` |
+
+---
+
+## Saída dos dados
+
+### API
+
+| Item | Valor |
+|------|-------|
+| Código | `api/main.py` — **FastAPI** |
+| Como roda | **à parte**, na máquina de quem a usa: `uvicorn api.main:app --reload` (ambiente de `requirements-api.txt`) |
+| De onde lê | dos **mesmos** arquivos de `data/processed/`, com as **mesmas** funções de `src/` |
+| Formato | `JSON`. |
+| Documentação | gerada do próprio código: `/docs` (interativa) e `/redoc`; o esquema em `/openapi.json` |
+
+
+#### Rotas (GET)
+
+| Rota | Parâmetros | Responde |
+|------|------------|----------|
+| `/` | — | o que a API serve e onde está a documentação |
+| `/docs` | — | documentação da API |
+| `/alfabetizacao` | - `tipo` (obrigatório): `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de alfabetização` retornada | dados de alfabetização |
+| `/conclusao` | - `tipo` (obrigatório) : `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de conclusão` retornada | dados de conclusão do ensino |
+| `/escolarizacao` | - `tipo` (obrigatório) : `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de escolarização` retornada | dados de escolarização |
+| `/frequencia` | - `tipo` (obrigatório) : `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de frequência` retornada | dados de frequência escolar |
+| `/noticias` | - `quantidade` (opcional): quantidade máxima de notícias retornadas (int > 1) | as notícias da última coleta, data da coleta e fontes |
+| `/noticias/fontes` | — | apenas as fontes das notícias |

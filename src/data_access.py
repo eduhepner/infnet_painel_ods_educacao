@@ -55,12 +55,13 @@ def verificar_metadados(agregado):
         return None
 
 
-def salvar_cache(df, nome, agregado):
+def salvar_cache(df, nome, agregado, url):
     CACHE.mkdir(parents=True, exist_ok=True)
     df.to_csv(CACHE / nome, index=False, encoding="utf-8")
 
     metadados = {
         "coletado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "coletado de": url,
         "agregado": agregado,
     }
 
@@ -171,7 +172,7 @@ def buscar_taxa_escolarizacao_sexo():
             ["Região", "Estado", "Sexo", "Grupo de idade", "Taxa de escolarização (%)"]
         ]
 
-        salvar_cache(df, "escolarizacao_sexo.csv", agregado)
+        salvar_cache(df, "escolarizacao_sexo.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -264,7 +265,7 @@ def buscar_taxa_escolarizacao_cor():
             ]
         ]
 
-        salvar_cache(df, "escolarizacao_cor.csv", agregado)
+        salvar_cache(df, "escolarizacao_cor.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -348,7 +349,7 @@ def buscar_taxa_alfabetizacao_sexo():
                 "Taxa de alfabetização 15+ anos (%)",
             ]
         ]
-        salvar_cache(df, "alfabetizacao_sexo.csv", agregado)
+        salvar_cache(df, "alfabetizacao_sexo.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -431,7 +432,7 @@ def buscar_taxa_alfabetizacao_cor():
                 "Taxa de alfabetização 15+ anos (%)",
             ]
         ]
-        salvar_cache(df, "alfabetizacao_cor.csv", agregado)
+        salvar_cache(df, "alfabetizacao_cor.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -526,7 +527,7 @@ def buscar_taxa_frequencia_sexo():
             ]
         ]
 
-        salvar_cache(df, "frequencia_sexo.csv", agregado)
+        salvar_cache(df, "frequencia_sexo.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -620,7 +621,7 @@ def buscar_taxa_frequencia_cor():
                 "Taxa ajustada de frequência escolar (%)",
             ]
         ]
-        salvar_cache(df, "frequencia_cor.csv", agregado)
+        salvar_cache(df, "frequencia_cor.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -712,7 +713,7 @@ def buscar_taxa_conclusao_sexo():
                 "Taxas de conclusão de nível de ensino (%)",
             ]
         ]
-        salvar_cache(df, "conclusao_sexo.csv", agregado)
+        salvar_cache(df, "conclusao_sexo.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg
 
@@ -804,6 +805,6 @@ def buscar_taxa_conclusao_cor():
                 "Taxas de conclusão de nível de ensino (%)",
             ]
         ]
-        salvar_cache(df, "conclusao_cor.csv", agregado)
+        salvar_cache(df, "conclusao_cor.csv", agregado, resp.url)
         msg = "API do IBGE (ao vivo)"
     return df, msg

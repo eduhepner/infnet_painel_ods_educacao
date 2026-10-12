@@ -105,16 +105,25 @@ with st.sidebar:
 
         st.success("Filtros aplicados.")
 
-df_sexo_filtrado, df_cor_filtrado = filtrar(
+
+df_sexo_filtrado = filtrar(
     df_sexo,
+    regioes_select=st.session_state.regioes_select,
+    grupo_idade=grupo_idade,
+    taxa_minima=taxa_minima,
+)
+df_cor_filtrado = filtrar(
     df_cor,
     regioes_select=st.session_state.regioes_select,
     grupo_idade=grupo_idade,
     taxa_minima=taxa_minima,
 )
 
-df_sexo_ordenado, df_cor_ordenado = ordenar(
+df_sexo_ordenado = ordenar(
     df_sexo_filtrado,
+    opcao_ordem=st.session_state.opcao_ordem,
+)
+df_cor_ordenado = ordenar(
     df_cor_filtrado,
     opcao_ordem=st.session_state.opcao_ordem,
 )

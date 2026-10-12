@@ -71,7 +71,6 @@ def scrape_static(url, rp, delay):
     titulo = sopa.title.get_text(strip=True) if sopa.title else ""
 
     if "Agência Brasil" in titulo:
-        print("EBC")
         host = "Agência Brasil - EBC"
         url_ebc = "https://agenciabrasil.ebc.com.br"
         lista_links = []
@@ -167,13 +166,6 @@ def get_materia(link, rp, delay):
 
 def criar_driver(site):
     print("driver")
-    # opcoes = Options()
-    # opcoes.add_argument("--headless=new")  # executar o navegador sem abrir
-    # opcoes.add_argument("--no-sandbox")
-    # opcoes.add_argument("--disable-dev-shm-usage")
-    # opcoes.add_argument("--window-size=1920,1080")
-
-    # driver = webdriver.Chrome(options=opcoes)
 
     opcoes = Options()
     opcoes.page_load_strategy = "eager"

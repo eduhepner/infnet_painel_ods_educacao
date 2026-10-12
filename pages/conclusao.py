@@ -103,19 +103,29 @@ with st.sidebar:
 
         st.success("Filtros aplicados.")
 
-df_sexo_filtrado, df_cor_filtrado = filtrar(
+
+df_sexo_filtrado = filtrar(
     df_sexo,
+    regioes_select=st.session_state.regioes_select,
+    grupo_idade=grupo_idade,
+    taxa_minima=taxa_minima,
+)
+df_cor_filtrado = filtrar(
     df_cor,
     regioes_select=st.session_state.regioes_select,
     grupo_idade=grupo_idade,
     taxa_minima=taxa_minima,
 )
 
-df_sexo_ordenado, df_cor_ordenado = ordenar(
+df_sexo_ordenado = ordenar(
     df_sexo_filtrado,
+    opcao_ordem=st.session_state.opcao_ordem,
+)
+df_cor_ordenado = ordenar(
     df_cor_filtrado,
     opcao_ordem=st.session_state.opcao_ordem,
 )
+
 
 ####### metricas
 m1, m2 = st.columns(2)
@@ -152,6 +162,16 @@ st.caption(f"Fonte: {msg_sexo}")
 
 grafico = conclusao_sexo(df_sexo_ordenado)
 st.altair_chart(grafico, width="stretch")
+
+if mostrar_tabela:
+    st.dataframe(df_sexo_ordenado, width="stretch", hide_index=True)
+
+    st.download_button(
+        "⬇ Baixar tabela (csv)",
+        data=df_sexo_ordenado.to_csv(),
+        file_name="painel_ods_filtrado.csv",
+        key="download_sexo",
+    )
 
 
 st.subheader("Conclusão de ensino por Estado e por Cor")
