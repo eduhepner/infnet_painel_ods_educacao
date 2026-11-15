@@ -58,6 +58,8 @@ Desenvolver uma aplicação interativa utilizando Streamlit para facilitar a con
 - Análise exploratória dos dados;
 - Desenvolvimento de tabelas e visualizações;
 - Desenvolvimento da aplicação utilizando Streamlit;
+- Desenvolvimento de API.
+- Uso de LLMs para resumir notícias.
 
 ---
 
@@ -71,6 +73,7 @@ O projeto deverá permitir que o usuário:
 - Visualize os indicadores por meio de gráficos e tabelas;
 - Consulte informações sem precisar conhecer a estrutura técnica das APIs utilizadas.
 - Consulte informações por API.
+- Resumo funcional das notícias.
 
 ---
 
@@ -85,7 +88,8 @@ O projeto deverá permitir que o usuário:
 | Qualidade dos dados   | % de notícias com URL e manchete válidas                  | ≥ 95%    |
 | Visualização          | nº de visualizações disponíveis para análise              | ≥ 3      |
 | Interatividade        | nº de filtros disponíveis                                 | ≥ 2      |
-| API funcional         | api em pleno funcionamento para consultas                 | sim      |
+| API funcional         | api em pleno funcionamento para consultas e envio         | sim      |
+| LLM funcional         | llm em pleno funcionamento para resumo de notícias        | sim      |
 
 ---
 

@@ -113,6 +113,19 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 
 ---
 
+### Fonte 5 — LLM
+
+| Item | Valor |
+|------|-------|
+| Código | `src/resumidor.py` — **LLM** |
+| Rota | `/noticia/resumir` |
+| Como roda | Chamado pela API, utiliza o arquivo `/data/raw/noticias.csv`|
+| Validação | Feito pela biblioteca `pydantic`, onde é definida a classe das notícias (`class Noticia`) e resposta (`class Resumo`) em `api/model/model.py`|
+| Formato | Retorna um `json` com o resumo |
+| Documentação | Gerada do próprio código: `/docs` (interativa) e `/redoc`; o esquema em `/openapi.json` |
+
+---
+
 ## Saída dos dados
 
 ### API
@@ -138,3 +151,10 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 | `/frequencia` | - `tipo` (obrigatório) : `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de frequência` retornada | dados de frequência escolar |
 | `/noticias` | - `quantidade` (opcional): quantidade máxima de notícias retornadas (int > 1) | as notícias da última coleta, data da coleta e fontes |
 | `/noticias/fontes` | — | apenas as fontes das notícias |
+
+
+#### Rotas (POST)
+
+| Rota | Parâmetros | Responde |
+|------|------------|----------|
+| `/noticias/enviar` | - `fonte` (opcional) : Nome da fonte de publicação da notícia. Pode receber um `string` ou `None`.<br> - `manchete` (obrigatório) : Título da notícia. Deve conter pelo menos um caractere<br>- `data` (opcional): Data ou data e horário de publicação da notícia. Recebe `date` ou `datetime`.<br>- `palavras` (opcional): Quantidade de palavras do texto da notícia. Quando informado, deve ser um `número inteiro` igual ou superior a 50 (`ge=50`).<br> - `url` (obrigatório) : Deve corresponder a uma URL válida.<br>- `texto` (opcional): Conteúdo textual completo da notícia. Pode receber `string` ou `None`. | Envio de notícias. |

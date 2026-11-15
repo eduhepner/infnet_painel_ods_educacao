@@ -1,11 +1,12 @@
+import io
 import json
 from pathlib import Path
 from typing import Literal
 
 import pandas as pd
-from fastapi import Body, FastAPI, Query
+from fastapi import Body, FastAPI, HTTPException, Query
 
-from api.model.model import Noticia
+from api.model.model import Noticia, Resumo
 from src.data_access import (
     buscar_taxa_alfabetizacao_cor,
     buscar_taxa_alfabetizacao_sexo,
@@ -17,6 +18,7 @@ from src.data_access import (
     buscar_taxa_frequencia_sexo,
 )
 from src.news_transform import load_news
+from src.resumidor import resumir_noticia
 from src.transform import filtrar
 
 BASE = Path(__file__).resolve().parent.parent
@@ -212,3 +214,26 @@ async def enviar_noticias(noticias: list[Noticia] = Body(min_length=1)):
         "quantidade": len(noticias),
         "noticias": [noticia.model_dump(mode="json") for noticia in noticias],
     }
+
+
+@app.get("/noticias/resumir", tags=["resumir"], response_model=Resumo)
+async def resumir(manchete: str = Query(min_length=1)):
+    try:
+        resumo = resumir_noticia(manchete)
+
+        return Resumo(
+            manchete=manchete,
+            resumo=resumo,
+        )
+
+    except LookupError as erro:
+        raise HTTPException(
+            status_code=404,
+            detail=str(erro),
+        )
+
+    except ValueError as erro:
+        raise HTTPException(
+            status_code=422,
+            detail=str(erro),
+        )

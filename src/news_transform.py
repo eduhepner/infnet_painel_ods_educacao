@@ -1,4 +1,5 @@
 import io
+import os
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -10,6 +11,7 @@ from wordcloud import WordCloud
 BASE = Path(__file__).resolve().parent.parent
 PROCESSED = BASE / "data" / "processed"
 COLUNAS_OBRIGATORIAS = ["manchete", "url"]
+ENVIADAS = BASE / "data" / "cache" / "noticias_enviadas.csv"
 arquivo = "noticias.csv"
 
 
@@ -25,7 +27,7 @@ def filtro_news(df, opcoes):
 
 
 def ordenar_news(df, opcoes):
-    df["data"] = pd.to_datetime(df["data"])
+    df["data"] = pd.to_datetime(df["data"], format="mixed", errors="coerce")
     if opcoes == "Mais recentes":
         df = df.sort_values(by="data", ascending=False)
     elif opcoes == "Mais antigas":
@@ -89,10 +91,10 @@ def create_wordcloud(freqs):
     return fig
 
 
-def ler_csv_enviado(conteudo: bytes) -> tuple[list[dict], str]:
+def ler_csv_enviado(conteudo: bytes) -> tuple[list[dict] | None, str | None]:
 
     if not conteudo:
-        return [], "O arquivo está vazio."
+        return None, "O arquivo está vazio."
 
     for codificacao in ("utf-8-sig", "utf-8", "latin-1"):
         try:
@@ -101,49 +103,19 @@ def ler_csv_enviado(conteudo: bytes) -> tuple[list[dict], str]:
         except UnicodeDecodeError:
             continue
     else:
-        return [], "Não consegui ler o arquivo como texto. Ele é mesmo um CSV?"
+        return None, "Não consegui ler o arquivo como texto. Ele é mesmo um CSV?"
 
     try:
         df = pd.read_csv(io.StringIO(texto))
     except (pd.errors.ParserError, pd.errors.EmptyDataError):
-        return [], "O arquivo não é um CSV válido."
+        return None, "O arquivo não é um CSV válido."
 
     if df.empty:
-        return [], "O CSV não tem nenhuma linha de dados."
+        return None, "O CSV não tem nenhuma linha de dados."
 
-    df.columns = df.columns.str.lower()
-    faltando = [coluna for coluna in COLUNAS_OBRIGATORIAS if coluna not in df.columns]
+    df.columns = df.columns.str.lower().str.strip()
+    df = df.astype(object).where(pd.notna(df), None)
 
-    if faltando:
-        return [], ("Faltam colunas obrigatórias: " + ", ".join(faltando))
-
-    df["manchete"] = df["manchete"].fillna("").str.strip()
-    df["url"] = df["url"].fillna("").str.strip()
-
-    if "data" in df.columns:
-        df["data"] = pd.to_datetime(df["data"], dayfirst=True, errors="coerce")
-    else:
-        df["data"] = pd.NaT
-
-    if "palavras" in df.columns:
-        df["palavras"] = (
-            pd.to_numeric(df["palavras"], errors="coerce").fillna(0).astype(int)
-        )
-    else:
-        df["palavras"] = 0
-
-    if "fonte" in df.columns:
-        df["fonte"] = df["fonte"].fillna("Enviado pelo usuário.").str.strip()
-        df.loc[df["fonte"] == "", "fonte"] = "Enviado pelo usuário."
-    else:
-        df["fonte"] = "Enviado pelo usuário."
-
-    if "texto" in df.columns:
-        df["texto"] = df["texto"].fillna("").astype(str).str.strip()
-    else:
-        df["texto"] = ""
-
-    df = df[["fonte", "manchete", "data", "palavras", "url", "texto"]]
     return df.to_dict(orient="records"), None
 
 
@@ -152,3 +124,16 @@ def padronizar_texto_enviado(df):
     df["full_text"] = df["full_text"].str.lower().str.strip().apply(unidecode)
     df["full_text"] = df["full_text"].str.replace(r"[^\w\s]", "", regex=True)
     pass
+
+
+def salvar_news(df):
+    colunas = ["fonte", "manchete", "data", "palavras", "url"]
+    if not os.path.exists(ENVIADAS):
+        df_base = pd.DataFrame(columns=colunas)
+    else:
+        df_base = pd.read_csv(ENVIADAS)
+    df = df.reindex(columns=colunas)
+    df_final = pd.concat([df_base, df], ignore_index=True)
+    df_final = df_final.drop_duplicates(subset="url", keep="first")
+    df_final.to_csv(ENVIADAS, index=False)
+    # df.to_csv(ENVIADAS, mode="a", index=False, header=not ENVIADAS.exists())

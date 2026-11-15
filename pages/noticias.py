@@ -1,5 +1,10 @@
+import locale
+
 import pandas as pd
+import requests
 import streamlit as st
+
+locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
 
 from src.news_transform import (
     create_wordcloud,
@@ -9,7 +14,11 @@ from src.news_transform import (
     metrics_news,
     ordenar_news,
     processar_news,
+    salvar_news,
 )
+
+URL_API = "http://127.0.0.1:8000/noticias/enviar"
+URL_RESUMO = "http://127.0.0.1:8000/noticias/resumir"
 
 st.title("📚 Painel ODS - Educação Brasil")
 st.divider()
@@ -29,6 +38,9 @@ def gerar_wordcloud(palavras_significativas):
 
 with st.spinner("Coletando noticias…"):
     df, texto = obter_dados()
+    df["id"] = df.index
+    indice_min = df.index.min()
+    indice_max = df.index.max()
 
 st.header("📰 Publicações sobre Educação, na imprensa")
 
@@ -47,21 +59,45 @@ with st.expander("📤 Enviar um CSV de notícias"):
         if erro:
             st.error(f"ERRO: {erro}")
         else:
-            urls_existentes = {
-                noticia["url"] for noticia in st.session_state.noticias_enviadas
-            }
-            novas_noticias = [
-                noticia
-                for noticia in novas_noticias
-                if noticia["url"] not in urls_existentes
-            ]
-            st.session_state.noticias_enviadas.extend(novas_noticias)
+            try:
+                resposta = requests.post(URL_API, json=novas_noticias, timeout=30)
+
+                resposta.raise_for_status()
+
+                # Notícias já validadas pela API
+                noticias_validadas = resposta.json()["noticias"]
+
+                urls_existentes = {
+                    noticia["url"] for noticia in st.session_state.noticias_enviadas
+                }
+
+                noticias_validadas = [
+                    noticia
+                    for noticia in noticias_validadas
+                    if noticia["url"] not in urls_existentes
+                ]
+
+                st.session_state.noticias_enviadas.extend(noticias_validadas)
+
+                st.success(f"{len(noticias_validadas)} notícias enviadas!")
+
+            except requests.HTTPError as e:
+                st.error(f"A API rejeitou os dados: {e.response.text}")
+
+            except requests.RequestException as e:
+                st.error(f"Erro ao comunicar com a API: {e}")
 
 
 if st.session_state.noticias_enviadas:
     df_novas_noticias = pd.DataFrame(st.session_state.noticias_enviadas)
-    novo_texto = df_novas_noticias["texto"].rename("full_text")
-    df_novas_noticias = df_novas_noticias.drop(columns=["texto"])
+    salvar_news(df_novas_noticias)
+
+    corpo = df_novas_noticias.get(
+        "texto", pd.Series("", index=df_novas_noticias.index)
+    ).fillna("")
+
+    novo_texto = corpo.rename("full_text")
+    df_novas_noticias = df_novas_noticias.drop(columns=["texto"], errors="ignore")
 
     df = pd.concat([df, df_novas_noticias], ignore_index=True)
     texto = pd.concat([texto, novo_texto], ignore_index=True)
@@ -180,13 +216,75 @@ m5.metric("Notícia mais recente", data_final)
 m6.metric("Palavras significativas", len(palavras_significativas))
 
 
-st.dataframe(df_ordenado, hide_index=True)
+st.dataframe(
+    df_ordenado[["id", "fonte", "manchete", "data", "palavras", "url"]], hide_index=True
+)
 st.download_button(
     "⬇ Baixar tabela (csv)",
-    data=df_ordenado.to_csv(),
+    data=df_ordenado.to_csv(index=False),
     file_name="noticias.csv",
     key="noticias_download",
 )
+
+st.divider()
+
+
+@st.dialog("Notícia")
+def abrir_noticia(noticia_resumo):
+    manchete = noticia_resumo["manchete"].iloc[0]
+    resumo = None
+
+    try:
+        with st.spinner("Gerando resumo da notícia..."):
+            resposta = requests.get(
+                "http://127.0.0.1:8000/noticias/resumir",
+                params={"manchete": manchete},
+                timeout=180,
+            )
+        if resposta.status_code == 200:
+            resumo = resposta.json()["resumo"]
+
+        else:
+            st.error(f"Erro ao gerar resumo: {resposta.status_code}")
+
+    except requests.RequestException as erro:
+        st.error(f"Erro ao conectar com a API: {erro}")
+
+    st.subheader(manchete)
+
+    st.caption(
+        f'{noticia_resumo["fonte"].iloc[0]} • '
+        f'{pd.to_datetime(noticia_resumo["data"].iloc[0]).strftime("%d de %B de %Y - %H:%M")}'
+    )
+
+    if resumo is not None:
+        st.divider()
+        st.write(resumo)
+
+
+st.subheader("Ver resumo")
+rcol1, rcol2 = st.columns([1, 5])
+
+with rcol1:
+    with st.form("resumo_noticia"):
+        indice_noticia = st.text_input("Digite o ID da notícia:")
+        enviar_indice = st.form_submit_button("Resumir")
+
+if enviar_indice:
+    try:
+        indice_noticia = int(indice_noticia)
+
+        noticia_resumo = df_ordenado.loc[df_ordenado["id"] == indice_noticia]
+
+        if not noticia_resumo.empty:
+            abrir_noticia(noticia_resumo)
+
+        else:
+            st.error("Notícia inválida.")
+
+    except ValueError:
+        st.error("Digite um ID numérico válido.")
+
 
 st.divider()
 if palavras_significativas:

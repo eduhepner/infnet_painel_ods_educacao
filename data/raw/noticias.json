@@ -1,0 +1,10 @@
+{
+    "coletado_em": "11/10/2026 19:20",
+    "sites": [
+        {
+            "dinamico": "https://g1.globo.com/educacao",
+            "estatico": "https://agenciabrasil.ebc.com.br/educacao"
+        }
+    ],
+    "noticias": 45
+}

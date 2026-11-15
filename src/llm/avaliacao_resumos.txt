@@ -1,0 +1,423 @@
+AVALIAÇÃO DE MODELOS DE SUMARIZAÇÃO
+===========================================================================
+Data: 14/11/2026 17:53:24
+Sistema: Windows 10
+Processadores lógicos: 12
+Dispositivo: CPU
+Dtype solicitado: float32
+Seed da seleção: 324234
+Quantidade de notícias: 10
+
+NOTÍCIAS SELECIONADAS
+===========================================================================
+
+Notícia 1 | Índice original: 29
+---------------------------------------------------------------------------
+O envelhecimento da população não será uma onda devastadora que 'engolirá' o mundo.
+hegamos a mais um Dia Internacional da Pessoa Idosa. Minha contribuição para marcar a data é sugerir o banimento da expressão tsunami prateado, que carrega uma forte carga negativa mas continua a ser utilizada. O envelhecimento da população não será uma onda devastadora que “engolirá” o mundo, levando-o à ruína. O planeta testemunhou um declínio notável nas taxas de natalidade, com a fertilidade caindo para o nível de reposição ou abaixo dele em praticamente todos os países industrializados e em grande parte do Leste e Sudeste Asiático. Muitas nações em desenvolvimento trilham caminho semelhante. A reboque da tendência, uma expectativa amplamente compartilhada por acadêmicos e formuladores de políticas públicas é a de que as resultantes de redução populacional somada ao envelhecimento da mão de obra desacelerariam a produtividade e o crescimento econômico.
+No entanto, novos estudos do MIT e da London Business School – que abrangem sete décadas de transformação demográfica – sugerem que a tecnologia e os ganhos de produtividade compensarão os efeitos econômicos do envelhecimento populacional e da redução na proporção de trabalhadores mais jovens.
+Na verdade, a diminuição dessa mão de obra tem sido acompanhada por um maior crescimento do PIB por adulto em idade ativa entre os países e até por um aumento salarial nos Estados Unidos, sem impacto negativo sobre o PIB agregado ou sobre os rendimentos. No geral, regiões com populações envelhecidas tendem a apresentar maior expansão da renda por pessoa, o que compensa o declínio relativo de trabalhadores. Isso ocorre porque o ganho no PIB individual foi grande o bastante para compensar o efeito negativo populacional. E como funciona?
+Trata-se de uma resposta endógena da tecnologia (ou seja, que tem origem no próprio sistema) à escassez de braços. Trocando em miúdos: acaba ocorrendo uma adoção de tecnologias poupadoras de mão de obra que podem levar a aumentos no PIB.
+As implicações são amplas, a começar pelo pessimismo alarmista que muitos têm disseminado acerca do impacto da redução das taxas de natalidade. Precisamos, sim, de reformas institucionais e políticas públicas bem planejadas que dialoguem com essa nova era de vidas mais longas. Quaisquer eventuais consequências podem ser mitigadas com foco em prevenção na área da saúde; investimento em aprendizado contínuo para os trabalhadores não serem descartados precocemente; e a criação de espaços para experiências de conexão social e intergeracionalidade.
+
+Notícia 2 | Índice original: 35
+---------------------------------------------------------------------------
+A Universidade Federal Fluminense (UFF) acionou a Polícia Federal (PF) após receber denúncias de ameaças à instituição. Em nota, a universidade informa que se trata de conteúdos compartilhados em aplicativos de mensagens e redes sociais com ameaças tanto à integridade da comunidade acadêmica quanto ao patrimônio da instituição.
+As mensagens falam, por exemplo, em incendiar a universidade e agredir estudantes em atos políticos.
+Ao receber os conteúdos, a UFF diz que "encaminhou, imediatamente, todo o material à Polícia Federal e aos demais órgãos competentes, para a devida apuração dos fatos e adoção das medidas cabíveis".
+A universidade diz ainda que, paralelamente, estabeleceu contato com a Secretaria de Gestão Integrada de Niterói para solicitar o reforço da segurança nos campi da universidade. Internamente, a Superintendência de Operações e Manutenção (Soma) também foi acionada para intensificar as medidas de segurança no âmbito da instituição.
+"A UFF acompanha a apuração em articulação com os órgãos responsáveis e permanece à disposição para colaborar integralmente com as investigações. Seguimos atentos à situação, pautando nossa atuação pela agilidade e responsabilidade, para garantir a segurança de toda a comunidade universitária, a preservação da vida e a proteção do patrimônio público", diz nota divulgada pela universidade .
+Em vídeo divulgado nas redes sociais , o reitor em exercício Fabio Passos disse que as ameaças começaram nessa quarta-feira (7). "Nossos estudantes têm feito manifestações pacíficas sobre a situação eleitoral atual e fazem essas manifestações dentro do direito constitucional", afirmou.
+Saiba mais sobre os protestos estudantis no Repórter Brasil Tarde, da TV Brasil
+A Polícia Federal também foi acionada para investigar um incêndio de grandes proporções que atingiu a Universidade Federal de Pernambuco (UFPE), na noite dessa quarta-feira.
+Segundo a PF, o objetivo do inquérito policial é “apurar todas as circunstâncias e causas prováveis”. O reitor da instituição, Alfredo Gomes, estima que as chamas tenham causado prejuízo de R$ 100 milhões.
+
+Notícia 3 | Índice original: 13
+---------------------------------------------------------------------------
+A Academia Sueca anuncia nesta quinta-feira quem venceu o prêmio na categoria Literatura. Além da categoria, também são contempladas destaques da física, química, medicina, paz e economia.
+Nesta quinta-feira (8), a Academia Sueca anuncia quem venceu o Prêmio Nobel de Literatura da 119ª edição da premiação. Apesar de, historicamente, a lista oficial de indicados ser divulgada apenas 50 anos após cada edição, alguns dos principais nomes cotados para o prêmio são Can Xue, Haruki Murakami, Cristina Rivera Garza e Jamaica Kincaid. A brasileira Adélia Prado também é considerada como uma das possíveis autoras que podem ser laureadas em 2026.
+A premiação é uma das mais importantes e prestigiadas da literatura mundial e representa o reconhecimento internacional da obra de um autor que tenha produzido, no campo literário, um trabalho de valor excepcional e orientação humanista, contribuindo para ampliar a reflexão sobre a experiência humana.
+Criada pelo químico e empresário sueco Alfred Nobel, responsável pela criação da dinamite em 1867, a premiação era destinada originalmente "àqueles que, durante o ano anterior, tenham conferido o maior benefício à humanidade". Atualmente, no entanto, a regra não é tão determinante.
+Além do prêmio para a literatura, também são contempladas as categorias de física, química, medicina e paz, além do prêmio de economia que foi criado anos mais tarde.
+Alguns dos autores laureados pelo Nobel de Literatura mais conhecidos são:
+Rabindranath Tagore: autor de Gitanjali , A casa e o mundo , e O jardineiro , venceu o prêmio em 1913. Ernest Hemingway: responsável por O velho e o mar , Adeus às armas e Por quem os sinos dobram , venceu o Nobel em 1954. Albert Camus: autor de O estrangeiro , A peste e O mito de Sísifo , e laureado em 1957. Gabriel García Márquez: escritor de Cem anos de solidão , O amor nos tempos do cólera e Crônica de uma morte anunciada , venceu o Nobel em 1982. Toni Morrison: autora de Amada , O olho mais azul e A canção de Solomon , foi laureada em 1993. José Saramago: escritor de Ensaio sobre a cegueira , Memorial do convento , e O evangelho segundo Jesus Cristo , venceu o prêmio em 1998. Günter Grass: autor de O tambor , Gato e rato e Anos de cão , levou o Nobel em 1999. Doris Lessing: conhecida por O carnê dourado , A grama canta e a série Canopus em Argos , venceu o Nobel em 2007. Mario Vargas Llosa: escritor de Conversa na Catedral , A cidade e os cachorros e A guerra do fim do mundo , foi laureado em 2010. Kazuo Ishiguro: autor de Os vestígios do dia , Não me abandone jamais e Um artista do mundo flutuante , levou o prêmio em 2017.
+Justamente por ser uma premiação tão prestigiada, não é incomum que autores laureados e suas obras apareçam no Exame Nacional do Ensino Médio (Enem) e outros vestibulares. Pensando nisso, o g1 listou 5 vezes que vencedores do Nobel de Literatura já apareceram no Enem.
+1. Gabriel García Márquez — Enem 2018 — aplicação regular
+O exame utilizou um trecho de Crônica de uma morte anunciada em um item de Espanhol. A questão explorava a compreensão do texto e o sentido de uma expressão no contexto narrativo.
+A resposta correta da questão é a letra B .
+2. Pablo Neruda — Enem 2020 Digital — aplicação regular
+A questão de Espanhol utiliza um trecho de Confieso que he vivido . No texto, o escritor narra um episódio compartilhado com Federico García Lorca, e a questão explora o significado da expressão “al alimón”.
+A resposta correta da questão é a letra E .
+3. José Saramago — Enem 2020 – reaplicação/PPL
+A prova utilizou um trecho da “ Autobiografia de José Saramago ” em uma questão de Linguagens. O texto trata da formação do nome do escritor e do papel dos documentos oficiais na construção da identidade. A questão pergunta qual fato evidencia o poder desses documentos sobre a vida das pessoas.
+A resposta correta da questão é a letra C .
+4. Gabriel García Márquez — Enem 2023 — aplicação regular
+O texto “ O pessimista ”, de Gabriel García Márquez, aparece em uma questão de Ciências Humanas do primeiro dia. O fragmento descreve Gerineldo, personagem marcado pela preocupação com as possibilidades de risco e azar.
+A resposta correta da questão é a letra B .
+5. Gabriel García Márquez — Enem 2024 — reaplicação/PPL
+Uma questão de Espanhol apresenta um trecho do prólogo de Doce cuentos peregrinos . A pergunta aborda a expressão “los eché al olvido”, usada por García Márquez para dizer que deixou seus rascunhos e anotações no esquecimento.
+A resposta correta da questão é a letra D .
+Nobel da Literatura em números
+De 1901 a 2025, foram 122 laureados em 118 premiações. Isso porque em quatro delas, dois nomes foram anunciados como vencedores no mesmo ano. Até então, ninguém foi premiado mais de uma vez.
+Não houve premiação em sete ocasiões: 1914, 1918, 1935, 1940, 1941, 1942 e 1943.
+Rudyard Kipling foi o mais jovem vencedor do prêmio. Em 1907, quando foi nomeado, tinha 41 anos de idade. Já a mais velha foi Doris Lessing, que estava com 87 anos quando foi premiada em 2007.
+Ao longo dos mais de cem anos de premiação, duas pessoas declinaram ao Nobel: Boris Pasternak, em 1958, e Jean Paul Sartre, em 1964. Boris foi obrigado pelas autoridades de seu país a recusar o prêmio. Já Sartre, historicamente, sempre recusou todas as homenagens oficiais.
+Sobre o Enem 2026
+O Enem 2026 será aplicado em um mês, nos dias 8 e 15 de novembro.
+8 de novembro
+45 questões de linguagens (40 de língua portuguesa e 5 de inglês ou espanhol); 45 questões de ciências humanas; e redação.
+15 de novembro
+45 questões de matemática; e 45 questões de ciências da natureza.
+⌚ Veja os horários de aplicação (no fuso de Brasília):
+Abertura dos portões: 12h. Fechamento dos portões: 13h. Início das provas: 13h30. Término das provas no 1º dia: 19h. Término das provas no 2º dia: 18h30.
+
+Notícia 4 | Índice original: 7
+---------------------------------------------------------------------------
+Em visita à instituição nesta quinta (8), Leonardo Barchini afirmou que obra deve custar cerca de R$ 28 milhões e vai repassar recursos para recomprar equipamentos perdidos. PF investiga se houve crime.
+O ministro da Educação, Leonardo Barchini, anunciou nesta quinta-feira a construção de um novo centro de pesquisas após incêndio destruir prédio da UFPE.
+Incêndio aconteceu na noite da quarta e atingiu prédio da antiga Diretoria de Inovação, que abrigava laboratórios de farmácia, informática e genética.
+Obra custará cerca de R$ 28 milhões. Governo federal também enviará recursos para repor equipamentos perdidos. Prejuízo é estimado em R$ 100 milhões.
+Bolsas dos estudantes afetados serão prorrogadas e doutorandos poderão continuar seus estudos em laboratórios parceiros em outros países, segundo ministro.
+Polícia Federal investiga o caso, que foi o terceiro incêndio no campus em uma semana. Os outros ocorreram em 30 de setembro e no último domingo.
+O ministro da Educação, Leonardo Barchini, anunciou, nesta quinta-feira (8), a construção de um novo centro de pesquisas após o incêndio que destruiu um prédio da Universidade Federal de Pernambuco (UFPE) , na Zona Oeste do Recife (veja vídeo acima) . Este foi o terceiro caso registrado no campus em uma semana (saiba mais abaixo) .
+Em entrevista coletiva, o ministro disse que o governo federal também vai repassar recursos para recomprar todos os equipamentos afetados. Segundo a reitoria da instituição, o prejuízo estimado é de R$ 100 milhões com a perda de 20 anos de pesquisas científicas . O caso é investigado pela Polícia Federal.
+✅ Receba no WhatsApp as notícias do g1 PE
+"O Ministério da Educação repassará o recurso para a construção de um novo prédio, um prédio muito maior, para que as instalações, os laboratórios que estavam aqui, passem já para um novo equipamento, para um novo prédio. [...] Faremos todo esse investimento com o Ministério da Saúde, com o Ministério dos Transportes e outros ministérios que também tinham investimentos aqui, todos eles estão solidários e vão fazer essa recompra dos equipamentos para que as atividades possam ser retomadas", afirmou.
+O prédio atingido pelo incêndio era a antiga sede da Diretoria de Inovação e Empreendedorismo (Dine) e abrigava laboratórios de fármacos, informática e genética, além do Núcleo de Pesquisa em Inovação Terapêutica. No início da tarde, o ministro realizou uma vistoria técnica no local, acompanhado do reitor e de pesquisadores da universidade.
+LEIA TAMBÉM:
+INQUÉRITO: PF apura se houve crime no incêndio e reitor estima prejuízo de R$ 100 milhões REPERCUSSÃO: Professores choram após destruição de prédio de pesquisas DANOS: Edifício tinha laboratórios com pesquisas sobre câncer, covid-19 e autismo
+De acordo com Leonardo Barchini, o projeto executivo do novo prédio está pronto e seguirá o modelo de um centro de pesquisas da UFPE localizado em Sertânia , no Sertão do estado. A obra deve custar em torno de R$ 28 milhões.
+"É um prédio alto, em torno de 7 mil metros quadrados. Esse prédio aqui tinha 3 mil metros quadrados. Então, construiremos um novo prédio imediatamente, assim que a gente finalizar a questão da perícia aqui desse prédio e a investigação. Acredito que em 30 dias a gente possa começar já as obras e o recurso ser liberado para a construção desse novo prédio", informou.
+O ministro afirmou também que as bolsas dos estudantes que atuavam nas pesquisas realizadas no local serão estendidas. Além disso, ele anunciou uma parceria com universidades estrangeiras para garantir a continuidade dos estudos de alunos e pesquisadores do doutorado que estão concluindo suas teses.
+"Abrimos um chamamento especial para o programa que a gente chama de PDSE, que é o Programa de Doutorado de Sanduíche no Exterior. Todos esses pesquisadores e estudantes de doutorado poderão fazer parte de seus estudos no exterior, em laboratórios na Alemanha, nos Estados Unidos, na França, em países que já se comprometeram a apoiar a Universidade Federal de Pernambuco", disse.
+O incêndio é investigado pela Polícia Federal. Em nota, a corporação informou que peritos estiveram no local e que um inquérito policial será instaurado para apurar as circunstâncias do incêndio e verificar se houve crime.
+Perícia Federal
+O delegado regional executivo da Polícia Federal, Rodrigo Bastos, também esteve no local junto ao ministro e informou que equipes de perícia e investigação estiveram na Universidade para iniciar os trabalhos. Segundo ele, foram utilizados drones e robôs para acessar a área atingida pelo incêndio.
+Os peritos, no entanto, só poderão entrar na edificação após a realização de um reforço estrutural e a confirmação de que o prédio oferece condições de segurança.
+"Foram colhidas as informações relevantes do local naquele momento e foram iniciados os trabalhos de perícia até o momento em que foi possível avançar, com a utilização inclusive de meios como robô e drone para poder adentrar no ambiente, fazer imagens e fazer o primeiro levantamento sem a entrada dos peritos, que ainda não é possível. Nós finalizamos essa primeira parte e estamos aguardando uma definição em relação à segurança do prédio para que equipes periciais possam de fato adentrar", contou.
+Segundo Rodrigo Bastos, a investigação busca identificar o que provocou o incêndio e reconstituir o que aconteceu antes do início do fogo. Algumas pessoas foram ouvidas nesta quinta-feira (8), e os depoimentos devem continuar na sexta (9).
+A PF também vai reforçar a equipe responsável pela perícia. Peritos especializados do Instituto Nacional de Criminalística, em Brasília , devem atuar em conjunto com os profissionais que já estão em Pernambuco.
+"Nesse momento vai haver, sim, um reforço de peritos que virão do Instituto Nacional de Criminalística em Brasília que são equipes mais especializadas para eventos específicos que contam com equipamentos próprios também e que vão trabalhar em conjunto com os peritos aqui para tentar dar uma resposta pericial o mais rápido possível", detalhou.
+Terceiro incêndio em uma semana
+Este foi o terceiro incêndio registrado na UFPE em uma semana. No dia 30 de setembro, chamas se alastraram num laboratório do Departamento de Física. Ninguém ficou ferido.
+Segundo a instituição, a suspeita é que o fogo tenha sido causado numa câmara de alta temperatura usada para aquecimento de substâncias.
+No domingo (4), outro incêndio foi registrado no laboratório de Citogenética e Evolução Vegetal, no Centro de Biociências. Também não houve vítimas.
+VÍDEOS: mais vistos de Pernambuco nos últimos 7 dias
+
+Notícia 5 | Índice original: 3
+---------------------------------------------------------------------------
+Nesta sexta (9), Luciana Santos, do Ministério da Ciência, Tecnologia e Inovações, visitou local do edifício atingido pelo fogo. Recursos se somam aos R$ 28 milhões anunciados pelo MEC.
+Ministério da Ciência, Tecnologia e Inovações anunciou R$ 40 milhões para repor equipamentos de laboratório destruídos em incêndio na UFPE.
+Investimento foi anunciado pela ministra Luciana Santos ao visitar, na manhã desta sexta-feira, o local do prédio atingido pelo fogo.
+Valor se soma aos R$ 28 milhões anunciados pelo ministro da Educação, Leonardo Barchini, na visita à universidade na quinta-feira (8).
+Prédio destruído pelo incêndio será reconstruído com o mesmo projeto executivo de um centro de pesquisas da UFPE em Sertânia, no Sertão.
+PF iniciou perícia no edifício destruído com robô e drone. Para a entrada segura dos peritos, estrutura passará por obras de escoramento.
+A ministra da Ciência, Tecnologia e Inovações, Luciana Santos, anunciou investimento de R$ 40 milhões para a compra dos equipamentos de laboratório perdidos no incêndio na Universidade Federal de Pernambuco (UFPE) , ao visitar nesta sexta-feira (9) o campus Recife ( veja vídeo acima ). Esses recursos se somam aos R$ 28 milhões anunciados pelo ministro da Educação , Leonardo Barchini, na quinta-feira (8).
+"O que estou me comprometendo desde já é com uma ajuda emergencial daquilo que correspondia ao investimento que nós fizemos em infraestrutura de pesquisa. São os equipamentos que a Finep adquiriu. [...] Concomitantemente, a equipe do reitor Alfredo está reunida desde sempre fazendo levantamentos de modo a gente, na maneira mais célere possível, garantir a retomada plena da pesquisa e desenvolvimento que existia aqui", disse a ministra.
+✅ Receba no WhatsApp as notícias do g1 PE
+O montante, que chega de forma emergencial através de um Fundo Nacional de Desenvolvimento e Tecnologia, está disponível para ser transferido à instituição. Esse valor do auxílio emergencial é o mesmo aplicado anteriormente pela Financiadora de Estudos e Projetos (Finep) na infraestrutura de pesquisa do centro.
+Os equipamentos adquiridos vão dar continuidade às pesquisas que eram realizadas no prédio atingido pelo incêndio na noite da quarta-feira (7), que causou um prejuízo estimado de R$ 100 milhões , de acordo com o reitor da UFPE , Alfredo Gomes.
+A previsão é que o imóvel de dois pavimentos seja reconstruído, utilizando o mesmo projeto executivo de um centro de pesquisas da UFPE localizado em Sertânia , no Sertão do estado. Até que o prédio esteja pronto no Recife , os equipamentos novos vão funcionar em outros laboratórios da universidade .
+Os equipamentos perdidos no incêndio eram de última geração , segundo a UFPE, e iam além de simples computadores. No local, por exemplo, funcionava um laboratório de Nível Biológico 3 (NB3) , também chamado de laboratório de contenção e usado para manipulação de patógenos, como coronavírus, tuberculose, HIV, dengue e febre amarela.
+LEIA TAMBÉM:
+O que se sabe sobre os três incêndios na UFPE em oito dias 3º incêndio na UFPE afetou cerca de 200 teses e dissertações Destruição de equipamentos e pesquisas preocupa estudantes
+De acordo com o vice-reitor Moacyr Cunha, o objetivo é que as pesquisas não parem, devido a importância social delas. Os centros pesquisavam temas como câncer, Covid-19 e o transtorno do espectro autista (TEA) .
+"Uma parte desses equipamentos, a maioria deles, vai ser deslocada para outros laboratórios, para continuar as pesquisas nesses laboratórios enquanto a gente consegue construir o outro [prédio]. O mais importante é não deixar essas pesquisas pararem, é dar continuidade a todos esses estudos. São estudos de décadas, é uma quantidade enorme de informações", disse Moacyr Cunha ao g1 .
+Perícia da Polícia Federal
+Enquanto os recursos federais não chegam, uma perícia foi iniciada no edifício destruído pelas chamas. A Polícia Federal, com uso de drone e robô com câmera, conseguiu visualizar os danos dentro do imóvel. Porém, para que a equipe consiga entrar com segurança, é necessário que seja feito o escoramento do prédio.
+O serviço para evitar desmoronamento e preservar a estrutura durante a perícia será feito por uma empresa já contratada pela UFPE. Segundo o reitor, será feito um aditivo ao contrato em vigor, e as intervenções devem começar em até 15 dias.
+"Nós estamos em contrato com uma empresa que trabalha aqui na universidade, em um determinado contrato, e vamos fazer um aditivo no contrato da empresa para iniciar imediatamente a escora da edificação. Esses recursos, o ministério também se comprometeu em fazer, mas a escora não é um orçamento expressivo. Precisa que a empresa volte aqui para fazer o estudo de como vai proceder, para a gente fazer essa contratação emergencial. Não tem [data], mas eu creio que nesses próximos 15 dias a gente tem resolvido também isso", disse o reitor.
+Enquanto os peritos não conseguem acessar o prédio, a investigação segue por meio de dados coletados da área externa. Também são analisados arquivos de câmeras de segurança e registros de quem estava no campus na noite do incêndio, que foram fornecidos pela UFPE.
+Esse foi o terceiro incêndio que aconteceu no campus Recife da Universidade em uma semana, sendo o de maior proporção, como mostra o infográfico a seguir:
+VÍDEOS: mais vistos de Pernambuco nos últimos 7 dias
+
+Notícia 6 | Índice original: 40
+---------------------------------------------------------------------------
+Os locais de reaplicação do Exame Nacional para Certificação de Competências de Jovens e Adultos (Encceja) 2026, nos dias 6 e 7 de outubro, estão disponíveis para consulta no Sistema Encceja do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep).
+Na ferramenta virtual, o participante deve consultar o Cartão de Confirmação de Inscrição, dentro da Página do Participante, para ter acesso ao local de prova.
+O documento também traz dados como número de inscrição do participante, datas e horários das provas, orientações para o exame e, quando previamente solicitado e aprovado pelo Inep, ainda haverá informações sobre o uso do nome social ou atendimento especializado.
+Puderam solicitar a reaplicação os inscritos que foram afetados por problemas logísticos durante a aplicação do exame ou tiveram, na semana que antecedeu as provas, uma das doenças infectocontagiosas previstas no edital .
+No primeiro dia, terça-feira (6), será realizada a reaplicação das provas do ensino fundamental. Já no segundo dia, quarta-feira (7), será realizada a reaplicação das provas do ensino médio.
+O Encceja é destinado a jovens e adultos que não concluíram os estudos na idade apropriada e possibilita a retomada da trajetória escolar. A participação é voluntária e gratuita.
+Desde 2002, o exame, realizado pelo Inep, representa uma oportunidade para quem busca a certificação do ensino fundamental e do ensino médio.
+As provas avaliam competências, habilidades e saberes desenvolvidos no processo escolar ou extraescolar.
+Além de permitir a certificação deste público, as secretarias de Educação e os institutos federais usam os resultados como parâmetro para a certificação dos participantes em nível de conclusão do ensino fundamental e do ensino médio.
+
+Notícia 7 | Índice original: 37
+---------------------------------------------------------------------------
+Os inscritos automaticamente no Exame Nacional do Ensino Médio (Enem) 2026 deverão, obrigatoriamente, selecionar até 18 de outubro o idioma de preferência para a prova de língua estrangeira. As opções são inglês ou espanhol.
+A inscrição automática no Enem 2026 contemplou os estudantes concluintes do ensino médio da rede pública em 2026, pela primeira vez. O procedimento foi realizado com base nos dados enviados pelas redes de ensino ao Ministério da Educação (MEC).
+De acordo com a retificação do edital 64/2026 do Enem , se o participante nestas condições perder o prazo, o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) aplicará a prova de inglês e o participante não poderá alterar.
+A prova de língua estrangeira possui cinco questões de múltipla escolha, com foco na interpretação e compreensão de textos.
+Para reforçar os estudos e adquirir vocabulário, o Ministério da Educação (MEC) disponibiliza gratuitamente a plataforma MEC Idiomas . A ferramenta digital oferece aulas gratuitas de inglês e espanhol do nível básico ao avançado.
+A retificação do edital publicada nesta quarta-feira (7) determina que o participante inscrito de forma automática deverá também preencher o Questionário Socioeconômico.
+Para preencher o questionário socioeconômico do Enem 2026, o candidato deve acessar a Página do Participante do exame. É preciso usar a senha da plataforma Gov.br.
+O formulário online – com cerca de 23 a 25 perguntas obrigatórias – mapeiam a realidade social, econômica e educacional dos participantes.
+Os dados fornecidos não podem ser alterados.
+Somente quem preencher o Questionário Socioeconômico terá acesso à visualização de seu local de prova, em data a ser divulgada pelo Inep.
+As provas serão aplicadas em dois domingos de novembro, nos dias 8 e 15, no turno da tarde.
+O primeiro dia do Enem terá duração de 5 horas e 30 minutos. Neste dia, os candidatos farão a redação e os exames de linguagens (língua portuguesa, literatura, língua estrangeira, artes, educação física e tecnologias da informação), códigos e suas tecnologias e ciências humanas (história, geografia, filosofia e sociologia) e suas tecnologias.
+No segundo dia, os estudantes farão provas de ciências da natureza e suas tecnologias (biologia, química e física) e matemática. Os participantes terão 5 horas para fazer as provas.
+Saiba tudo sobre o exame no Guia do Enem , disponibilizado pelo Ministério da Educação (MEC).
+
+Notícia 8 | Índice original: 38
+---------------------------------------------------------------------------
+A um mês do primeiro dia de provas do Exame Nacional do Ensino Médio (Enem), candidatos e professores do ensino médio e cursinhos preparatórios adotam estratégias que migram do estudo intensivo de conteúdos inéditos para a consolidação do que já foi estudado.
+Rafaela de Araújo Caldas, de 17 anos, tem optado pela revisão de conteúdos. Estudante do 3º ano de uma escola pública do Gama, cidade do Distrito Federal distante 35 km do centro de Brasília, ela fará o Enem pela primeira vez e quer conquistar a vaga em um curso superior na área de computação.
+Com apoio dos pais, ela concilia o turno regular da escola com as aulas online de um cursinho preparatório para o exame até a noite, mas diz que respeita os limites físicos e o cansaço.
+“Dou foco em ver como funciona a prova, vendo os padrões das questões e o que vai ser mais importante estudar, agora, nessa reta final."
+O foco da jovem também está na prova de redação. “Conheço alguns repertórios que o cursinho disponibilizou em uma lista. Mas, preciso ver o que usar e o que vai se encaixar no tema da prova.”
+A redação do Enem exige a produção de um texto dissertativo-argumentativo de até 30 linhsd em modalidade escrita formal da língua portuguesa. O participante deve estar preparado para escrever em defesa de seu ponto de vista a respeito do tema proposto que pode ser de ordem social, científica, cultural ou política.
+Para ajudar os participantes, o Ministério da Educação (MEC) disponibiliza aos participantes uma cartilha específica que explica como é a prova de redação e os critérios de correção.
+Diogo Andrade é professor de língua portuguesa e espanhola da escola onde Rafaela estuda, o Centro de Ensino Médio 1 do Gama, apelidado de CG (Colégio do Gama).
+Com a experiência de quem leciona há 14 anos, o docente considera ainda ser possível se preparar para o Enem nos 30 dias restantes.
+“Mesmo com acúmulo enorme de conteúdos não vistos, agora, o importante é pegar firme nos simulados de provas, trabalhar na resolução de questões de edições passadas do Enem e a partir de possíveis dificuldades, deve-se buscar os conteúdos de maior recorrência histórica na prova”, destacou.
+O professor relata que diante da amplitude, complexidade e concorrência nacional do Enem, a escola tem preparado os estudantes por meio de provas multidisciplinares bimestrais que simulam as regras e a logística real do dia do exame.
+“Criamos um ambiente que simula o dia da avaliação, misturamos os alunos, os alocamos em uma sala distinta da que eles estão habituados a estudar. Depois, eles preenchem o gabarito das questões objetivas com caneta preta e a prova de redação também será corrigida e comentada pelos professores de língua portuguesa, com os critérios do Enem.”
+Uma inovação da unidade é a gravação de podcasts educativos em série sobre temas do exame.
+“Produzimos conteúdos sobre filosofia nos exames de seleção. O próximo episódio está sendo gravado para focar na redação. E já temos em vista um episódio sobre a questão racial e sobre a latinidade.”
+Especificamente sobre a prova de redação, Diogo estimula os alunos a dominarem o tema e os alerta para evitar a facilidade das "fórmulas prontas" da internet por funcionarem apenas como atalhos e que podem virar uma armadilha porque não enganam os avaliadores do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep).
+“O corretor da banca está atento a esse tipo de manobra e, por isso, sabe quando o candidato, de fato, domina o tema e não está, simplesmente, repetindo uma fórmula ou algo pronto que já encontrou feito na internet.”
+Nas provas objetivas, diante de questões que o estudante não sabe a resposta, Diogo Andrade desaconselha deixá-las em branco, mas, também, reprova os planos de chutar.
+O professor lembra que o Enem adota a Teoria de Resposta ao Item (T.R.I), metodologia de cálculo da nota das provas objetivas que analisa cada pergunta do exame conforme seu grau de dificuldade e a coerência entre as respostas dos candidatos .
+A instituição de ensino ainda prevê a realização de aulões de revisão entre o fim de outubro e o início de novembro.
+O estudante Gabriel Queiroz, de 18 anos, fez o Enem no ano passado na condição de treineiro apenas para testar conhecimentos e ganhar experiência. “Ajudou a compreender a logística e a gestão de tempo por questão”.
+Agora, o aluno quer aproveitar o que o Centro de Ensino Médio 1 do Gama tem oferecido para se preparar melhor para edição deste ano que vale uma vaga no ensino superior, se for bem nas provas. Na visão dele, matemática é a área do conhecimento que representa o maior desafio.
+Gabriel dedica cerca de 8 a 9 horas diárias aos estudos, utilizando videoaulas no YouTube e resolvendo questões de edições anteriores. Nos finais de semana que antecedem a prova, ele planeja intensificar a carga horária. Mas sem descuidar do seu emocional.
+“A prova é extensa e preciso ter controle emocional. Mas também na questão de conteúdo é importante prestar atenção às aulas e colocar em prática as matérias aprendidas para almejar uma nota maior”.
+O jovem sabe o que quer com o bom desempenho: ingressar no curso de licenciatura em língua portuguesa. Ele conta o que o motiva. “A literatura é uma paixão minha desde criança. Há ainda a questão de querer contribuir para o aprendizado de outras pessoas.”
+Os inscritos no Enem podem conferir todas as orientações oficiais sobre as provas, tutoriais de preparação para o exame e cronogramas de todo o processo em um único site - o Guia do Enem - lançado pelo Ministério da Educação (MEC).
+
+Notícia 9 | Índice original: 16
+---------------------------------------------------------------------------
+Na semana do Dia das Crianças, alunos vão à escola com um traje... diferente. Eles se divertem, mas quem carrega esse peso nas costas são os adultos em casa (porque o nível só sobe a cada ano).
+A lição de casa mais trabalhosa do ano é a de pais e mães em outubro: o "mês das crianças" passou a incluir, nos últimos anos, o desfile de mochilas malucas nas escolas. Elas exigem criatividade, tempo, tesoura sem ponta e os materiais mais inesperados (ventilador, papel higiênico, caixas de leite...).
+🎒A tendência, que começou de forma despretensiosa, ganhou força e virou tradição. Há quem se inspire nas eleições, montando urnas ambulantes, e quem prefira o caminho dos eletrodomésticos (para crianças "ligadas na tomada", provavelmente).
+Veja exemplos recentes:
+Pais e mães nem podem descansar... Algumas escolas ainda estão programando o Dia do Cabelo Maluco para esta semana:
+
+Notícia 10 | Índice original: 42
+---------------------------------------------------------------------------
+A lista final da avaliação pedagógica das obras do Programa Nacional do Livro e do Material Didático (PNLD) para os anos iniciais do ensino fundamental (1º ao 5º ano) no período 2027-2030 já está disponível para consulta no edital (nº 145, 2026), publicado pelo Ministério da Educação (MEC) nesta quinta-feira (1º).
+Segundo o MEC, os materiais são voltados à formação continuada e ao trabalho pedagógico dos professores da educação básica pública, das redes federal, estaduais, municipais e do Distrito Federal participantes do programa.
+As obras do PNLD Anos Iniciais 2027-2030 terão ciclo de atendimento de quatro anos para os docentes.
+Ao todo, a lista traz os nomes de 92 obras de apoio teórico-metodológico aos professores aprovadas e reprovadas, após a análise da Secretaria de Educação Básica do MEC.
+Os pareceres oficiais sobre o resultado final de cada obra também podem ser consultados na plataforma PNLD Avaliação - Módulo Editoras . O representante da editora deverá fazer a autenticação via senha do site Gov.br.
+Os detentores dos direitos autorais que discordarem do resultado da avaliação pedagógica do PNLD poderão apresentar o recurso no prazo de dez dias corridos.
+Os editores participantes deste processo de aquisição de obras didáticas destinadas aos professores devem encaminhar o protocolo por meio de endereço eletrônico do MEC .
+Com a divulgação do resultado final, o processo segue para as próximas etapas de aquisição e carregamento digital dos arquivos de todos os volumes das obras em sua última versão na Plataforma PNLD Digital.
+Após a conclusão das próximas etapas e a aquisição dos materiais pelo Fundo Nacional de Desenvolvimento da Educação (FNDE), as obras selecionadas poderão ser disponibilizadas aos professores por meio do PNLD Digital .
+Todas as obras adquiridas deverão apresentar os selos e outros elementos do programa federal fornecidos pelo FNDE.
+Os novos livros farão parte do acervo da Biblioteca do Professor e permitem o contato com produções recentes sobre formação docente, além de trazer exemplos de práticas pedagógicas desenvolvidas em diferentes contextos.
+Das 76.262 escolas públicas participantes desta edição do Programa Nacional do Livro e do Material Didático (PNLD), 84,73% finalizaram a escolha de obras didáticas e de apoio teórico-metodológico.
+O FNDE tem uma página eletrônica de acompanhamento , onde a sociedade pode acompanhar a situação de cada escola pública e de sua respectiva unidade da federação em relação à escolha do material educacional.
+
+
+===========================================================================
+MODELO: recogna-nlp/ptt5-base-summ-xlsum
+===========================================================================
+tarefa: summarization
+arquitetura: encoder-decoder
+parametros: 222.903.552
+dtype: float32
+pesos_mb: 891.6
+verificacao_cache_s: 0.0
+carregamento_s: 1.86
+tempo_medio_s: 6.2
+tempo_mediano_s: 6.2
+tempo_max_s: 9.95
+
+Notícia 1 | Índice: 29
+---------------------------------------------------------------------------
+Resumo:
+O dia da Pessoa Idosa é um marco na história recente do mundo, mas o mundo não será o mesmo desde que a humanidade começou a se regenerar.
+Tempo: 5.66 segundos
+Tokens: 512 processados / 514 originais / 34 saída
+Tokens descartados: 2
+Compressão aproximada: 93.4%
+
+Notícia 2 | Índice: 35
+---------------------------------------------------------------------------
+Resumo:
+A Universidade Federal Fluminense (UFF) informou nesta quarta-feira que está intensificando as medidas de segurança no campus da instituição após denúncias de protestos contra o presidente Jair Bolsonaro (sem partido).
+Tempo: 6.41 segundos
+Tokens: 417 processados / 417 originais / 41 saída
+Tokens descartados: 0
+Compressão aproximada: 90.2%
+
+Notícia 3 | Índice: 13
+---------------------------------------------------------------------------
+Resumo:
+A Academia Sueca anunciou nesta quinta-feira que o prêmio Nobel de Literatura da 119a edição da premiação foi concedido a autores que tenham contribuído para a reflexão sobre a experiência humana.
+Tempo: 7.29 segundos
+Tokens: 512 processados / 1378 originais / 38 saída
+Tokens descartados: 866
+Compressão aproximada: 92.6%
+
+Notícia 4 | Índice: 7
+---------------------------------------------------------------------------
+Resumo:
+O governo federal vai repassar recursos para a reconstrução de um prédio da Universidade Federal de Pernambuco (UFPE) que foi danificado por um incêndio na quarta-feira.
+Tempo: 6.49 segundos
+Tokens: 512 processados / 1356 originais / 35 saída
+Tokens descartados: 844
+Compressão aproximada: 93.2%
+
+Notícia 5 | Índice: 3
+---------------------------------------------------------------------------
+Resumo:
+O Ministério da Ciência, Tecnologia e Inovações anunciou nesta sexta-feira (09) que o prédio da Universidade Federal de Pernambuco (UFPE) que foi destruído por um incêndio na quarta-feira (7) foi reconstruído com um projeto executivo de repor equipamentos de laboratório destruídos pelo incêndio na Universidade Federal do Pernambuco ( UFPE).
+Tempo: 9.95 segundos
+Tokens: 512 processados / 1144 originais / 68 saída
+Tokens descartados: 632
+Compressão aproximada: 86.7%
+
+Notícia 6 | Índice: 40
+---------------------------------------------------------------------------
+Resumo:
+O Instituto Nacional de Estudos e Pesquisas Educacionais (Inep) lançou nesta segunda-feira a reaplicação das provas do ensino fundamental e do ensino médio, para tentar obter a certificação de jovens e adultos.
+Tempo: 6.22 segundos
+Tokens: 364 processados / 364 originais / 44 saída
+Tokens descartados: 0
+Compressão aproximada: 87.9%
+
+Notícia 7 | Índice: 37
+---------------------------------------------------------------------------
+Resumo:
+O Ministério da Educação (MEC) divulgou nesta quarta-feira a retificação do edital que determina a forma automática dos estudantes brasileiros que fazem a prova de língua estrangeira.
+Tempo: 5.61 segundos
+Tokens: 512 processados / 512 originais / 37 saída
+Tokens descartados: 0
+Compressão aproximada: 92.8%
+
+Notícia 8 | Índice: 38
+---------------------------------------------------------------------------
+Resumo:
+A reta final da prova de redação do Exame Nacional do Ensino Médio (Enem) está sendo preparada para o desafio de uma jovem de 17 anos.
+Tempo: 5.3 segundos
+Tokens: 512 processados / 1216 originais / 32 saída
+Tokens descartados: 704
+Compressão aproximada: 93.8%
+
+Notícia 9 | Índice: 16
+---------------------------------------------------------------------------
+Resumo:
+A moda de ir à escola está se tornando uma tradição e virou moda na Europa: a de pais e mães.
+Tempo: 2.93 segundos
+Tokens: 227 processados / 227 originais / 25 saída
+Tokens descartados: 0
+Compressão aproximada: 89.0%
+
+Notícia 10 | Índice: 42
+---------------------------------------------------------------------------
+Resumo:
+O Ministério da Educação (MEC) divulgou nesta quinta-feira o resultado final da avaliação pedagógica de 92 obras do Programa Nacional do Livro e do Material Didático (PNLD) para os professores.
+Tempo: 6.18 segundos
+Tokens: 512 processados / 526 originais / 43 saída
+Tokens descartados: 14
+Compressão aproximada: 91.6%
+
+
+===========================================================================
+MODELO: recogna-nlp/ptt5-base-summ-cstnews
+===========================================================================
+tarefa: summarization
+arquitetura: encoder-decoder
+parametros: 222.903.552
+dtype: float32
+pesos_mb: 891.6
+verificacao_cache_s: 0.0
+carregamento_s: 0.84
+tempo_medio_s: 11.88
+tempo_mediano_s: 11.9
+tempo_max_s: 16.83
+
+Notícia 1 | Índice: 29
+---------------------------------------------------------------------------
+Resumo:
+. O mundo testemunhou um declínio notável nas taxas de natalidade, com a fertilidade caindo para o nível de reposição ou abaixo dele em praticamente todos os países industrializados e em grande parte do Leste e Sudeste Asiático. A tendência é que as resultantes de redução populacional somadas ao envelhecimento da mão de obra desacelerariam a produtividade e o crescimento econômico. Entenda que a tecnologia e os ganhos de produtividade compensarão os efeitos econômicos do envelhecimento populacional e da redução na proporção de trabalhadores mais jovens.
+Tempo: 10.75 segundos
+Tokens: 512 processados / 514 originais / 105 saída
+Tokens descartados: 2
+Compressão aproximada: 79.5%
+
+Notícia 2 | Índice: 35
+---------------------------------------------------------------------------
+Resumo:
+A Universidade Federal Fluminense (UFF) acionou a Polícia Federal após receber denúncias de ameaças à instituição. Em nota, a universidade informa que se trata de conteúdos compartilhados em aplicativos de mensagens e redes sociais com ameaças tanto à integridade da instituição quanto ao patrimônio da instituição. A universidade afirma que o reforço da segurança nos campi da universidade e aos demais órgãos responsáveis. Em vídeo divulgado nas redes sociais, o reitor em exercício Fabio Passos disse que as ameaças começaram nessa quarta-feira (7). A Polícia Federal também foi acionada para investigar um incêndio de grandes proporções na Universidade Federal de Pernambuco.
+Tempo: 12.22 segundos
+Tokens: 417 processados / 417 originais / 121 saída
+Tokens descartados: 0
+Compressão aproximada: 71.0%
+
+Notícia 3 | Índice: 13
+---------------------------------------------------------------------------
+Resumo:
+A Academia Sueca anuncia quem venceu o prêmio Nobel de Literatura da 119a edição da premiação. Além do prêmio para a literatura, também são contempladas outras categorias.
+Tempo: 10.08 segundos
+Tokens: 512 processados / 1378 originais / 35 saída
+Tokens descartados: 866
+Compressão aproximada: 93.2%
+
+Notícia 4 | Índice: 7
+---------------------------------------------------------------------------
+Resumo:
+Em visita à instituição nesta quinta-feira, Leonardo Barchini afirmou que obra deve custar cerca de R$ 28 milhões e vai repassar recursos para recomprar equipamentos perdidos. O ministro da Educação anunciou que obra deverá custar aproximadamente R$ 29 milhões. O caso aconteceu na noite da quarta e atingiu prédio da antiga Diretoria de Inovação e Empreendedorismo, que abrigava laboratórios de farmacêuticos, informática e genética. O Ministério da Educação também vai enviar recursos para repor os equipamentos danificados.
+Tempo: 11.59 segundos
+Tokens: 512 processados / 1356 originais / 106 saída
+Tokens descartados: 844
+Compressão aproximada: 79.3%
+
+Notícia 5 | Índice: 3
+---------------------------------------------------------------------------
+Resumo:
+A ministra da Ciência, Tecnologia e Inovações visitou local do edifício atingido pelo fogo. Investimento foi anunciado pela ministra Luciana Santos ao visitar, na manhã desta sexta-feira, o local do prédio atingido pelo incêndio. A compra dos equipamentos de laboratório perdidos no incêndio na Universidade Federal de Pernambuco (UFPE) , ao visitar nesta sexta-se (9) o campus Recife. O dinheiro, que chega de forma emergencial através de um Fundo Nacional de Desenvolvimento e Tecnologia, está disponível para ser transferido à instituição. Os equipamentos adquiridos vão dar continuidade às pesquisas que eram realizadas no prédio atingido por incêndio na noite da quarta-feira (7).
+Tempo: 13.65 segundos
+Tokens: 512 processados / 1144 originais / 131 saída
+Tokens descartados: 632
+Compressão aproximada: 74.4%
+
+Notícia 6 | Índice: 40
+---------------------------------------------------------------------------
+Resumo:
+A reaplicação do Exame Nacional para Certificação de Competências de Jovens e Adultos (Encceja) 2026, nos dias 6 e 7 de outubro, estão disponíveis para consulta no Sistema Encceja. O exame Nacional para certificar os participantes em nível de conclusão do ensino fundamental e do ensino médio.
+Tempo: 10.17 segundos
+Tokens: 364 processados / 364 originais / 68 saída
+Tokens descartados: 0
+Compressão aproximada: 81.3%
+
+Notícia 7 | Índice: 37
+---------------------------------------------------------------------------
+Resumo:
+Selecione o idioma de preferência para a prova de língua estrangeira. A inscrição automática no Enem 2026 contemplou os estudantes concluintes do ensino médio da rede pública em 2026, pela primeira vez. O procedimento foi realizado com base nos dados enviados pelas redes de ensino ao Ministério da Educação. Para melhorar os estudos, o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) aplicará a prova. Para reforçar os estudos e adquirir vocabulário, o Ministério da Educação disponibiliza gratuitamente a plataforma MEC Idiomas. Para preencher o questionário socioeconômico do Enem, o candidato deverá preencher o Questionário Socioeconômico. Os candidatos devem comparecer à página do Participante do exame. Os
+Tempo: 16.83 segundos
+Tokens: 512 processados / 512 originais / 149 saída
+Tokens descartados: 0
+Compressão aproximada: 70.9%
+
+Notícia 8 | Índice: 38
+---------------------------------------------------------------------------
+Resumo:
+A jovem estudante do 3o ano preparatório tem optado pelo estudo intensivo de conteúdos inéditos para a consolidação do que já foi estudado. A jovem fará o Enem pela primeira vez e quer conquistar a vaga em um curso superior na área de computação. Ela concilia o turno regular da escola com as aulas online de cursinho preparatório para o exame até a noite. A redação do Enem exige a produção de um texto dissertativo-argumentativo de até 30 linhsd em modalidade escrita formal da língua portuguesa. O professor Diogo Andrade é professor de língua portuguesa e espanhola da escola onde Rafaela estuda há 14 anos. Ele explica como é a prova de redação e os critérios de correção.
+Tempo: 15.79 segundos
+Tokens: 512 processados / 1216 originais / 149 saída
+Tokens descartados: 704
+Compressão aproximada: 70.9%
+
+Notícia 9 | Índice: 16
+---------------------------------------------------------------------------
+Resumo:
+Vão à escola com um traje... diferente. A tendência é de pais e mães em outubro.
+Tempo: 2.93 segundos
+Tokens: 227 processados / 227 originais / 24 saída
+Tokens descartados: 0
+Compressão aproximada: 89.4%
+
+Notícia 10 | Índice: 42
+---------------------------------------------------------------------------
+Resumo:
+A lista final da avaliação pedagógica das obras do Programa Nacional do Livro e do Material Didático para os anos iniciais do ensino fundamental (1o ao 5o ano) no período 2027-2030 já está disponível para consulta no edital publicado pelo Ministério da Educação. Os materiais são voltados à formação continuada e ao trabalho pedagógico dos professores da educação básica pública, das redes federal, estaduais, municipais e do Distrito Federal. Os pareceres oficiais sobre o resultado final de cada obra também podem ser consultados na plataforma PNLD Avaliação. Os editores participantes do processo de aquisição de obras didáticas destinados aos professores poderão apresentar o recurso no prazo de dez dias corridos. Após a conclusão das próximas etapas e
+Tempo: 14.8 segundos
+Tokens: 512 processados / 526 originais / 151 saída
+Tokens descartados: 14
+Compressão aproximada: 70.5%
