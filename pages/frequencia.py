@@ -1,3 +1,5 @@
+import pandas as pd
+import requests
 import streamlit as st
 
 from src.data_access import (
@@ -13,14 +15,68 @@ st.divider()
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def obter_dados_sexo():
-    dados, msg = buscar_taxa_frequencia_sexo()
-    return dados, msg
+    try:
+        resposta = requests.get(
+            "http://127.0.0.1:8000/frequencia",
+            params={"tipo": "sexo"},
+            timeout=60,
+        )
+
+        resposta.raise_for_status()
+
+        resultado = resposta.json()
+
+        dados = pd.DataFrame(resultado["dados"])
+        msg = resultado["metadados"]["coletado_em"]
+        msg = "API do IBGE em " + msg
+
+        return dados, msg
+
+    except requests.Timeout:
+        st.error("A API demorou demais para responder. Tente novamente.")
+
+    except requests.HTTPError as erro:
+        try:
+            detalhe = erro.response.json().get("detail", str(erro))
+        except ValueError:
+            detalhe = str(erro)
+
+        st.error(f"Erro {erro.response.status_code}: {detalhe}")
+
+    return pd.DataFrame(), "Erro ao consultar a API"
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def obter_dados_cor():
-    dados, msg = buscar_taxa_frequencia_cor()
-    return dados, msg
+    try:
+        resposta = requests.get(
+            "http://127.0.0.1:8000/frequencia",
+            params={"tipo": "cor"},
+            timeout=60,
+        )
+
+        resposta.raise_for_status()
+
+        resultado = resposta.json()
+
+        dados = pd.DataFrame(resultado["dados"])
+        msg = resultado["metadados"]["coletado_em"]
+        msg = "API do IBGE em " + msg
+
+        return dados, msg
+
+    except requests.Timeout:
+        st.error("A API demorou demais para responder. Tente novamente.")
+
+    except requests.HTTPError as erro:
+        try:
+            detalhe = erro.response.json().get("detail", str(erro))
+        except ValueError:
+            detalhe = str(erro)
+
+        st.error(f"Erro {erro.response.status_code}: {detalhe}")
+
+    return pd.DataFrame(), "Erro ao consultar a API"
 
 
 with st.spinner("Coletando dados do IBGE…"):

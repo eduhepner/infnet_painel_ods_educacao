@@ -84,6 +84,11 @@ Em caso de falha de rede, usa **cache** salvo previamente.
 `src/news_transform.py` lê `data/processed/texto.txt` e produz a frequência de termos.
 Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wordcloud`.
 
+#### Derivado - resumo
+A rota da API `/noticias/resumir` chama `src/resumidor`, que lê `data/raw/noticias.csv` 
+e encontra a notícia, produzindo um resumo através da LLM `recogna-nlp/ptt5-base-summ-cstnews`
+É retornado um `json` conendo o resumo da notícia.
+
 ---
 
 ### Fonte 3 — Arquivo enviado pelo usuário
@@ -99,7 +104,7 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 
 ---
 
-### Fonte 4 — API (atualmente sem salvar)
+### Fonte 4 — API
 
 | Item | Valor |
 |------|-------|
@@ -109,6 +114,7 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 | Validação | Feito pela biblioteca `pydantic`, onde é definida a classe das notícias (`class Noticia`), em `api/model/model.py`|
 | Formato | Lista de dicionários com mínimo de 1 elemento |
 | Colunas obrigatórias | `fonte`, `manchete`, `url` |
+| Salvo em | `data/cache/noticias_enviadas.csv` |
 | Documentação | Gerada do próprio código: `/docs` (interativa) e `/redoc`; o esquema em `/openapi.json` |
 
 ---
@@ -119,7 +125,7 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 |------|-------|
 | Código | `src/resumidor.py` — **LLM** |
 | Rota | `/noticia/resumir` |
-| Como roda | Chamado pela API, utiliza o arquivo `/data/raw/noticias.csv`|
+| Como roda | Chamado pela API, utiliza o arquivo `/data/raw/noticias.csv` como fonte |
 | Validação | Feito pela biblioteca `pydantic`, onde é definida a classe das notícias (`class Noticia`) e resposta (`class Resumo`) em `api/model/model.py`|
 | Formato | Retorna um `json` com o resumo |
 | Documentação | Gerada do próprio código: `/docs` (interativa) e `/redoc`; o esquema em `/openapi.json` |
@@ -151,7 +157,7 @@ Com isso, é feita a nuvem de palavras através das bibliotecas `sklearn` e `wor
 | `/frequencia` | - `tipo` (obrigatório) : `cor`, `sexo`<br>- `regiao` (opcional): lista contendo um ou mais de `Norte`, `Nordeste`, `Centro-Oeste`, `Sudeste`, `Sul`<br>- `minimo` (opcional): valor mínimo da `taxa de frequência` retornada | dados de frequência escolar |
 | `/noticias` | - `quantidade` (opcional): quantidade máxima de notícias retornadas (int > 1) | as notícias da última coleta, data da coleta e fontes |
 | `/noticias/fontes` | — | apenas as fontes das notícias |
-
+| `/noticias/resumir` | - `manchete` (obrigatório): manchete da notícia a ser resumida (str > 1) | resumo da notícia |
 
 #### Rotas (POST)
 

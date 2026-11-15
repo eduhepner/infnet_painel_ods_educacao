@@ -241,14 +241,23 @@ def abrir_noticia(noticia_resumo):
                 params={"manchete": manchete},
                 timeout=180,
             )
-        if resposta.status_code == 200:
-            resumo = resposta.json()["resumo"]
 
-        else:
-            st.error(f"Erro ao gerar resumo: {resposta.status_code}")
+        resposta.raise_for_status()
+
+        resumo = resposta.json()["resumo"]
 
     except requests.RequestException as erro:
         st.error(f"Erro ao conectar com a API: {erro}")
+
+    except requests.Timeout:
+        st.error("A API demorou demais para responder. Tente novamente.")
+
+    except requests.HTTPError as erro:
+        try:
+            detalhe = erro.response.json().get("detail", str(erro))
+        except ValueError:
+            detalhe = str(erro)
+        st.error(f"Erro {erro.response.status_code}: {detalhe}")
 
     st.subheader(manchete)
 
@@ -259,7 +268,7 @@ def abrir_noticia(noticia_resumo):
 
     if resumo is not None:
         st.divider()
-        st.write(resumo)
+        st.text(resumo)
 
 
 st.subheader("Ver resumo")
