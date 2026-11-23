@@ -237,3 +237,12 @@ async def resumir(manchete: str = Query(min_length=1)):
             status_code=422,
             detail=str(erro),
         )
+
+    except HTTPException:
+        raise
+
+    except Exception as erro:
+        raise HTTPException(
+            status_code=503,
+            detail="Serviço indisponível.",
+        ) from erro
