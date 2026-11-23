@@ -12,6 +12,7 @@ pg = st.navigation(
         st.Page("pages/frequencia.py", title="Frequência", icon="📅"),
         st.Page("pages/conclusao.py", title="Conclusão", icon="🎓"),
         st.Page("pages/noticias.py", title="Notícias", icon="📰"),
+        st.Page("pages/visao_geral.py", title="Visão Geral", icon="🌎"),
     ]
 )
 

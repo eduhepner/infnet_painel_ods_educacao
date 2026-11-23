@@ -45,13 +45,13 @@ As fichas vêm de `python -m src.llm.ficha_modelo` (o Hub, antes de baixar):
 10 notícias aleatórias são escolhidas, sendo então resumidas por cada modelo.
 Detalhes em `.\src\llm\avaliacao_resumos.txt`
 
-| Modelo                                             | Tempo médio por notícia | Mediana | Tempo máximo | Pesos na memória (MB) | Veredito                                                                                                        |
-| -------------------------------------------------- | ----------------------- | ------- | ------------ | --------------------- | --------------------------------------------------------------------------------------------------------------- |
-| recogna-nlp/ptt5-base-summ-xlsum (summarization)   | 5.69s                   | 5.68s   | 7.89s        | 891.6                 | Muito rápido e leve, mas apresenta resumos superficiais e alguns erros de interpretação                                |
-| recogna-nlp/ptt5-base-summ-cstnews (summarization) | 13.12s                  | 14.30s  | 19.91s       | 891.6                 | Tempo médio. É uma opção interessante para notícias, mas apresentou imprecisões                             |
-| csebuetnlp/mT5_multilingual_XLSum (summarization)  | 20.51s                  | 22.15s  | 30.93s       | 2.329,6               | Resumos coerentes em alguns casos, mas excessivamente curtos e com perda de informações importantes. Tempo médio pra longo             |
-| openai-community/gpt2-large (gpt2)                 | 102.26s                 | 99.89s  | 126.88s      | 3.096,1               | Muito lento, com repetições excessivas e resultados inadequados para sumarização                                |
-| Qwen/Qwen2.5-0.5B-Instruct (qwen)                  | 56.88s                  | 61.23s  | 94.42s       | 1.976,1               | Lento. Produz resumos mais desenvolvidos, mas ainda apresenta imprecisões e repetições |
+| Modelo                                             | Tempo médio por notícia | Mediana | Tempo máximo | Pesos na memória (MB) | Veredito                                                                                                                      |
+| -------------------------------------------------- | ----------------------- | ------- | ------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| recogna-nlp/ptt5-base-summ-xlsum (summarization)   | 5.69s                   | 5.68s   | 7.89s        | 891.6                 | Muito rápido e leve, mas apresenta resumos superficiais e alguns erros de interpretação                                       |
+| recogna-nlp/ptt5-base-summ-cstnews (summarization) | 13.12s                  | 14.30s  | 19.91s       | 891.6                 | Tempo médio. É uma opção interessante para notícias, mas apresentou imprecisões                                               |
+| csebuetnlp/mT5_multilingual_XLSum (summarization)  | 20.51s                  | 22.15s  | 30.93s       | 2.329,6               | Resumos coerentes em alguns casos, mas excessivamente curtos e com perda de informações importantes. Tempo médio pra longo    |
+| openai-community/gpt2-large (gpt2)                 | 102.26s                 | 99.89s  | 126.88s      | 3.096,1               | Muito lento, com repetições excessivas e resultados inadequados para sumarização                                              |
+| Qwen/Qwen2.5-0.5B-Instruct (qwen)                  | 56.88s                  | 61.23s  | 94.42s       | 1.976,1               | Lento. Produz resumos mais desenvolvidos, mas ainda apresenta imprecisões e repetições                                        |
 
 
 ## 5. Conclusão

@@ -1,6 +1,11 @@
+import os
+
 import pandas as pd
 import requests
 import streamlit as st
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 from src.data_access import (
     buscar_taxa_escolarizacao_cor,
@@ -8,6 +13,10 @@ from src.data_access import (
 )
 from src.graphics import escolarizacao_cor, escolarizacao_sexo
 from src.transform import filtrar, ordenar
+
+# Carrega as variáveis do arquivo .env (GEMINI_API_KEY)
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 st.title("📚 Painel ODS - Educação Brasil")
 st.divider()
@@ -77,6 +86,33 @@ def obter_dados_cor():
         st.error(f"Erro {erro.response.status_code}: {detalhe}")
 
     return pd.DataFrame(), "Erro ao consultar a API"
+
+
+@st.cache_resource
+def obter_cliente_gemini():
+    return genai.Client(api_key=GEMINI_API_KEY)
+
+
+def montar_instrucoes_escolarizacao(df_sexo: pd.DataFrame, df_cor: pd.DataFrame) -> str:
+    dados_sexo_csv = df_sexo.to_csv(index=False)
+    dados_cor_csv = df_cor.to_csv(index=False)
+
+    return f"""Você é um analista de dados especializado nos indicadores de educação (ODS) do IBGE exibidos neste painel.
+
+REGRAS ESTRITAS:
+1. Responda EXCLUSIVAMENTE com base nas duas tabelas de dados fornecidas abaixo (`df_sexo` e `df_cor`), referentes à taxa de escolarização.
+2. Nunca utilize conhecimento externo, estimativas ou dados que não estejam explicitamente presentes ou calculáveis a partir dessas tabelas.
+3. Atenção à coluna `Grupo de idade`: sempre verifique o grupo de idade correspondente ao responder rankings ou comparações (e deixe claro na resposta qual grupo de idade foi considerado).
+4. Se o usuário fizer uma pergunta cuja resposta não esteja nos dados fornecidos, informe educadamente que você só pode responder com base nos dados de escolarização carregados no painel.
+5. Mantenha o contexto das perguntas anteriores da conversa (por exemplo, se o usuário perguntar "e São Paulo?" após perguntar sobre um ranking, aplique o mesmo critério e grupo de idade da pergunta anterior).
+6. Seja direto, preciso e responda em português.
+
+=== TABELA 1: TAXA DE ESCOLARIZAÇÃO POR ESTADO, GRUPO DE IDADE E SEXO (df_sexo) ===
+{dados_sexo_csv}
+
+=== TABELA 2: TAXA DE ESCOLARIZAÇÃO POR ESTADO, GRUPO DE IDADE E COR/RAÇA (df_cor) ===
+{dados_cor_csv}
+"""
 
 
 with st.spinner("Coletando dados do IBGE…"):
@@ -245,3 +281,129 @@ if mostrar_tabela:
         file_name="painel_ods_filtrado.csv",
         key="download_cor",
     )
+
+
+# ==============================================================================
+# ASSISTENTE CONVERSACIONAL FLUTUANTE (GEMINI COM MEMÓRIA DE 4 MENSAGENS)
+# ==============================================================================
+st.markdown(
+    """
+    <style>
+    /* Fixa o botão do popover no canto inferior direito */
+    div[data-testid="stPopover"] {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 9999;
+    }
+    div[data-testid="stPopover"] > button {
+        border-radius: 999px;
+        padding: 0.6rem 1.2rem;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        font-weight: 600;
+    }
+    /* Define uma largura confortável para a janela flutuante do chat */
+    div[data-testid="stPopoverBody"] {
+        width: 420px;
+        max-width: 90vw;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+with st.popover("💬 Assistente de Dados"):
+    col_titulo, col_botao = st.columns([4, 1])
+    with col_titulo:
+        st.markdown("**Assistente de Escolarização (IBGE)**")
+        st.caption(
+            "Pergunte sobre rankings, estados, grupo de idade, sexo ou cor/raça."
+        )
+    with col_botao:
+        if st.button(
+            "🗑️",
+            key="limpar_chat_escolarizacao",
+            help="Limpar histórico do chat",
+            use_container_width=True,
+        ):
+            st.session_state.pop("historico_chat_escolarizacao", None)
+            st.rerun()
+
+    if df_sexo.empty or df_cor.empty:
+        st.warning("Os dados do IBGE não foram carregados.")
+    elif not GEMINI_API_KEY:
+        st.error("Chave GEMINI_API_KEY não encontrada no arquivo .env.")
+    else:
+        if "historico_chat_escolarizacao" not in st.session_state:
+            st.session_state.historico_chat_escolarizacao = []
+
+        mensagens_box = st.container(height=350)
+
+        with mensagens_box:
+            if not st.session_state.historico_chat_escolarizacao:
+                st.info(
+                    "Olá! Pergunte algo como: *Qual a colocação do RJ na taxa de escolarização por sexo?*"
+                )
+            for mensagem in st.session_state.historico_chat_escolarizacao:
+                with st.chat_message(mensagem["role"]):
+                    st.markdown(mensagem["content"])
+
+        with st.form(
+            "form_chat_flutuante_escolarizacao", clear_on_submit=True, border=False
+        ):
+            col_in, col_btn = st.columns([5, 1])
+            prompt = col_in.text_input(
+                "Pergunta",
+                placeholder="Digite sua pergunta e aperte Enter...",
+                label_visibility="collapsed",
+            )
+            enviar = col_btn.form_submit_button("➤", use_container_width=True)
+
+        if enviar and prompt:
+            st.session_state.historico_chat_escolarizacao.append(
+                {"role": "user", "content": prompt}
+            )
+
+            with mensagens_box:
+                with st.chat_message("user"):
+                    st.markdown(prompt)
+
+                with st.chat_message("assistant"):
+                    with st.spinner("Analisando os dados..."):
+                        try:
+                            client = obter_cliente_gemini()
+                            instrucoes = montar_instrucoes_escolarizacao(
+                                df_sexo, df_cor
+                            )
+
+                            # Envia apenas as últimas 4 mensagens para a API do Gemini
+                            historico_recente = [
+                                types.Content(
+                                    role=(
+                                        "model"
+                                        if msg["role"] == "assistant"
+                                        else "user"
+                                    ),
+                                    parts=[types.Part.from_text(text=msg["content"])],
+                                )
+                                for msg in st.session_state.historico_chat_escolarizacao[
+                                    -4:
+                                ]
+                            ]
+
+                            resposta = client.models.generate_content(
+                                model="gemini-3.5-flash-lite",
+                                contents=historico_recente,
+                                config=types.GenerateContentConfig(
+                                    system_instruction=instrucoes,
+                                    temperature=0.1,
+                                ),
+                            )
+                            texto_resposta = resposta.text
+
+                            st.markdown(texto_resposta)
+                            st.session_state.historico_chat_escolarizacao.append(
+                                {"role": "assistant", "content": texto_resposta}
+                            )
+                        except Exception as erro:
+                            st.error(f"Erro ao consultar a API do Gemini: {erro}")

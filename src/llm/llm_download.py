@@ -6,12 +6,12 @@ from pathlib import Path
 from huggingface_hub import snapshot_download
 
 MODELOS = [
-    "recogna-nlp/ptt5-base-summ-xlsum",
+    # "recogna-nlp/ptt5-base-summ-xlsum",
     "recogna-nlp/ptt5-base-summ-cstnews",
-    "csebuetnlp/mT5_multilingual_XLSum",
-    "openai-community/gpt2-large",
-    "Qwen/Qwen2.5-0.5B-Instruct",
-    "google/flan-t5-base",
+    # "csebuetnlp/mT5_multilingual_XLSum",
+    # "openai-community/gpt2-large",
+    # "Qwen/Qwen2.5-0.5B-Instruct",
+    # "google/flan-t5-base",
 ]
 
 
